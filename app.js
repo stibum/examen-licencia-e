@@ -5,7 +5,6 @@
   const EXAM_SECONDS = 20 * 60;
   const PASS_MARK = 16;
   const STORAGE_SESSION = 'examen-e-simulador-sesion-v1';
-  const STORAGE_STATS = 'examen-e-simulador-estadisticas-v1';
   const TOPIC_NAMES = {
     1: 'Funcionamiento y seguridad',
     2: 'Categorías y tipos de armas',
@@ -35,7 +34,6 @@
     try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* almacenamiento opcional */ }
   }
   function saveSession() { if (session) writeStorage(STORAGE_SESSION, session); }
-  function getStats() { return readStorage(STORAGE_STATS, { attempts: 0, passes: 0, best: 0 }); }
 
   function shuffle(items) {
     const output = [...items];
@@ -82,14 +80,6 @@
     session.finishedAt = Date.now();
     saveSession();
     cleanTimer();
-    const score = scoreSession();
-    if (session.mode === 'exam') {
-      const stats = getStats();
-      stats.attempts++;
-      if (score.passed) stats.passes++;
-      stats.best = Math.max(stats.best, score.right);
-      writeStorage(STORAGE_STATS, stats);
-    }
     reviewFilter = 'errors';
     renderResults();
     window.scrollTo({ top: 0, behavior: 'instant' });
@@ -97,35 +87,26 @@
 
   function renderHome() {
     cleanTimer();
-    const stats = getStats();
     app.innerHTML = `
       <section class="home">
         <div class="hero">
-          <div>
-            <p class="kicker">Prepárate a tu ritmo</p>
-            <h1>Tu examen.<br>Sin sorpresas.</h1>
-            <p class="lead">Practica con las preguntas de los siete temas del cuestionario, haz simulacros con tiempo y comprueba tus fallos al terminar.</p>
-          </div>
-          <div class="hero-art" aria-hidden="true">
-            <span class="micro">SIMULACRO DE EXAMEN</span>
-            <strong>20<span style="color:#b6d7a9">/</span>20</strong>
-            <small>Entrena para llegar preparado.</small>
-          </div>
+          <h1>Examen de Licencia de armas E</h1>
+          <p class="lead">Simulacros y práctica por temas con preguntas tipo test. La corrección se muestra al finalizar.</p>
         </div>
-        <div class="info-grid" aria-label="Información del examen">
-          <div class="info"><div class="value">20</div><div class="label">preguntas por examen</div></div>
-          <div class="info"><div class="value">20 min</div><div class="label">tiempo disponible</div></div>
-          <div class="info"><div class="value">16/20</div><div class="label">mínimo para aprobar</div></div>
+        <div class="info-grid" aria-label="Características del examen">
+          <div class="info"><div class="value">20</div><div class="label">preguntas</div></div>
+          <div class="info"><div class="value">20 minutos</div><div class="label">de duración</div></div>
+          <div class="info"><div class="value">16 aciertos</div><div class="label">para aprobar</div></div>
         </div>
         <div class="launch-panel">
-          <div><h3>Simulacro completo</h3><p class="small-muted">20 preguntas aleatorias de los 7 temas. Las respuestas se corrigen al acabar, como en el examen teórico.</p></div>
+          <div><h2>Simulacro de examen</h2><p class="small-muted">20 preguntas aleatorias de los 7 temas. Tiempo limitado a 20 minutos.</p></div>
           <div class="actions">
             ${session && !session.finished ? '<button class="btn btn-outline" data-action="resume">Continuar anterior</button>' : ''}
-            <button class="btn btn-primary" data-action="start-exam">Empezar examen <span aria-hidden="true">→</span></button>
+            <button class="btn btn-primary" data-action="start-exam">Empezar simulacro</button>
           </div>
         </div>
         <div class="practice-panel">
-          <div><h3>Repasar un tema</h3><p class="small-muted">20 preguntas de un solo tema, sin reloj. Corrige tus respuestas al finalizar.</p></div>
+          <div><h2>Practicar por tema</h2><p class="small-muted">20 preguntas del tema que elijas, sin límite de tiempo.</p></div>
           <div class="practice-controls">
             <select id="topic" aria-label="Seleccionar tema">
               ${Object.entries(TOPIC_NAMES).map(([number, name]) => `<option value="${number}">Tema ${number} · ${escapeHtml(name)}</option>`).join('')}
@@ -133,7 +114,7 @@
             <button class="btn btn-outline" data-action="start-practice">Practicar</button>
           </div>
         </div>
-        <p class="stats">${bank.length} preguntas de tus archivos · ${plural(stats.attempts, 'simulacro realizado', 'simulacros realizados')}${stats.attempts ? ` · Mejor nota: ${stats.best}/20` : ''}</p>
+        <p class="bank-note">${bank.length} preguntas disponibles en 7 temas.</p>
       </section>`;
   }
 
@@ -208,15 +189,15 @@
     const score = scoreSession();
     const questions = getCurrentQuestions();
     const examPassed = score.passed;
-    const title = examPassed ? '¡Aprobado!' : 'Sigue practicando';
-    const subtitle = session.reason === 'time' ? 'Se agotó el tiempo y se corrigieron tus respuestas.' : examPassed ? 'Has superado la nota mínima del examen teórico.' : 'Revisa tus errores y vuelve a intentarlo.';
+    const title = examPassed ? 'Aprobado' : 'No aprobado';
+    const subtitle = session.reason === 'time' ? 'Tiempo agotado. Se han corregido las respuestas registradas.' : examPassed ? 'Has alcanzado el mínimo de 16 aciertos.' : 'No has alcanzado el mínimo de 16 aciertos.';
     const mistakes = questions.map((q, idx) => ({ q, idx })).filter(({q,idx}) => session.answers[idx] !== q.correcta);
     const shown = reviewFilter === 'errors' ? mistakes : questions.map((q, idx) => ({q,idx}));
     app.innerHTML = `
       <section class="results">
         <div class="result-hero">
           <div>
-            <p class="kicker">${session.mode === 'exam' ? 'Resultado del simulacro' : 'Resultado del repaso'}</p>
+            <p class="result-label">${session.mode === 'exam' ? 'Resultado del simulacro' : 'Resultado de la práctica'}</p>
             <h1>${title}</h1>
             <p class="small-muted">${subtitle}</p>
             <div class="result-counts" style="margin-top:20px"><span><b>${score.right}</b> correctas</span><span><b>${score.wrong}</b> incorrectas</span><span><b>${score.unanswered}</b> en blanco</span></div>
@@ -224,18 +205,29 @@
           <div class="result-score ${examPassed ? '' : 'fail'}" aria-label="${score.right} aciertos de 20"><strong>${score.right}</strong><small>de 20</small></div>
         </div>
         <div class="result-actions">
-          <button class="btn btn-primary" data-action="start-exam">Otro simulacro ↻</button>
+          <button class="btn btn-primary" data-action="start-exam">Otro simulacro</button>
           <button class="btn btn-outline" data-action="home">Volver al inicio</button>
         </div>
-        <div class="review-header"><h2>Revisa tus respuestas</h2><button class="btn btn-subtle" data-action="toggle-review">${reviewFilter === 'errors' ? 'Ver todas' : 'Solo errores'}</button></div>
+        <div class="review-header"><h2>Revisión de respuestas</h2><button class="btn btn-subtle" data-action="toggle-review">${reviewFilter === 'errors' ? 'Ver todas' : 'Solo errores'}</button></div>
         ${shown.length ? shown.map(({q,idx}) => {
             const chosen = session.answers[idx];
             const isCorrect = chosen === q.correcta;
             return `<article class="review-card ${isCorrect ? 'correct' : 'wrong'}">
               <div class="review-tag">Pregunta ${idx + 1} · Tema ${q.tema} · ${isCorrect ? 'Correcta' : chosen === null ? 'Sin responder' : 'Incorrecta'}</div>
               <h3>${escapeHtml(q.pregunta)}</h3>
-              ${!isCorrect ? `<div class="review-answer"><b>Tu respuesta:</b> <span class="wrong-text">${chosen === null ? 'Sin responder' : `${letter(chosen)}. ${escapeHtml(q.opciones[chosen])}`}</span></div>` : ''}
-              <div class="review-answer"><b>Respuesta correcta:</b> <span class="right">${letter(q.correcta)}. ${escapeHtml(q.opciones[q.correcta])}</span></div>
+              <div class="review-options" role="list" aria-label="Opciones de respuesta">
+                ${q.opciones.map((option, i) => {
+                  const correct = i === q.correcta;
+                  const selectedWrong = chosen === i && !correct;
+                  const state = correct ? 'is-correct' : selectedWrong ? 'is-wrong' : '';
+                  const status = correct ? (chosen === i ? 'Correcta · Tu respuesta' : 'Respuesta correcta') : selectedWrong ? 'Tu respuesta' : '';
+                  return `<div class="review-option ${state}" role="listitem">
+                    <span class="review-letter">${letter(i)}</span>
+                    <span class="review-option-text">${escapeHtml(option)}</span>
+                    ${status ? `<span class="review-status">${status}</span>` : ''}
+                  </div>`;
+                }).join('')}
+              </div>
             </article>`;
           }).join('') : '<div class="empty-state">¡Muy bien! No has tenido ningún error ni has dejado preguntas sin contestar.</div>'}
       </section>`;

@@ -1,13 +1,13 @@
 {
   "id": "./",
-  "name": "Examen E · Simulador de licencia de armas",
-  "short_name": "Examen E",
+  "name": "Examen de Licencia de armas E",
+  "short_name": "Licencia E",
   "description": "Simulacros y repaso de preguntas para la licencia de armas E en España.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f4f5ef",
-  "theme_color": "#193b32",
+  "background_color": "#f7f8f8",
+  "theme_color": "#f7f8f8",
   "lang": "es",
   "icons": [
     {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
