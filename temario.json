@@ -1,0 +1,1380 @@
+{
+  "version": "2026-11-11-temario-completo",
+  "titulo": "Temario de estudio · Licencia de armas E",
+  "descripcion": "Los siete temas explicados a partir de las 423 preguntas de los PDF aportados, con tests por apartado. Las notas separan respuestas del banco y advertencias normativas.",
+  "fuentes": [
+    {
+      "nombre": "Cuestionarios de la Guardia Civil",
+      "url": "https://web.guardiacivil.es/es/tramites/autorizaciones-de-armas-y-explosivos/controldearmas/pruebas_licenciasarmas/Programa_prueba_teorica_D__E_y_AEM/index.html"
+    },
+    {
+      "nombre": "Reglamento de Armas vigente (BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1993-6202"
+    },
+    {
+      "nombre": "Medidas de seguridad de armeros (BOE, 2025)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-387"
+    }
+  ],
+  "temas": [
+    {
+      "numero": 1,
+      "titulo": "Funcionamiento, mecanismos, conservación y seguridad",
+      "preguntas_totales": 68,
+      "secciones": [
+        {
+          "id": "t1-1",
+          "titulo": "Tipos de armas según su funcionamiento",
+          "preguntas": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "intro": "La diferencia principal entre los tipos de armas es cómo se prepara el siguiente disparo y cuántos disparos se producen por cada acción del disparador.",
+          "puntos": [
+            "**Automática.** Se recarga por sí sola y permite efectuar varios disparos sucesivos con una sola acción mantenida sobre el disparador.",
+            "**Semiautomática.** Se recarga automáticamente tras cada disparo, pero exige volver a accionar el disparador para disparar otra vez.",
+            "**De repetición.** Es el tirador quien acciona un mecanismo para preparar el siguiente cartucho; no se recarga automáticamente.",
+            "**De un solo tiro.** No tiene depósito de municiones: antes de cada disparo se introduce manualmente el cartucho en la recámara o alojamiento previsto."
+          ],
+          "clave": "Automática = varios disparos por una acción; semiautomática = uno por acción; repetición = recarga manual; un solo tiro = cargar cada cartucho manualmente.",
+          "nota": null
+        },
+        {
+          "id": "t1-2",
+          "titulo": "Partes del arma y elementos de la escopeta",
+          "preguntas": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            13,
+            19,
+            20,
+            21,
+            22,
+            25,
+            33,
+            39,
+            40
+          ],
+          "intro": "El cuestionario distingue las piezas por su función. No hace falta memorizar una lista sin sentido: conviene asociar cada nombre a lo que hace.",
+          "puntos": [
+            "**Cañón y ánima.** El cañón conduce y estabiliza el proyectil. El ánima es su interior: en los rifles se describe como estriada, mientras que en las escopetas puede ser lisa o estriada.",
+            "**Culata.** Es la parte que permite apoyar el arma sobre el hombro.",
+            "**Guardamonte.** Protege el disparador o gatillo. Aparece dos veces en el banco de preguntas.",
+            "**Recámara y boca.** La recámara aloja el cartucho que va a dispararse; la boca es el extremo opuesto, por donde sale el proyectil. El cuestionario compara la forma de la recámara con la del cartucho.",
+            "**Cerrojo.** En una escopeta semiautomática, piezas como el percutor, el extractor y el grapón se integran en el conjunto del cerrojo.",
+            "**Choke.** En la escopeta es un estrechamiento en la boca de fuego. El cuestionario indica que los rifles semiautomáticos carecen de choke.",
+            "**Escopeta superpuesta.** Sus extractores ayudan a sacar cartuchos o vainas; algunos modelos incluyen además expulsores. Según el banco, la banda intermedia ventilada se asocia a refrigerar los cañones y amortiguar el efecto del viento lateral.",
+            "**Orificios de seguridad en algunos rifles.** Pueden servir como salida de gases si se rompe un cartucho."
+          ],
+          "clave": "Cañón conduce; culata apoya; guardamonte protege; recámara aloja; boca es la salida; choke estrecha la boca de la escopeta.",
+          "nota": "En la práctica, las configuraciones mecánicas pueden variar según el modelo. Aquí se explica el vocabulario que emplean las preguntas."
+        },
+        {
+          "id": "t1-3",
+          "titulo": "Alimentación, carga, percusión y extracción",
+          "preguntas": [
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            23,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            37,
+            38,
+            48
+          ],
+          "intro": "Para entender el ciclo de funcionamiento es útil separar las funciones: almacenar munición, colocar el cartucho en la recámara, dejar el mecanismo preparado, iniciar el disparo y retirar la vaina.",
+          "puntos": [
+            "**Alimentar.** Significa que el arma tiene cartuchos en su mecanismo de alimentación o depósito. En una escopeta semiautomática se alimenta colocando cartuchos en ese depósito.",
+            "**Montar.** En la terminología del cuestionario, significa dejar el mecanismo de disparo y percusión preparado para funcionar. Por eso «arma montada» no quiere decir simplemente «arma ensamblada».",
+            "**Cargar frente a alimentar.** Una pregunta del banco utiliza «cargar» en el sentido de preparar o montar el arma para disparar, y «alimentar» como introducir cartuchos en el depósito. Es importante reconocer ese uso concreto del test.",
+            "**Introducción en la recámara.** El cierre introduce el cartucho en un arma semiautomática; en un rifle, el cerrojo lo arrastra hacia la recámara. El muelle del cargador ayuda a elevarlo para situarlo frente a ella.",
+            "**Percusión.** El mecanismo de percusión se encuentra en el cerrojo de los rifles contemplados por el test. Lo forman el percutor y su muelle. El percutor golpea el fulminante del cartucho; para el rifle de caza mayor el banco señala percusión central.",
+            "**Movimiento de disparo.** La biela transmite el movimiento del disparador a otras partes del mecanismo.",
+            "**Extracción y expulsión.** La uña extractora se sujeta al culote del cartucho para retirarlo de la recámara. La vaina usada sale por la ventana de expulsión de una escopeta semiautomática. El test describe el aprovechamiento del retroceso para mover el cierre en ese proceso."
+          ],
+          "clave": "Alimentada = tiene munición en el depósito; montada = mecanismo listo; recámara = lugar del cartucho que se va a disparar; percutor = golpea el fulminante; extractor = retira la vaina.",
+          "nota": "«Cargar», «alimentar» y «montar» pueden emplearse con distintos matices fuera de este cuestionario. Esta sección recoge expresamente el uso que pregunta el banco."
+        },
+        {
+          "id": "t1-4",
+          "titulo": "Elementos de puntería",
+          "preguntas": [
+            34,
+            35,
+            36
+          ],
+          "intro": "Los elementos de puntería permiten orientar el arma respecto al blanco. El banco identifica el alza y el punto de mira, y pregunta por sus funciones en la regulación del impacto.",
+          "puntos": [
+            "**Elementos de puntería.** Son los dispositivos que se utilizan para enfilar el arma hacia el blanco.",
+            "**Alza.** El cuestionario la identifica con el ajuste de la altura del impacto.",
+            "**Punto de mira.** El cuestionario lo identifica con el ajuste lateral del impacto."
+          ],
+          "clave": "En las respuestas del banco: alza = altura; punto de mira = desplazamiento lateral.",
+          "nota": "Esta correspondencia se reproduce tal como aparece en las respuestas del cuestionario; no debe tomarse como regla técnica universal, porque los sistemas de miras y sus ajustes pueden variar según el arma."
+        },
+        {
+          "id": "t1-5",
+          "titulo": "Componentes esenciales y piezas fundamentales",
+          "preguntas": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "intro": "Este apartado requiere una advertencia: el cuestionario utiliza la expresión antigua «piezas fundamentales», mientras que el Reglamento de Armas vigente emplea «componentes esenciales».",
+          "puntos": [
+            "**En el banco de preguntas.** De la escopeta se destacan la báscula y el cañón. Del rifle se destacan el cerrojo y el cañón. La culata y los elementos de puntería no aparecen como piezas fundamentales en esas respuestas.",
+            "**En la norma vigente.** La definición legal es más amplia. Para armas largas incluye, según corresponda, la caja o cajón de los mecanismos, el cañón, el cerrojo o la báscula, y el cierre o bloqueo del cierre.",
+            "**Consecuencia para estudiar.** Conviene conocer literalmente las respuestas del cuestionario, pero no confundir esas listas reducidas con una enumeración completa de los componentes esenciales conforme a la normativa actual."
+          ],
+          "clave": "Test: escopeta → báscula y cañón; rifle → cerrojo y cañón. Derecho vigente: «componentes esenciales», categoría más amplia.",
+          "nota": "Cambio normativo contrastado: Real Decreto 726/2020, que modificó el Reglamento de Armas desde noviembre de 2020. Texto vigente: artículo 1.2 del Reglamento de Armas."
+        },
+        {
+          "id": "t1-6",
+          "titulo": "Mecanismos de seguridad",
+          "preguntas": [
+            24,
+            47,
+            49,
+            50,
+            51,
+            52
+          ],
+          "intro": "Los seguros y otros mecanismos de seguridad sirven para reducir el riesgo de disparos involuntarios. Ningún seguro sustituye a la comprobación del estado del arma ni a las normas básicas de manejo.",
+          "puntos": [
+            "**Seguro manual.** Es un dispositivo accionado por el usuario para bloquear el mecanismo de disparo. Su finalidad es evitar el disparo incluso cuando el arma esté montada.",
+            "**Posición «S».** En la pregunta del banco, indica que el seguro está puesto y que el arma no debería efectuar el disparo.",
+            "**Seguro automático.** El cuestionario contempla que una escopeta de caza semiautomática pueda disponer de él.",
+            "**Percusión en vacío.** Accionar el disparo sin cartucho puede provocar, en determinadas armas, una avería como la rotura de la aguja percutora."
+          ],
+          "clave": "El seguro pretende impedir disparos involuntarios; nunca se debe confiar en él como única medida de prevención.",
+          "nota": null
+        },
+        {
+          "id": "t1-7",
+          "titulo": "Conservación y limpieza",
+          "preguntas": [
+            53,
+            54,
+            55
+          ],
+          "intro": "Un arma debe conservarse limpia y en buenas condiciones. El test insiste especialmente en la humedad y en las herramientas de mantenimiento.",
+          "puntos": [
+            "**Baqueta.** Es la varilla que se utiliza para limpiar el interior del cañón.",
+            "**Partes de madera.** El banco de preguntas menciona el aceite de linaza como producto de limpieza o tratamiento.",
+            "**Arma mojada.** Después de la lluvia o la humedad durante una jornada de caza, el cuestionario aconseja limpiarla y engrasarla cuanto antes para prevenir el óxido."
+          ],
+          "clave": "Baqueta = interior del cañón; humedad = prevenir oxidación mediante limpieza y cuidado.",
+          "nota": "Los productos concretos para madera, metal y mecanismos deben ser compatibles con el acabado y con las recomendaciones del fabricante; el aceite de linaza es la respuesta específica del test, no una recomendación universal."
+        },
+        {
+          "id": "t1-8",
+          "titulo": "Custodia y transporte",
+          "preguntas": [
+            56,
+            57,
+            58,
+            59
+          ],
+          "intro": "Para conservar las armas bajo control hay que distinguir entre guardarlas en casa y trasladarlas. En ambos casos deben evitarse los accesos no autorizados y la presencia de munición preparada para el disparo.",
+          "puntos": [
+            "**Custodia en casa de un arma de la categoría 2.ª 2.** El banco exige un armero homologado en el domicilio. La normativa vigente requiere caja fuerte o armero autorizado, y la resolución de seguridad de 2025 establece al menos grado de resistencia I según UNE EN 1143-1.",
+            "**Armas y municiones.** La normativa exige que no sean fácilmente accesibles conjuntamente. Para armas de la categoría 2.ª 2, la munición debe permanecer separada en lugar seguro bajo llave o en un compartimento independiente cerrado con llave dentro del armero.",
+            "**Traslado en vehículo.** El cuestionario exige que el arma vaya descargada.",
+            "**Vehículo estacionado.** Nunca debe dejarse una escopeta en el maletero de un coche aparcado en la vía pública hasta el día siguiente.",
+            "**Almacenamiento.** Según el cuestionario, las armas se guardan descargadas y sin alimentar."
+          ],
+          "clave": "Descargadas y sin alimentar al guardarlas; descargadas al transportarlas; nunca abandonar una escopeta en el maletero de un vehículo aparcado.",
+          "nota": "No confundas los requisitos de custodia de rifles de categoría 2.ª 2 con los de escopetas de categoría 3.ª 2: el Reglamento contempla exigencias diferentes. Consulta los artículos 100, 101 y 144."
+        },
+        {
+          "id": "t1-9",
+          "titulo": "Normas básicas de manejo seguro",
+          "preguntas": [
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "intro": "Este es el apartado más importante desde el punto de vista de la seguridad. Las preguntas buscan que el alumno adopte hábitos constantes, incluso cuando crea conocer perfectamente el arma.",
+          "puntos": [
+            "**Tratar toda arma como si estuviera cargada.** No se debe presuponer que está descargada; hay que comprobarlo cada vez que se coge, siguiendo las indicaciones de seguridad aplicables.",
+            "**Mantener el dedo fuera del disparador.** Al coger o manipular el arma, el dedo no debe apoyarse en el gatillo.",
+            "**Dirección segura.** La boca de fuego debe orientarse de forma que no exista peligro para personas. La pregunta sobre el cierre de una escopeta señala «hacia el suelo», pero la regla general es mantener siempre una dirección realmente segura.",
+            "**Proximidad de otras personas.** El cuestionario indica descargar el arma.",
+            "**No manipular lo desconocido.** Si no conoces el funcionamiento de un arma, no debes manipularla; pide ayuda a personal competente.",
+            "**Limpieza sin otras personas alrededor.** La pregunta propone una habitación en la que se esté solo, reduciendo la exposición de terceros.",
+            "**Comprobar la zona de impacto.** Antes de cualquier disparo debe conocerse el área hacia la que puede dirigirse el proyectil.",
+            "**Finalidad de todas las normas.** Evitar disparos fortuitos y daños a personas y bienes."
+          ],
+          "clave": "Siempre: verificar el estado, dedo fuera del gatillo, dirección segura y conocimiento de lo que hay en la zona de impacto.",
+          "nota": "Estos son principios preventivos. Un temario de examen no sustituye la formación práctica supervisada ni las instrucciones de la Guardia Civil."
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "titulo": "Categorías de armas, armas semiautomáticas y prohibidas",
+      "preguntas_totales": 67,
+      "secciones": [
+        {
+          "id": "t2-1",
+          "titulo": "Cómo se clasifican las armas",
+          "preguntas": [
+            1,
+            5,
+            6,
+            10
+          ],
+          "intro": "El Reglamento de Armas distingue las armas según su naturaleza, peligrosidad, características y destino. Primero hay que diferenciar entre arma corta y larga; después, identificar su categoría.",
+          "puntos": [
+            "**Arma corta.** El test y el Reglamento llaman así a la de fuego cuyo cañón no supera 30 cm o cuya longitud total no supera 60 cm. Basta con que se cumpla una de esas condiciones.",
+            "**Arma larga.** Es cualquier arma de fuego que no tenga la consideración de arma corta.",
+            "**Clasificación legal.** El cuestionario reconoce nueve categorías. No se decide solo por el nombre comercial del arma: importan su funcionamiento, cañón, energía o uso previsto."
+          ],
+          "clave": "30 cm de cañón o 60 cm de longitud total = arma corta. La clasificación reglamentaria tiene nueve categorías.",
+          "nota": null
+        },
+        {
+          "id": "t2-2",
+          "titulo": "Primera y segunda categoría",
+          "preguntas": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            19,
+            21,
+            33,
+            35
+          ],
+          "intro": "La primera categoría reúne las armas de fuego cortas. La segunda abarca determinadas armas largas y cañones estriados de caza mayor o vigilancia.",
+          "puntos": [
+            "**1.ª categoría.** Pistolas y revólveres, tanto si son semiautomáticos como si son de un solo tiro. Un revólver del calibre .38 y 20 cm de cañón sigue siendo de primera categoría.",
+            "**2.ª 1.** Armas de fuego largas específicas de vigilancia y guardería.",
+            "**2.ª 2.** Armas largas rayadas utilizables para caza mayor; también ciertos cañones estriados adaptables a escopetas con recámara para cartuchos metálicos, siempre que no estén clasificados como armas de guerra.",
+            "**Para identificarla.** Una escopeta con un cañón estriado adaptable de esas características puede quedar en la segunda categoría por ese elemento, aunque la escopeta ordinaria pertenezca a la tercera."
+          ],
+          "clave": "Pistolas y revólveres → 1.ª; vigilancia y guardería → 2.ª 1; rifles de caza mayor → 2.ª 2.",
+          "nota": null
+        },
+        {
+          "id": "t2-3",
+          "titulo": "La tercera categoría: escopetas, .22 y aire de alta energía",
+          "preguntas": [
+            7,
+            8,
+            9,
+            18,
+            20,
+            22,
+            23,
+            25,
+            34
+          ],
+          "intro": "En esta categoría se agrupan varias armas largas de uso deportivo y las escopetas, incluidas ciertas armas cuyos cañones llevan rayas destinadas a facilitar el plomeo.",
+          "puntos": [
+            "**3.ª 1.** Armas largas rayadas para tiro deportivo del calibre 5,6 mm (.22 americano), de percusión anular, ya sean de un solo disparo, de repetición o semiautomáticas.",
+            "**3.ª 2.** Escopetas y demás armas de fuego largas de ánima lisa. Incluye escopetas con rayas para facilitar el plomeo reconocidas como tales por banco de pruebas; no se convierten por eso en rifles de caza mayor.",
+            "**3.ª 3.** Armas accionadas por aire u otro gas comprimido cuando la energía del proyectil en boca **supere** 24,2 julios.",
+            "**No confundir.** Un arma larga de ánima lisa que no se denomine «escopeta» puede seguir encajando en tercera categoría."
+          ],
+          "clave": "3.ª 1 = .22 deportivo; 3.ª 2 = escopetas; 3.ª 3 = aire o gas con energía superior a 24,2 J.",
+          "nota": null
+        },
+        {
+          "id": "t2-4",
+          "titulo": "La cuarta categoría: aire y gas de menor potencia",
+          "preguntas": [
+            24,
+            26,
+            27,
+            28,
+            29
+          ],
+          "intro": "Las armas de aire o gas comprimido que no están asimiladas a escopetas se distribuyen según su sistema de tiro. El umbral de 24,2 julios separa las de tercera categoría de las contempladas aquí.",
+          "puntos": [
+            "**4.ª 1.** Carabinas y pistolas semiautomáticas o de repetición y revólveres de doble acción accionados por aire o gas.",
+            "**4.ª 2.** Carabinas y pistolas de un solo tiro y revólveres de acción simple accionados por aire o gas.",
+            "**Umbral.** Si una carabina de aire supera 24,2 J pasa al supuesto de tercera categoría; si no supera ese valor, la carabina de repetición del test se clasifica en 4.ª 1."
+          ],
+          "clave": "Aire de repetición ≤ 24,2 J → 4.ª 1; de un solo tiro → 4.ª 2; aire > 24,2 J → 3.ª 3.",
+          "nota": null
+        },
+        {
+          "id": "t2-5",
+          "titulo": "Quinta a novena categorías y ballestas",
+          "preguntas": [
+            2,
+            3,
+            30,
+            32,
+            36,
+            37
+          ],
+          "intro": "Estas categorías ayudan a distinguir entre armas blancas, antiguas, de alarma o inutilizadas. Ballestas y arcos no reciben el mismo tratamiento.",
+          "puntos": [
+            "**5.ª categoría.** Armas blancas no prohibidas.",
+            "**6.ª categoría.** Armas antiguas, históricas, sus reproducciones y armas de avancarga, en los supuestos reglamentarios.",
+            "**7.ª 2.** Ballestas; el test las asimila jurídicamente a escopetas a ciertos efectos y no las documenta con licencia D. Los arcos no se asimilan del mismo modo.",
+            "**7.ª 6.** Armas de alarma y señales y pistolas lanzabengalas. **8.ª:** armas acústicas y de salvas. **9.ª:** armas inutilizadas."
+          ],
+          "clave": "Ballesta → 7.ª 2; arma blanca → 5.ª; arma inutilizada → 9.ª; alarma y señales → 7.ª 6.",
+          "nota": "En el Reglamento consolidado, las categorías 8.ª y 9.ª se incorporaron por la reforma de 2020; el cuestionario refleja esa estructura."
+        },
+        {
+          "id": "t2-6",
+          "titulo": "Armas semiautomáticas, cargadores y armas de guerra",
+          "preguntas": [
+            31,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "intro": "La distinción entre automático y semiautomático es esencial: una permite ráfagas; la otra exige accionar el disparador para cada tiro.",
+          "puntos": [
+            "**Semiautomática.** El mecanismo recarga el arma tras el disparo, pero cada nuevo tiro requiere otra acción del disparador. Un rifle semiautomático de cargador de cinco cartuchos no es prohibido por ese solo dato.",
+            "**Cargadores de gran capacidad.** En las preguntas, los límites relevantes son más de diez cartuchos para armas largas y más de veinte para armas cortas. Se plantean un rifle con cargador de 12 y una pistola con 25.",
+            "**Automáticas y transformaciones.** Las armas automáticas se tratan como armas de guerra en el banco; convertir una automática en semiautomática no la convierte libremente en arma permitida para particulares.",
+            "**Munición y calibres.** No basta con el nombre del calibre para deducir el régimen aplicable: la pregunta sobre .308 Winchester y 7,62×39 contempla su uso en caza mayor bajo condiciones concretas.",
+            "**Armas de guerra.** Su adquisición, tenencia y uso por particulares están prohibidos en los casos del test; no pueden «legalizarse» mediante una licencia ordinaria."
+          ],
+          "clave": "Semiautomática = un disparo por pulsación; la capacidad del cargador importa; las armas de guerra no quedan amparadas por licencias civiles.",
+          "nota": "Los límites de cargadores dependen de la configuración y del artículo 5 del Reglamento. No extrapoles las respuestas del test a cualquier arma o actividad."
+        },
+        {
+          "id": "t2-7",
+          "titulo": "Armas prohibidas por su diseño o modificación",
+          "preguntas": [
+            4,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            56,
+            62,
+            63,
+            64,
+            65
+          ],
+          "intro": "Una licencia no convierte en reglamentaria un arma prohibida. El cuestionario insiste en modificaciones no autorizadas, cañones recortados y objetos que ocultan armas.",
+          "puntos": [
+            "**Transformaciones no autorizadas.** La modificación sustancial de las características originales de un arma sin la autorización reglamentaria puede situarla entre las prohibidas.",
+            "**Cañones recortados.** Las armas largas de fuego con cañones recortados se citan como prohibidas para el particular.",
+            "**Armas ocultas o combinadas.** Un arma de fuego simulada como otro objeto, o un arma real o simulada combinada con arma blanca, está prohibida en los supuestos del cuestionario.",
+            "**Dispositivos de alojamiento.** El banco pregunta por escopetas o armas largas con mecanismos en la culata para alojar una pistola u otras armas: las considera prohibidas, aunque se hayan adquirido legalmente en otro país.",
+            "**Regla práctica.** No alterar cañón, mecanismos o estructura de un arma por cuenta propia. Ante dudas, consultar la Intervención de Armas."
+          ],
+          "clave": "No confundir «tengo licencia» con «puedo poseer cualquier arma»: las modificaciones y combinaciones prohibidas siguen siendo ilegales.",
+          "nota": null
+        },
+        {
+          "id": "t2-8",
+          "titulo": "Armas blancas, silenciadores y munición prohibida",
+          "preguntas": [
+            53,
+            57,
+            58,
+            59,
+            60,
+            61,
+            66,
+            67
+          ],
+          "intro": "El test reserva varias preguntas a objetos y municiones que pueden confundirse con material permitido.",
+          "puntos": [
+            "**Armas blancas.** El cuestionario destaca como prohibidos los puñales y las navajas automáticas; distingue esos casos de un cuchillo de monte ordinario descrito en una de las preguntas.",
+            "**Rompecabezas.** El instrumento denominado «rompecabezas» se considera prohibido en el supuesto preguntado, aunque se pretenda usar en caza mayor.",
+            "**Silenciadores.** El banco no permite al particular disponer de silenciadores para rifles de caza mayor.",
+            "**Munición.** El test identifica como prohibida para particulares la de proyectiles perforantes, explosivos o incendiarios y la denominada dum-dum."
+          ],
+          "clave": "Puñales, navajas automáticas y ciertas municiones: repasar como supuestos expresos de prohibición.",
+          "nota": "No todas las armas blancas, accesorios o municiones tienen idéntico régimen. Para obligaciones reales, consultar los artículos 4, 5 y 6 del Reglamento actualizado."
+        },
+        {
+          "id": "t2-9",
+          "titulo": "Miras y elementos ópticos",
+          "preguntas": [
+            54,
+            55
+          ],
+          "intro": "Las preguntas de este apartado son breves, pero suelen provocar errores si se supone que toda mira óptica requiere una licencia adicional.",
+          "puntos": [
+            "**Categoría 2.ª 2.** En el cuestionario se permite utilizar miras telescópicas con armas largas rayadas de caza mayor.",
+            "**Categoría 3.ª 2.** También se admite su utilización con escopetas en el supuesto del banco."
+          ],
+          "clave": "Según el test: se pueden utilizar miras telescópicas tanto en 2.ª 2 como en 3.ª 2.",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "titulo": "Circulación, revista y transferencia de armas",
+      "preguntas_totales": 66,
+      "secciones": [
+        {
+          "id": "t3-1",
+          "titulo": "Guías de circulación: cuándo y quién las expide",
+          "preguntas": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "intro": "La guía de circulación documenta determinados traslados de armas o componentes esenciales cuando estos no viajan amparados por la licencia y la guía de pertenencia.",
+          "puntos": [
+            "**Función.** Es el documento que acompaña el traslado entre lugares de armas de segunda o tercera categoría cuando no se usa la documentación ordinaria del titular.",
+            "**Expedición.** La expide la Intervención de Armas y Explosivos. En una compra fuera de la localidad del comprador, el banco señala la Intervención del lugar de compra.",
+            "**Traslado ordinario del titular.** Si una escopeta está acompañada por su licencia y guía de pertenencia, el test indica que no necesita además guía de circulación por el solo hecho de desplazarse a otra localidad.",
+            "**Componentes esenciales.** El envío de una báscula de escopeta a reparar se trata como traslado de componente esencial.",
+            "**Aire comprimido.** Para el supuesto de carabina con energía superior a 24,2 J, el banco exige guía de circulación si carece de licencia y guía de pertenencia."
+          ],
+          "clave": "Guía de pertenencia + licencia para el titular; guía de circulación para ciertos traslados sin esos documentos.",
+          "nota": "El documento exigible depende del tipo de traslado, del arma y de quién lo realice. Las preguntas describen supuestos concretos."
+        },
+        {
+          "id": "t3-2",
+          "titulo": "Envases, transporte y envíos seguros",
+          "preguntas": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            24,
+            25
+          ],
+          "intro": "Las normas de circulación pretenden impedir manipulaciones y reducir los riesgos durante los envíos.",
+          "puntos": [
+            "**Acondicionamiento.** Armas y componentes esenciales deben circular en envases adecuados para su seguridad durante el traslado.",
+            "**Nunca cargadas.** El cuestionario prohíbe efectuar envíos de armas cargadas o con cartuchería utilizable con las propias armas transportadas.",
+            "**Precintos.** En los supuestos planteados, interviene la Guardia Civil o un armero autorizado para precintar envases de armas largas rayadas.",
+            "**Separación de envíos.** No se mezclan armas de destinatarios distintos en un único paquete; el test también separa rifle y escopeta cuando se remiten a reparar.",
+            "**No por Correos.** La respuesta del banco descarta remitir por correo ordinario una escopeta a reparar. La declaración de contenido ha de figurar en documentación y paquete."
+          ],
+          "clave": "Traslado seguro = arma descargada, sin cartuchería conjunta, en envase adecuado y con documentación cuando proceda.",
+          "nota": "Las condiciones de transporte profesional y rotulación de los envases pueden cambiar según el operador y la regulación aplicable."
+        },
+        {
+          "id": "t3-3",
+          "titulo": "Compras a distancia, reparaciones y recepción",
+          "preguntas": [
+            21,
+            22,
+            23,
+            26,
+            27,
+            28
+          ],
+          "intro": "Comprar un arma en otra localidad no permite transportarla de cualquier forma. El banco distingue la circulación hacia la Intervención y la retirada documentada.",
+          "puntos": [
+            "**Compra fuera de la localidad.** La pregunta sobre escopeta recoge un plazo de diez días para comparecer en la Intervención y solicitar la guía de pertenencia; es un dato del test que debe contrastarse para un trámite real.",
+            "**Envío para reparación.** Si el titular no transporta personalmente la escopeta, el cuestionario remite a una empresa de transportes autorizada.",
+            "**Rifle sin guía de pertenencia.** No se lleva personalmente a otra localidad como si ya estuviera documentado; el banco opta por el transporte mediante empresa.",
+            "**Recepción.** Para retirar un arma recibida en la Intervención, la persona compradora presenta la licencia o documento que habilite su adquisición."
+          ],
+          "clave": "Al comprar o recibir un arma, la licencia habilitante y la guía correspondiente deben tramitarse antes del uso o transporte ordinario.",
+          "nota": null
+        },
+        {
+          "id": "t3-4",
+          "titulo": "Revista de armas: periodicidad y presentación",
+          "preguntas": [
+            29,
+            30,
+            31,
+            32,
+            34,
+            37,
+            38,
+            40,
+            41,
+            42,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "intro": "La revista es una comprobación periódica de las armas que requieren guía. No debe confundirse con la renovación de la licencia.",
+          "puntos": [
+            "**Cinco años.** En el banco se revisan cada cinco años las armas de segunda y tercera categoría, las escopetas, las armas de concurso y las ballestas en los supuestos planteados.",
+            "**Categoría 4.ª.** Una carabina ordinaria de aire comprimido de cuarta categoría no pasa la misma revista; sí se contempla la revista para una de tercera categoría con energía superior a 24,2 J.",
+            "**Presentación física.** Se exige presentar el arma ante la autoridad habilitada, que realiza las anotaciones correspondientes.",
+            "**Momento.** La pregunta de escopetas vincula la revista al mes correspondiente a la renovación de su licencia.",
+            "**Cañón adaptable estriado.** El cuestionario lo somete al plazo de cinco años."
+          ],
+          "clave": "Revista: presentación del arma y anotación por la Intervención; el test utiliza cinco años para las armas citadas.",
+          "nota": "El enunciado de la pregunta 29 está marcado como falso en el banco: no memorices sin más su afirmación sobre revisiones cada tres años."
+        },
+        {
+          "id": "t3-5",
+          "titulo": "Incumplimiento de la revista y representación",
+          "preguntas": [
+            33,
+            35,
+            36,
+            39,
+            43
+          ],
+          "intro": "No pasar revista no es una simple formalidad olvidada. El cuestionario lo relaciona con consecuencias administrativas.",
+          "puntos": [
+            "**Dos revistas consecutivas omitidas.** El test prevé la anulación y retirada de la guía de pertenencia y la apertura de expediente sancionador.",
+            "**Naturaleza.** La omisión de la revista se trata como infracción administrativa.",
+            "**Representación.** Una tercera persona con licencia puede presentarla por el titular si dispone de autorización escrita. El parentesco, por sí solo, no sustituye esa autorización."
+          ],
+          "clave": "La omisión repetida trae consecuencias sobre la guía; un tercero necesita autorización escrita del titular.",
+          "nota": null
+        },
+        {
+          "id": "t3-6",
+          "titulo": "Enajenación y cambio de titularidad",
+          "preguntas": [
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            66
+          ],
+          "intro": "«Enajenar» equivale a transmitir un arma a otra persona, por ejemplo mediante venta. El nuevo titular debe tener los requisitos legales.",
+          "puntos": [
+            "**Comunicación.** La transmisión se hace con conocimiento de la Intervención de Armas; no basta el acuerdo privado.",
+            "**Comprador habilitado.** Debe disponer de licencia, tarjeta o autorización correspondiente al arma que adquiere.",
+            "**Guía de pertenencia.** La anterior se entrega en la Intervención y al comprador se le expide una nueva.",
+            "**Custodia.** Para obtener la nueva guía, el cuestionario exige acreditar las medidas de seguridad aplicables a la tenencia."
+          ],
+          "clave": "Toda transmisión de armas reglamentadas se comunica a la Intervención; el nuevo titular necesita documentación propia.",
+          "nota": null
+        },
+        {
+          "id": "t3-7",
+          "titulo": "Préstamo temporal de armas de caza",
+          "preguntas": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "intro": "La cesión temporal no es una venta: quien presta conserva la propiedad, pero debe documentar quién usa el arma y durante cuánto tiempo.",
+          "puntos": [
+            "**Destinatario.** El préstamo de escopetas y rifles de caza mayor se dirige a personas que posean la licencia de armas correspondiente y la licencia de caza necesaria.",
+            "**Plazo del test.** La cesión para cazar tiene un máximo de quince días.",
+            "**Por escrito.** Debe constar por escrito, con fecha y firma.",
+            "**Documentación del arma.** Se presta con su guía de pertenencia, no simplemente entregando físicamente el arma.",
+            "**Nacionalidad.** Las preguntas contemplan expresamente también el préstamo por residentes extranjeros habilitados en España."
+          ],
+          "clave": "Préstamo de caza = persona habilitada + documento escrito fechado y firmado + guía + máximo 15 días en el test.",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "titulo": "Licencias, documentación y requisitos administrativos",
+      "preguntas_totales": 70,
+      "secciones": [
+        {
+          "id": "t4-1",
+          "titulo": "Licencias D y E: diferencias básicas",
+          "preguntas": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "intro": "La licencia que hace falta depende de la categoría del arma. La D y la E no son intercambiables, aunque una misma persona pueda necesitar ambas.",
+          "puntos": [
+            "**D.** Para rifles largos rayados utilizables en caza mayor. No cubre rifles automáticos prohibidos para particulares.",
+            "**E.** Para escopetas de caza y otras armas de las categorías autorizadas; el test exige ser mayor de 18 años.",
+            "**Una licencia D por persona.** El banco establece que solo se puede tener una licencia D.",
+            "**Portar documentación.** Quien usa un rifle de caza mayor lleva licencia D y guía de pertenencia del arma. El uso de una escopeta inscrita como arma de colección no queda autorizado por tener también licencia E.",
+            "**Arma combinada.** El test prevé documentarla con una guía de pertenencia atendiendo al componente de mayor peligrosidad; para escopeta y rifle ordinarios se precisan D y E.",
+            "**Residencia y ópticas.** El banco admite la posibilidad de licencia para un español residente en Francia y trata las miras telescópicas de caza mayor en relación con la licencia D."
+          ],
+          "clave": "D = rifles de caza mayor; E = escopetas y armas asimiladas; ambas pueden ser necesarias para armas distintas.",
+          "nota": null
+        },
+        {
+          "id": "t4-2",
+          "titulo": "Autorizaciones temporales, pérdida y renovación",
+          "preguntas": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "intro": "La documentación debe estar disponible y en vigor. Si se pierde una licencia o está próxima su caducidad, la Intervención de Armas puede intervenir para regularizar la situación.",
+          "puntos": [
+            "**Pérdida, robo o destrucción de armas.** El banco pregunta por la entrega de la guía de pertenencia al Interventor en esos supuestos.",
+            "**Extravío de la licencia.** La pregunta contempla solicitar una autorización temporal de uso.",
+            "**Renovación próxima.** Cuando la persona solicita la nueva concesión de una licencia próxima a caducar, el Interventor de Armas y Explosivos puede expedir autorización temporal de uso.",
+            "**Duración del test.** El plazo de la autorización temporal indicada es de tres meses y su finalidad es el uso de las armas en esas circunstancias."
+          ],
+          "clave": "Autorización temporal: la expide la Intervención; el cuestionario fija tres meses de vigencia.",
+          "nota": null
+        },
+        {
+          "id": "t4-3",
+          "titulo": "Guía de pertenencia: qué armas y datos cubre",
+          "preguntas": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            67
+          ],
+          "intro": "La licencia corresponde a la persona; la guía de pertenencia identifica y documenta cada arma concreta.",
+          "puntos": [
+            "**Una guía por arma.** Es la respuesta repetida en el banco: una guía no ampara varias escopetas.",
+            "**Qué armas.** El cuestionario exige guía para rifles de 2.ª 2, escopetas de 3.ª 2, aire de alta potencia de 3.ª 3, ballestas de 7.ª 2 y armas lanzacabos de 7.ª 3.",
+            "**Cuándo acompaña.** La guía acompaña al arma durante el uso, depósito y transporte.",
+            "**Datos.** Incluye la reseña completa del arma, además de datos del titular y de la licencia.",
+            "**Excepciones del test.** Entre las opciones que propone, el arco y la pistola lanzabengalas se señalan como exceptuados de esa guía ordinaria.",
+            "**Quién la expide.** La Intervención de Armas."
+          ],
+          "clave": "Licencia = habilita al titular; guía = identifica un arma concreta; una guía corresponde a un arma.",
+          "nota": null
+        },
+        {
+          "id": "t4-4",
+          "titulo": "Alcance y número de armas con D y E",
+          "preguntas": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "intro": "Además de identificar la licencia correcta, el examen pregunta cuántas armas puede amparar y qué modelos entran en ella.",
+          "puntos": [
+            "**D.** Armas largas rayadas para caza mayor, incluidos determinados cañones estriados adaptables a escopetas.",
+            "**E.** Armas de tercera categoría, ballestas (7.ª 2) y lanzacabos (7.ª 3). Entre ellas están las armas largas rayadas del calibre .22 para tiro deportivo.",
+            "**Límites E del banco.** Hasta seis escopetas y hasta seis armas largas rayadas para tiro deportivo, sin exceder doce armas en total.",
+            "**Aire comprimido.** Las carabinas de aire no se documentan con licencia D; el tratamiento legal varía según categoría y energía. La pregunta menciona tarjetas de armas para los supuestos ordinarios."
+          ],
+          "clave": "Licencia E: categorías 3.ª, 7.ª 2 y 7.ª 3; máximo seis escopetas o seis .22 de tiro deportivo y doce armas en total.",
+          "nota": "La respuesta de la pregunta 38 simplifica la situación de aire comprimido. Las armas que superan 24,2 J son de 3.ª 3 y no se documentan como las de 4.ª categoría."
+        },
+        {
+          "id": "t4-5",
+          "titulo": "Tarjeta Europea de Armas de Fuego",
+          "preguntas": [
+            39,
+            40,
+            41,
+            44,
+            45
+          ],
+          "intro": "La Tarjeta Europea sirve para identificar las armas que un titular autorizado lleva o utiliza durante ciertos desplazamientos entre países de la Unión Europea.",
+          "puntos": [
+            "**Portarla.** El cuestionario pide la tarjeta europea cuando se viaja con armas por países miembros de la UE.",
+            "**Armas incluidas.** Las que lleva o utiliza su titular; no se limita a armas cortas.",
+            "**Validez.** El banco indica cinco años.",
+            "**Destinatarios.** Españoles y extranjeros residentes en España que cumplan los requisitos.",
+            "**Renovación.** Se exige mantener la titularidad de las armas cubiertas por la tarjeta."
+          ],
+          "clave": "Tarjeta Europea: identifica las armas del titular para desplazamientos; cinco años según el banco.",
+          "nota": "La tarjeta no sustituye las posibles condiciones de entrada, caza o tiro del país de destino."
+        },
+        {
+          "id": "t4-6",
+          "titulo": "Acreditación de actividad y documentos de solicitud",
+          "preguntas": [
+            42,
+            43,
+            68,
+            69,
+            70
+          ],
+          "intro": "No basta con solicitar la licencia: el interesado debe acreditar aptitud y, cuando proceda, una actividad que justifique el uso del arma.",
+          "puntos": [
+            "**Licencia E.** El test contempla certificado de antecedentes penales, informe de aptitudes psicofísicas y acreditación de dedicación real a caza o deporte.",
+            "**Licencia de caza.** Es el medio de acreditación de dedicación que aparece en las preguntas de la E.",
+            "**Licencia D.** El cuestionario destaca antecedentes penales y aptitud psicofísica.",
+            "**Lo que no se exige.** Según las opciones del banco, no hace falta un certificado del alcalde como documento obligatorio de expedición de la E."
+          ],
+          "clave": "Solicitud E: antecedentes + aptitud psicofísica + acreditar actividad de caza o deporte.",
+          "nota": null
+        },
+        {
+          "id": "t4-7",
+          "titulo": "Autorizaciones especiales para menores",
+          "preguntas": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            54,
+            55
+          ],
+          "intro": "Los menores no obtienen la licencia E ordinaria. Existen autorizaciones especiales para determinados usos bajo supervisión.",
+          "puntos": [
+            "**16 años.** Edad mínima indicada para uso autorizado de armas largas rayadas para caza mayor o tiro deportivo.",
+            "**14 años.** Edad mínima indicada para uso autorizado de armas de las categorías 3.ª 2 y 3.ª 3.",
+            "**Acompañamiento.** Una persona mayor de edad con licencia D, E o F debe acompañar y vigilar al menor en la cacería o actividad deportiva.",
+            "**Solicitud.** La firman el menor interesado y quien ejerza patria potestad o tutela.",
+            "**Vigencia.** La autorización especial puede durar hasta la mayoría de edad. El banco indica que un menor no es titular de una escopeta ni de una licencia E ordinaria."
+          ],
+          "clave": "Menores: 16 años para ciertas armas rayadas; 14 para escopetas y aire de 3.ª; siempre bajo supervisión habilitada.",
+          "nota": null
+        },
+        {
+          "id": "t4-8",
+          "titulo": "Duración de las licencias y visados por edad",
+          "preguntas": [
+            52,
+            53,
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "intro": "El banco de preguntas diferencia entre la vigencia de la licencia y las comprobaciones periódicas adicionales relacionadas con la edad.",
+          "puntos": [
+            "**Duración ordinaria.** Para los supuestos descritos, las licencias D y E tienen validez de cinco años.",
+            "**A partir de los 67 años.** El cuestionario exige visado cada tres años, manteniéndose la validez máxima de cinco años.",
+            "**Ejemplos.** Pregunta por personas de 55, 62, 68, 71 y 72 años. La clave es identificar si la edad activa o no el visado adicional."
+          ],
+          "clave": "Cinco años de licencia; a partir de 67 años, visado cada tres años en los ejemplos del banco.",
+          "nota": null
+        },
+        {
+          "id": "t4-9",
+          "titulo": "Comprobación de requisitos, resolución y revocación",
+          "preguntas": [
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "intro": "La administración puede comprobar si una persona sigue reuniendo las condiciones para poseer una licencia durante toda su vigencia.",
+          "puntos": [
+            "**Resolución.** El test recoge un plazo de tres meses para resolver la solicitud.",
+            "**Mantenimiento.** La vigencia está condicionada a conservar los requisitos; la administración puede revisarlos en cualquier momento.",
+            "**Pérdida de requisitos.** Puede dar lugar a revocación de la licencia.",
+            "**Plazo que pregunta el banco.** Entre las opciones sobre revocación aparece un máximo de dos años, asociado a la respuesta indicada por el cuestionario."
+          ],
+          "clave": "Conservar la licencia exige mantener los requisitos; pueden comprobarse en cualquier momento.",
+          "nota": "Para trámites y recursos reales, los plazos y efectos deben contrastarse en la resolución y normativa aplicables."
+        },
+        {
+          "id": "t4-10",
+          "titulo": "Prueba de capacitación",
+          "preguntas": [
+            66
+          ],
+          "intro": "La licencia no se obtiene solamente presentando papeles: el procedimiento incluye acreditar conocimientos y habilidades para usar el arma de manera segura.",
+          "puntos": [
+            "**Conocimientos.** Tipos de armas, cuidado y conservación.",
+            "**Habilidad.** Manejo y utilización conforme a la prueba correspondiente.",
+            "**Alcance.** Esta web ayuda a preparar la parte teórica, pero no sustituye la prueba práctica ni las indicaciones de los instructores."
+          ],
+          "clave": "Para obtener la licencia se acreditan conocimientos, conservación y habilidad de manejo.",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "titulo": "Régimen sancionador, infracciones y retirada de armas",
+      "preguntas_totales": 66,
+      "secciones": [
+        {
+          "id": "t5-1",
+          "titulo": "Delitos, infracciones administrativas y autoridades",
+          "preguntas": [
+            1,
+            2,
+            3,
+            4,
+            11,
+            12
+          ],
+          "intro": "Las conductas contrarias a las normas sobre armas pueden tener relevancia penal o administrativa. Primero hay que identificar la naturaleza del hecho; después, la autoridad competente.",
+          "puntos": [
+            "**Dos vías.** El banco distingue infracciones penales e infracciones administrativas; las administrativas se dividen en muy graves, graves y leves.",
+            "**Competencias.** En las preguntas aparecen la Dirección General de la Guardia Civil, la Delegación del Gobierno y los alcaldes en los ámbitos previstos.",
+            "**Procedimiento.** El cuestionario incluye autoridades que pueden ordenar la instrucción y cuándo la resolución sancionadora es ejecutiva.",
+            "**No duplicar castigos por lo mismo.** El test responde negativamente a imponer simultáneamente sanción penal y administrativa por el mismo hecho; el principio jurídico exige atender a la identidad de sujeto, hecho y fundamento."
+          ],
+          "clave": "Penal ≠ administrativo. Administrativas: muy graves, graves y leves. Competencia y procedimiento importan.",
+          "nota": null
+        },
+        {
+          "id": "t5-2",
+          "titulo": "Prescripción de infracciones y sanciones",
+          "preguntas": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "intro": "La prescripción limita durante cuánto tiempo puede perseguirse una infracción o ejecutarse una sanción. No es lo mismo el plazo de la conducta que el de la sanción ya impuesta.",
+          "puntos": [
+            "**Infracciones en el banco.** Leves: tres meses. Graves: un año. Muy graves: dos años.",
+            "**Sanciones en el banco.** Leves: un año. Graves: dos años. Muy graves: cuatro años.",
+            "**Método para memorizar.** Seis plazos: tres para infracciones (3 meses, 1 año, 2 años) y tres para sanciones (1, 2 y 4 años)."
+          ],
+          "clave": "Infracciones: 3 meses / 1 año / 2 años. Sanciones: 1 / 2 / 4 años (leve / grave / muy grave).",
+          "nota": "Los plazos se presentan como respuestas del cuestionario; para un expediente real hay que revisar el régimen sancionador y su actualización."
+        },
+        {
+          "id": "t5-3",
+          "titulo": "Infracciones muy graves y multas del banco",
+          "preguntas": [
+            13,
+            14,
+            15,
+            16,
+            18
+          ],
+          "intro": "El cuestionario ejemplifica la máxima gravedad administrativa con almacenamientos no autorizados o deficiencias extremas de seguridad en situaciones específicas.",
+          "puntos": [
+            "**Almacenamiento sin autorización.** Las preguntas 13 y 14 lo clasifican como muy grave para armas largas rayadas o de ánima lisa en el contexto descrito.",
+            "**Seguridad durante el almacenamiento.** Las preguntas 15 y 16 también lo consideran muy grave en los supuestos de insuficiencia u omisión que formulan.",
+            "**Multa del banco.** Para la muy grave aparece la franja de 30.050,61 a 601.012,10 euros."
+          ],
+          "clave": "En el banco: almacenamiento no autorizado y graves incumplimientos asociados → muy grave; memorizar la franja de multa.",
+          "nota": "Estas cifras son las que figuran en los PDF, pero no deben utilizarse como tabla actual de multas sin comprobar el marco legal vigente. La calificación cambia según circunstancias."
+        },
+        {
+          "id": "t5-4",
+          "titulo": "Infracciones graves: reparación, custodia y transporte",
+          "preguntas": [
+            17,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            48
+          ],
+          "intro": "El banco asocia numerosas conductas a infracciones graves, especialmente cuando afecta a las medidas de seguridad obligatorias.",
+          "puntos": [
+            "**Reparación no autorizada.** Las preguntas consideran grave reparar sin autorización ballestas o armas lanzacabos.",
+            "**Custodia y circulación.** Se califican como graves determinadas omisiones o insuficiencias de seguridad en domicilio, lugar de uso y traslado de armas sometidas a licencia.",
+            "**Arma larga rayada sin armero.** El ejemplo de un rifle de 2.ª 2 sin caja fuerte o armero reglamentario se trata como infracción grave.",
+            "**Guía ausente.** La tenencia de una escopeta sin guía de pertenencia es el ejemplo con respuesta «ninguna de las anteriores» porque las otras opciones proponen «gravísima» o «leve»; esa respuesta no equivale a que no exista infracción.",
+            "**Distinguir contextos.** Algunas preguntas anteriores sobre almacenamientos sin autorización son muy graves; otras sobre custodia doméstica son graves. Hay que leer el supuesto exacto."
+          ],
+          "clave": "No clasifiques solo por la palabra «almacenamiento»: mira autorización, categoría, lugar y medidas de seguridad.",
+          "nota": null
+        },
+        {
+          "id": "t5-5",
+          "titulo": "Infracciones graves: controles, licencias y uso",
+          "preguntas": [
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            49,
+            50,
+            51
+          ],
+          "intro": "La actividad administrativa de control busca asegurar que las armas se poseen y utilizan conforme a las autorizaciones expedidas.",
+          "puntos": [
+            "**Obstaculizar controles.** Impedir las comprobaciones de tenencia, uso o almacenamiento se pregunta como infracción grave.",
+            "**Sin licencia.** Adquirir, tener, ceder o enajenar armas de 2.ª 2 o 3.ª 2 sin las autorizaciones pertinentes se trata como grave si los hechos no constituyen delito.",
+            "**Datos falsos.** Aportar un domicilio ficticio o información falsa para documentar el arma o lograr licencia se considera grave.",
+            "**Uso inseguro.** Omitir medidas obligatorias para proteger personas y bienes constituye infracción grave en los supuestos descritos.",
+            "**Documentación y presentación.** El test considera grave, en sus ejemplos, conservar una escopeta con licencia caducada y negarse a presentar rifle y documentos a la autoridad."
+          ],
+          "clave": "Controles, licencias, veracidad de datos y seguridad son obligaciones, no opciones.",
+          "nota": null
+        },
+        {
+          "id": "t5-6",
+          "titulo": "Portar armas en lugares no habilitados y modificaciones",
+          "preguntas": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            52,
+            64,
+            65,
+            66
+          ],
+          "intro": "El uso y porte de armas están sujetos a condiciones, incluso cuando el titular tiene licencia.",
+          "puntos": [
+            "**Locales y reuniones.** El banco considera graves los supuestos de llevar armas en establecimientos públicos o lugares de reunión, concentración, recreo y esparcimiento sin estar habilitados.",
+            "**Multa del test.** La sanción pecuniaria por grave aparece en la franja de 300,51 a 30.050,61 euros.",
+            "**No recortar cañones.** Modificar por cuenta propia los cañones de una escopeta para alterar el tiro no está permitido.",
+            "**Cargadores no autorizados.** El ejemplo del cargador de arma corta de 25 cartuchos contempla expediente y otras consecuencias administrativas según sus opciones."
+          ],
+          "clave": "La licencia no autoriza portar armas en cualquier lugar ni modificar sus características libremente.",
+          "nota": "Las cantidades históricas de multa del banco requieren verificación antes de usarlas como importe sancionador actual."
+        },
+        {
+          "id": "t5-7",
+          "titulo": "Infracciones leves: ballestas y obligaciones formales",
+          "preguntas": [
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "intro": "Las preguntas de faltas leves se concentran en irregularidades que el banco distingue de las infracciones graves o muy graves.",
+          "puntos": [
+            "**Ballestas sin documentación.** Adquisición, tenencia, cesión y venta sin las autorizaciones pertinentes: el cuestionario las clasifica como leves en los casos formulados.",
+            "**Comunicación de incidencias.** No comunicar destrucción, pérdida o sustracción de la documentación de un arma se pregunta como infracción leve.",
+            "**Declaraciones y revistas.** Omitir declaraciones obligatorias o dejar de pasar la revista figura como leve en el banco.",
+            "**Multa del banco.** Hasta 300,51 euros por infracción leve."
+          ],
+          "clave": "Leves del test: determinados supuestos de ballestas, omisiones de comunicación, declaraciones y revistas.",
+          "nota": "La calificación y la cuantía precisas dependen de la normativa vigente y de los hechos del expediente."
+        },
+        {
+          "id": "t5-8",
+          "titulo": "Retirada de armas",
+          "preguntas": [
+            63
+          ],
+          "intro": "La retirada de armas es una medida o sanción de consecuencias concretas, distinta de una simple multa.",
+          "puntos": [
+            "**Desposesión.** Supone perder la disponibilidad de las armas afectadas durante el periodo correspondiente.",
+            "**Prohibición adicional.** Incluye la prohibición de adquirir y tener otras armas durante el plazo que proceda.",
+            "**Tramitación.** Las decisiones concretas se adoptan por la autoridad competente y conforme al procedimiento aplicable."
+          ],
+          "clave": "Retirada = desposesión + prohibición temporal de adquirir y tener otras armas.",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "titulo": "Reparación, prueba y depósito de armas",
+      "preguntas_totales": 64,
+      "secciones": [
+        {
+          "id": "t6-1",
+          "titulo": "Quién puede reparar armas de fuego",
+          "preguntas": [
+            1,
+            6,
+            7,
+            8,
+            11
+          ],
+          "intro": "La reparación profesional de armas de fuego es una actividad regulada: no basta con tener conocimientos mecánicos.",
+          "puntos": [
+            "**Profesionales autorizados.** Pueden realizarla las industrias que fabriquen armas y los armeros habilitados por la Intervención de Armas.",
+            "**Establecimiento y registro.** El cuestionario menciona un establecimiento abierto e inscrito en el registro correspondiente.",
+            "**Condición de armero.** Para dedicarse profesionalmente a estas reparaciones se requiere la habilitación exigible.",
+            "**Idea central.** Las preguntas planteadas no admiten una reparación profesional por una persona cualquiera."
+          ],
+          "clave": "Reparación profesional = fabricante o armero autorizado e inscrito, según las condiciones legales.",
+          "nota": null
+        },
+        {
+          "id": "t6-2",
+          "titulo": "Documentos cuando se entrega un arma a reparar",
+          "preguntas": [
+            2,
+            3,
+            4,
+            5,
+            9,
+            10,
+            12,
+            13,
+            14,
+            15
+          ],
+          "intro": "El arma debe quedar identificada durante toda la reparación; por eso el cuestionario insiste en las guías que la acompañan.",
+          "puntos": [
+            "**Entrega personal.** El titular puede llevarla personalmente al establecimiento autorizado con licencia y guía de pertenencia.",
+            "**Guía de pertenencia.** El armero la conserva mientras dure la reparación y la devuelve cuando se retira el arma.",
+            "**Guía de circulación.** Sustituye a la de pertenencia en determinados envíos desde otra localidad cuando no la lleva el propietario.",
+            "**No admitir sin documentación.** El banco acepta guía de pertenencia o guía de circulación, según el caso.",
+            "**Diferencia clave.** No confundir la documentación personal (licencia) con la del arma (guía)."
+          ],
+          "clave": "Durante la reparación, el arma va documentada; el armero guarda la guía y la devuelve al retirar el arma.",
+          "nota": null
+        },
+        {
+          "id": "t6-3",
+          "titulo": "Reformas que alteran calibre, estructura o características",
+          "preguntas": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "intro": "No toda intervención es una simple reparación. Si cambia sustancialmente las características del arma, entran controles adicionales.",
+          "puntos": [
+            "**Sin conocimiento de la Intervención.** El banco responde que no puede modificarse de forma sustancial una escopeta o rifle de caza sin comunicarlo cuando sea exigible.",
+            "**Cambios de calibre o estructura.** Pueden requerir aprobación de banco oficial de pruebas o del Ministerio de Defensa según clase de arma, además de intervención administrativa.",
+            "**Armas de guerra.** El cuestionario destaca un régimen de aprobación especial del Ministerio de Defensa.",
+            "**Armería profesional.** Incluso un armero autorizado debe respetar los procedimientos de homologación y registro aplicables."
+          ],
+          "clave": "Reparar no autoriza a cambiar calibre o estructura libremente: hay controles y aprobaciones según el caso.",
+          "nota": null
+        },
+        {
+          "id": "t6-4",
+          "titulo": "Quién puede dejar armas a prueba y quién probarlas",
+          "preguntas": [
+            22,
+            23,
+            24,
+            27,
+            29,
+            30
+          ],
+          "intro": "El banco distingue el préstamo para probar un arma antes de comprarla de un préstamo ordinario entre particulares.",
+          "puntos": [
+            "**Quién la facilita.** Fabricantes, comerciantes autorizados y sus representantes.",
+            "**Quién puede probarla.** El interesado debe contar con la licencia de armas correspondiente y en vigor.",
+            "**Sin licencia.** El cuestionario no permite que una armería ceda el arma a prueba al comprador que carece de la habilitación necesaria.",
+            "**Finalidad.** Comprobar un arma que se pretende adquirir dentro de los límites legales; no implica adquirirla sin trámites."
+          ],
+          "clave": "Para probar un arma ofrecida por un comerciante: licencia correspondiente y actuación del vendedor autorizado.",
+          "nota": null
+        },
+        {
+          "id": "t6-5",
+          "titulo": "Documento de prueba y plazo",
+          "preguntas": [
+            25,
+            26,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "intro": "La prueba comercial de armas requiere un documento propio que identifique la operación y sus límites.",
+          "puntos": [
+            "**Carácter.** Personal e intransferible: no permite ceder el derecho de prueba a otra persona.",
+            "**Contenido.** Debe recoger el arma, la licencia del interesado, el lugar de la prueba y el plazo autorizado.",
+            "**Visado.** El cuestionario exige el visado de la Intervención de Armas y el uso del modelo oficial.",
+            "**Plazo planteado.** Para una prueba en la misma localidad de residencia del comprador, el banco señala cinco días.",
+            "**Lugar.** No puede omitirse en el documento de prueba."
+          ],
+          "clave": "Documento de prueba = personal + arma + licencia + lugar + plazo + visado de Intervención.",
+          "nota": null
+        },
+        {
+          "id": "t6-6",
+          "titulo": "Lugares donde pueden probarse las armas",
+          "preguntas": [
+            28,
+            36,
+            37,
+            38
+          ],
+          "intro": "La prueba de un arma tiene que realizarse en un lugar habilitado y con condiciones de seguridad.",
+          "puntos": [
+            "**Galerías y campos autorizados.** El cuestionario permite probar allí armas de fuego.",
+            "**Terrenos cinegéticos controlados.** También los contempla en los supuestos permitidos.",
+            "**Vía pública.** Nunca es un lugar permitido para probar un arma, aunque parezca desierta."
+          ],
+          "clave": "Prueba de armas: instalaciones autorizadas o terrenos permitidos; nunca en la vía pública.",
+          "nota": null
+        },
+        {
+          "id": "t6-7",
+          "titulo": "Depósito por caducidad, pérdida o falta de habilitación",
+          "preguntas": [
+            40,
+            41,
+            42,
+            45,
+            46,
+            47,
+            48,
+            52,
+            55
+          ],
+          "intro": "Cuando desaparece la documentación o la habilitación para tener un arma, el cuestionario exige regularizar inmediatamente su situación.",
+          "puntos": [
+            "**Caducidad o cese de habilitación.** Se depositan las armas de inmediato en los supuestos preguntados.",
+            "**Guías.** El arma se deposita acompañada por su guía de pertenencia.",
+            "**Extravíos.** La pérdida de licencia o guías puede imponer depósito mientras se tramita la situación documental.",
+            "**Dos revistas sin pasar.** Puede determinar la retirada y anulación de la guía, con obligación de depositar el arma.",
+            "**Regla preventiva.** Ante la pérdida de habilitación o documentos, contactar con la Intervención de Armas antes de transportar o usar el arma."
+          ],
+          "clave": "Caducidad, pérdida de habilitación o anulación de guía → depósito conforme al supuesto legal; no seguir usando el arma.",
+          "nota": null
+        },
+        {
+          "id": "t6-8",
+          "titulo": "Fallecimiento del titular: entrega y plazo de herederos",
+          "preguntas": [
+            39,
+            43,
+            44,
+            53,
+            54,
+            56,
+            57,
+            60,
+            61
+          ],
+          "intro": "Cuando fallece el titular, las armas no pasan a ser utilizables por sus herederos automáticamente.",
+          "puntos": [
+            "**Depósito inicial.** El banco indica que los herederos o albaceas las depositen tan pronto como conozcan esa obligación y, en cualquier caso, dentro de seis meses desde el fallecimiento.",
+            "**Documentación.** Se entregan con sus guías de pertenencia.",
+            "**Disponibilidad posterior.** El test contempla un plazo de un año a disposición de los herederos para tramitar su transferencia o recuperación legal.",
+            "**Transcurso del plazo.** El cuestionario prevé destrucción de las armas no regularizadas, con excepciones especiales para piezas de valor histórico."
+          ],
+          "clave": "Fallecimiento: comunicar y depositar las armas; el banco distingue seis meses para depósito y un año para disponer de ellas.",
+          "nota": "El destino final de armas depositadas y los plazos concretos deben comprobarse con la Intervención y los artículos actuales correspondientes."
+        },
+        {
+          "id": "t6-9",
+          "titulo": "Otras causas de depósito y destino de las armas",
+          "preguntas": [
+            49,
+            50,
+            51,
+            58,
+            59,
+            62,
+            63,
+            64
+          ],
+          "intro": "Las armas pueden acabar depositadas por infracciones, importaciones o voluntad de su titular. No todas siguen la misma vía de destino.",
+          "puntos": [
+            "**Subasta a petición del titular.** El cuestionario responde que no puede dejarse voluntariamente un arma para que se subaste por ese procedimiento.",
+            "**Destrucción.** Contempla el depósito para destrucción o reducción a chatarra en los supuestos previstos.",
+            "**Infracciones de caza.** El propietario podría recuperarla si la autoridad acuerda la devolución. Si no se retira, el banco contempla destrucción.",
+            "**Importación.** Las armas no retiradas de un aeropuerto tras su despacho se depositan en la Intervención; aparece un plazo de un año.",
+            "**Valor histórico.** Se pregunta por tratamiento especial mediante subasta pública cuando el arma tiene valor acreditado de patrimonio histórico."
+          ],
+          "clave": "El depósito no tiene un único destino: depende de la causa, los plazos y las decisiones de la autoridad.",
+          "nota": "No debe confundirse la descripción del banco con un asesoramiento actual sobre destrucción, subasta o derechos hereditarios."
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "titulo": "Armas de colección, munición e historia",
+      "preguntas_totales": 22,
+      "secciones": [
+        {
+          "id": "t7-1",
+          "titulo": "Qué es un arma antigua, una reproducción y una réplica",
+          "preguntas": [
+            1,
+            3,
+            5,
+            8,
+            9
+          ],
+          "intro": "El primer paso es distinguir la antigüedad legal del parecido exterior entre armas.",
+          "puntos": [
+            "**Arma antigua.** En el banco se define por modelo o fabricación anterior al 1 de enero de 1890.",
+            "**Categoría 6.ª 2.** Comprende determinadas armas anteriores a esa fecha y reproducciones o réplicas, salvo los supuestos excluidos por municiones prohibidas o de guerra.",
+            "**No confundir fechas.** El enunciado que propone el año 1899 es falso según el test: la referencia es 1890.",
+            "**Reproducción.** Copia que conserva características, aptitudes y posibilidades de uso de la original.",
+            "**Réplica (definición del banco).** Objeto que por su apariencia exterior puede confundirse con un arma auténtica.",
+            "**Quién fija la antigüedad.** La pregunta 5 es falsa porque atribuye esa competencia a la Dirección General de la Guardia Civil; la norma citada la asigna al Ministerio de Defensa."
+          ],
+          "clave": "Fecha: antes de 1890; reproducción reproduce aptitudes; la respuesta del test sobre réplica se centra en apariencia.",
+          "nota": "La terminología legal moderna distingue varias figuras y condiciones; comprobar siempre la clasificación reglamentaria concreta."
+        },
+        {
+          "id": "t7-2",
+          "titulo": "Coleccionismo, autorización y custodia",
+          "preguntas": [
+            2,
+            4,
+            6,
+            7,
+            21
+          ],
+          "intro": "Poseer una pieza para colección no es lo mismo que estar autorizado para dispararla.",
+          "puntos": [
+            "**Libro-registro.** Para una reproducción que se conserva como colección sin usarla, el banco contempla inscribirla en un libro-registro de coleccionista.",
+            "**Uso efectivo.** Las armas antiguas o de avancarga susceptibles de disparo requieren, en el supuesto del test, una autorización especial y certificado de banco oficial de pruebas.",
+            "**Lugar de uso.** Se limita excepcionalmente a campos, galerías o polígonos de tiro controlados para prácticas, bajo autorización.",
+            "**Custodia de reproducciones cortas.** El banco remite a una caja fuerte o armero con grado de seguridad I en el supuesto que describe.",
+            "**Coleccionar componentes.** También puede considerarse coleccionista quien reúne componentes esenciales, dentro de la regulación aplicable."
+          ],
+          "clave": "Coleccionar no equivale a usar: libro-registro para tenencia y autorización especial cuando corresponda disparar.",
+          "nota": "La normativa específica sobre reproducciones y réplicas, seguridad y autorización de uso está desarrollada en disposiciones posteriores; se recomienda confirmar requisitos actuales."
+        },
+        {
+          "id": "t7-3",
+          "titulo": "Munición de reproducciones y conceptos básicos",
+          "preguntas": [
+            10,
+            11,
+            12,
+            17,
+            18
+          ],
+          "intro": "El banco se fija en las particularidades de la munición histórica y en algunas definiciones.",
+          "puntos": [
+            "**Pólvora negra.** Las reproducciones de armas antiguas del supuesto utilizan munición con pólvora negra y calibre adecuado.",
+            "**Cantidad anual para armas cortas.** En el cuestionario aparece un máximo de cien cartuchos anuales por arma corta.",
+            "**Depósito para armas largas antiguas.** La respuesta propuesta establece no superar doscientos cartuchos.",
+            "**Bala explosiva.** La pregunta describe munición militar cuyo proyectil contiene una carga que explota al impactar.",
+            "**Munición y cartucho.** El test incluye la vaina como parte del cartucho."
+          ],
+          "clave": "Pólvora negra en las reproducciones del test; 100 cartuchos/año para cortas y máximo 200 en depósito para largas, según los PDF.",
+          "nota": "Las cantidades de munición son respuestas del banco, no una autorización de compra o depósito que sustituya la normativa vigente."
+        },
+        {
+          "id": "t7-4",
+          "titulo": "Referencias históricas del cuestionario",
+          "preguntas": [
+            13,
+            14,
+            15
+          ],
+          "intro": "Estas preguntas se responden con datos históricos concretos; son una excepción frente a los conceptos legales de otros apartados.",
+          "puntos": [
+            "**Percusión central.** El banco sitúa el empleo del cartucho de percusión central desde 1868 en adelante.",
+            "**Primer ejército con revólveres.** Identifica al ejército norteamericano.",
+            "**En España.** El revólver del sistema Lefaucheux figura en el banco como primera arma de repetición con cartucho metálico declarada reglamentaria."
+          ],
+          "clave": "Tres datos: 1868, ejército norteamericano y revólver Lefaucheux.",
+          "nota": "Se presentan como respuestas del cuestionario, sin pretender resolver debates historiográficos sobre los «primeros» inventos o ejércitos."
+        },
+        {
+          "id": "t7-5",
+          "titulo": "Inutilización, arma de un solo tiro y desmilitarización",
+          "preguntas": [
+            19,
+            20,
+            22
+          ],
+          "intro": "Son tres conceptos distintos que conviene memorizar por separado.",
+          "puntos": [
+            "**Inutilizar.** El banco exige que todos los componentes esenciales queden inutilizados, no basta inutilizar uno o dos.",
+            "**Arma de un solo tiro.** Por definición no dispone de cargador; por ello el test contesta que no puede llevarlo adaptado.",
+            "**Desmilitarización.** Nombre que el cuestionario da a la transformación de un arma de guerra en otra civil."
+          ],
+          "clave": "Inutilización = todos los componentes esenciales; un solo tiro = sin cargador; desmilitarización ≠ inutilización.",
+          "nota": "La inutilización legal exige operaciones verificadas y certificadas conforme al Reglamento; no es un procedimiento casero."
+        },
+        {
+          "id": "t7-6",
+          "titulo": "Devolución de armas retiradas por infracciones de caza",
+          "preguntas": [
+            16
+          ],
+          "intro": "Una pregunta combina el depósito y la posible devolución de armas intervenidas por una infracción cinegética.",
+          "puntos": [
+            "**Devolución.** Si la autoridad competente ordena devolver un arma retirada, el test establece que queda a disposición del titular durante el plazo indicado en el supuesto.",
+            "**Un mes.** El cuestionario plantea ese plazo de retirada y señala que, transcurrido sin recuperarse, corresponde su destrucción en el caso descrito.",
+            "**Distinción.** Este supuesto no es el mismo que el depósito de armas tras fallecimiento, caducidad o transmisión."
+          ],
+          "clave": "No confundir: el caso de devolución tras infracción de caza tiene un plazo propio en el banco.",
+          "nota": "El tratamiento legal de las armas depositadas puede variar con las circunstancias y resoluciones administrativas concretas."
+        }
+      ]
+    }
+  ]
+}

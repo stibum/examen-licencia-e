@@ -1,4 +1,4 @@
-const CACHE = 'examen-e-app-v6';
+const CACHE = 'examen-e-app-v8-practicar-examen';
 const APP_FILES = [
   './', './index.html', './styles.css', './app.js', './preguntas.json',
   './temario.json', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'
