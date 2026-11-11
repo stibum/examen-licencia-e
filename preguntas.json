@@ -1,0 +1,5078 @@
+[
+ {
+  "id": "1-1",
+  "tema": 1,
+  "numero": 1,
+  "pregunta": "El arma de fuego que se recarga automáticamente, después de cada disparo, efectuando varios disparos sucesivos accionando el disparador una sola vez, se denomina:",
+  "opciones": [
+   "Arma de fuego semiautomática.",
+   "Arma de fuego de repetición.",
+   "Arma de fuego automática."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-2",
+  "tema": 1,
+  "numero": 2,
+  "pregunta": "El arma de fuego que después de cada disparo, se recarga automáticamente y solo es posible efectuar un disparo al accionar el disparador cada vez, se denomina:",
+  "opciones": [
+   "Arma de fuego semiautomática.",
+   "Arma de fuego de repetición.",
+   "Arma de fuego automática."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-3",
+  "tema": 1,
+  "numero": 3,
+  "pregunta": "Si el arma de fuego se recarga después de cada disparo, mediante un mecanismo accionado por el tirador, estaremos ante:",
+  "opciones": [
+   "Arma de fuego semiautomática.",
+   "Arma de fuego de repetición.",
+   "Arma de fuego automática."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-4",
+  "tema": 1,
+  "numero": 4,
+  "pregunta": "¿Cómo se denomina el arma de fuego sin depósito de municiones, que se carga antes de cada disparo mediante la introducción manual de un cartucho en la recámara, o alojamiento especial a la entrada del cañón?:",
+  "opciones": [
+   "Arma de un solo tiro.",
+   "Arma de fuego automática.",
+   "Arma de fuego semiautomática."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-5",
+  "tema": 1,
+  "numero": 5,
+  "pregunta": "¿Qué elemento de un arma de fuego conduce y estabiliza el proyectil?.",
+  "opciones": [
+   "El disparador.",
+   "El cañón.",
+   "El estabilizador."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-6",
+  "tema": 1,
+  "numero": 6,
+  "pregunta": "La culata de un arma sirve para:",
+  "opciones": [
+   "Instalar en ella el punto de mira.",
+   "Apoyar el arma sobre el hombro para efectuar el disparo.",
+   "Las armas no tienen culata."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-7",
+  "tema": 1,
+  "numero": 7,
+  "pregunta": "Las ánimas de los cañones de escopetas son:",
+  "opciones": [
+   "Estriadas.",
+   "Lisas o estriadas.",
+   "Con rayas paralelas."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-8",
+  "tema": 1,
+  "numero": 8,
+  "pregunta": "Las ánimas de los cañones de un rifle son:",
+  "opciones": [
+   "Lisas.",
+   "Estriadas",
+   "Estriadas o lisas, dependiendo del fabricante."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-9",
+  "tema": 1,
+  "numero": 9,
+  "pregunta": "En una escopeta semiautomática, el percutor, extractor y grapón, son piezas que componen:",
+  "opciones": [
+   "Cerrojo",
+   "Culata",
+   "Cajón de los mecanismos."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-10",
+  "tema": 1,
+  "numero": 10,
+  "pregunta": "¿Qué pieza o piezas protege el guardamonte?.",
+  "opciones": [
+   "La biela y el fiador.",
+   "El disparador.",
+   "Es macizo."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-11",
+  "tema": 1,
+  "numero": 11,
+  "pregunta": "¿Qué misión tiene el muelle del cargador de un rifle?",
+  "opciones": [
+   "Mantener presión en los cartuchos.",
+   "Expulsar la vaina cuando se produce el disparo",
+   "Elevar el cartucho y colocarlo frente a la recámara."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-12",
+  "tema": 1,
+  "numero": 12,
+  "pregunta": "En un arma semiautomática, ¿qué pieza introduce el cartucho en el interior de la recámara?.",
+  "opciones": [
+   "El cierre.",
+   "El muelle elevador.",
+   "La biela."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-13",
+  "tema": 1,
+  "numero": 13,
+  "pregunta": "En escopetas superpuestas, ¿qué misión tiene la banda intermedia ventilada, existente entre los cañones?.",
+  "opciones": [
+   "Refrigerar los cañones.",
+   "Amortiguar el efecto de los vientos laterales.",
+   "Las dos anteriores."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-14",
+  "tema": 1,
+  "numero": 14,
+  "pregunta": "¿Qué mecanismo se encuentra en el interior del cerrojo de un rifle?.",
+  "opciones": [
+   "Mecanismo de percusión.",
+   "Mecanismo de disparo.",
+   "Mecanismo de expulsión."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-15",
+  "tema": 1,
+  "numero": 15,
+  "pregunta": "¿De qué partes se compone el mecanismo de percusión?",
+  "opciones": [
+   "Percutor y muelle del percutor.",
+   "Percutor y cabeza del cierre.",
+   "Cabeza y punta del percutor."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-16",
+  "tema": 1,
+  "numero": 16,
+  "pregunta": "En un rifle, ¿qué pieza arrastra el cartucho hacia la recámara?.",
+  "opciones": [
+   "El cerrojo.",
+   "El elevador.",
+   "El percutor."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-17",
+  "tema": 1,
+  "numero": 17,
+  "pregunta": "Para la expulsión del cartucho, ¿qué pieza engarza el culote del cartucho cuándo está alojado en la recámara?.",
+  "opciones": [
+   "Cerrojo.",
+   "Tope de cerrojo.",
+   "Uña extractora."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-18",
+  "tema": 1,
+  "numero": 18,
+  "pregunta": "En un rifle, ¿qué pieza expulsa la vaina del cartucho de la recámara?",
+  "opciones": [
+   "No hay pieza, es la propia mano del tirador.",
+   "El muelle de recuperación.",
+   "El extractor."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-19",
+  "tema": 1,
+  "numero": 19,
+  "pregunta": "El choke de una escopeta consiste en:",
+  "opciones": [
+   "El estriado de la boca de fuego.",
+   "Reducción de la boca de recámara.",
+   "Estrangulamiento de la boca de fuego."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-20",
+  "tema": 1,
+  "numero": 20,
+  "pregunta": "El choke en el rifle semiautomático consiste :",
+  "opciones": [
+   "El estriado de la boca de fuego.",
+   "Reducción de la boca de fuego.",
+   "Carecen de choke."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-21",
+  "tema": 1,
+  "numero": 21,
+  "pregunta": "¿A qué se denominan extractores en una escopeta superpuesta?:",
+  "opciones": [
+   "Dos uñas que sirven para desalojar los cartuchos de su recámara",
+   "A sendas bielas que conectan el disparador con las agujas percutoras.",
+   "Dos muelles planos de acción helicoidal."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-22",
+  "tema": 1,
+  "numero": 22,
+  "pregunta": "En un arma larga rayada, ¿qué forma tiene la recámara?",
+  "opciones": [
+   "La del proyectil.",
+   "La de la vaina.",
+   "La del cartucho."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-23",
+  "tema": 1,
+  "numero": 23,
+  "pregunta": "En las armas largas rayadas de caza mayor, ¿cómo es la percusión?",
+  "opciones": [
+   "Percusión central",
+   "Percusión adelantada.",
+   "Sistema “Flobert”."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-24",
+  "tema": 1,
+  "numero": 24,
+  "pregunta": "¿Qué dispositivo bloquea el funcionamiento del mecanismo de disparo a voluntad del tirador?",
+  "opciones": [
+   "Elementos de Puntería",
+   "Nada",
+   "Seguro manual."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-25",
+  "tema": 1,
+  "numero": 25,
+  "pregunta": "¿Cómo se denomina el extremo del cañón de una escopeta opuesto a la parte en que se aloja el cartucho?",
+  "opciones": [
+   "Boca",
+   "Cámara",
+   "Recámara"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-26",
+  "tema": 1,
+  "numero": 26,
+  "pregunta": "¿Cuándo decimos que una arma esta montada?.",
+  "opciones": [
+   "Cuando esta preparada para hacer fuego.",
+   "Que está totalmente ensamblada.",
+   "Ser portada por el tirador."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-27",
+  "tema": 1,
+  "numero": 27,
+  "pregunta": "Arma alimentada es aquella que:",
+  "opciones": [
+   "Tiene la munición alojada en el mecanismo de alimentación.",
+   "Ya ha efectuado el disparo.",
+   "No tiene munición en el mecanismo de alimentación."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-28",
+  "tema": 1,
+  "numero": 28,
+  "pregunta": "Arma montada es aquella que:",
+  "opciones": [
+   "El mecanismo de disparo y percusión se encuentra en disposición de funcionamiento.",
+   "Está ensamblada y pavonada.",
+   "Está ensamblada pero no pavonada."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-29",
+  "tema": 1,
+  "numero": 29,
+  "pregunta": "¿Dónde se aloja el cartucho de un arma para ser disparado?.",
+  "opciones": [
+   "En el cargador.",
+   "En la recámara.",
+   "En la canana."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-30",
+  "tema": 1,
+  "numero": 30,
+  "pregunta": "¿Por dónde expulsa una escopeta semiautomática el cartucho disparado?",
+  "opciones": [
+   "Por la ventana trasera del arma.",
+   "Por la ventana de ventilación.",
+   "Por la ventana de expulsión."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-31",
+  "tema": 1,
+  "numero": 31,
+  "pregunta": "Para alimentar una escopeta semiautomática debemos:",
+  "opciones": [
+   "Introducir los cartuchos en la recámara.",
+   "Colocar los cartuchos en el depósito.",
+   "Montar el arma."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-32",
+  "tema": 1,
+  "numero": 32,
+  "pregunta": "¿Qué diferencia existe entre cargar y alimentar un arma.?",
+  "opciones": [
+   "Cargar es montarla para disparar, alimentarla introducir cartuchos en el depósito",
+   "Cargar es introducir cartuchos en el deposito, alimentarla es montarla para disparar.",
+   "No existe diferencia."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-33",
+  "tema": 1,
+  "numero": 33,
+  "pregunta": "¿Puede darse el caso de que además de los extractores, las escopetas superpuestas dispongan de expulsores?",
+  "opciones": [
+   "Todas",
+   "Ninguna",
+   "Algunos modelos."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-34",
+  "tema": 1,
+  "numero": 34,
+  "pregunta": "¿Con qué elementos cuenta un arma para enfilarla hacia un blanco?.",
+  "opciones": [
+   "A través del mecanismo de puntería.",
+   "Con un buen empuñamiento.",
+   "Con una buena sujeción del arma"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-35",
+  "tema": 1,
+  "numero": 35,
+  "pregunta": "¿Qué elemento del arma regula el desplazamiento en altura de un impacto?.",
+  "opciones": [
+   "El alza.",
+   "El punto de mira.",
+   "La longitud del cañón."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-36",
+  "tema": 1,
+  "numero": 36,
+  "pregunta": "¿Qué elemento del arma regula el desplazamiento lateral de un impacto?.",
+  "opciones": [
+   "El alza.",
+   "El punto de mira.",
+   "La longitud del cañón."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-37",
+  "tema": 1,
+  "numero": 37,
+  "pregunta": "¿Qué pieza del mecanismo de disparo transmite el movimiento del disparador?.",
+  "opciones": [
+   "La biela.",
+   "El elevador.",
+   "El fiador."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-38",
+  "tema": 1,
+  "numero": 38,
+  "pregunta": "En una escopeta semiautomática la expulsión de la vaina percutida se produce:",
+  "opciones": [
+   "Manualmente a voluntad del tirador.",
+   "Aprovechando la fuerza de retroceso para desplazar el cierre.",
+   "Como consecuencia de un mecanismo adyacente al cierre que se acciona cada vez que se presiona el disparador."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-39",
+  "tema": 1,
+  "numero": 39,
+  "pregunta": "En algunos rifles, ¿qué misión tienen uno o dos orificios situados en la parte anterior del cajón de los mecanismos?",
+  "opciones": [
+   "Liberar la aguja percutora y que asome",
+   "Ver si hay cartucho en la recámara",
+   "Salida de gases en caso de rotura del cartucho"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-40",
+  "tema": 1,
+  "numero": 40,
+  "pregunta": "El disparador está protegido por:",
+  "opciones": [
+   "El Guardamano",
+   "El Guardamonte",
+   "La culata"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-41",
+  "tema": 1,
+  "numero": 41,
+  "pregunta": "¿La báscula de una escopeta es considerada por el Reglamento de Armas como pieza fundamental del arma?.",
+  "opciones": [
+   "Si",
+   "No",
+   "Depende de su estructura."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-42",
+  "tema": 1,
+  "numero": 42,
+  "pregunta": "¿El cañón de una escopeta es considerada por el Reglamento de Armas como pieza fundamental del arma?.",
+  "opciones": [
+   "Si.",
+   "No.",
+   "Depende de su estructura."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-43",
+  "tema": 1,
+  "numero": 43,
+  "pregunta": "La culata de un rifle es considerada por el Reglamento de Armas como pieza fundamental del arma.",
+  "opciones": [
+   "Si.",
+   "No.",
+   "Depende de su estructura."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-44",
+  "tema": 1,
+  "numero": 44,
+  "pregunta": "¿Los elementos de puntería de una escopeta son considerados piezas fundamentales del arma?.",
+  "opciones": [
+   "Si.",
+   "No.",
+   "Viene determinada por la posición de los mismos."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-45",
+  "tema": 1,
+  "numero": 45,
+  "pregunta": "¿Cuáles son las piezas fundamentales de una escopeta?.",
+  "opciones": [
+   "Culata y cañón.",
+   "Cierre, cañón y culata.",
+   "Báscula y cañón."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-46",
+  "tema": 1,
+  "numero": 46,
+  "pregunta": "¿Cuáles son las piezas fundamentales de un rifle?.",
+  "opciones": [
+   "Cerrojo, cañón y culata.",
+   "Cerrojo y cañón.",
+   "Culata cañón y elementos de puntería."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-47",
+  "tema": 1,
+  "numero": 47,
+  "pregunta": "¿Para qué sirve el seguro manual?",
+  "opciones": [
+   "Para evitar el disparo, aun estando el arma montada.",
+   "Para que no se caiga el cargador del arma accidentalmente.",
+   "Para asegurar el blanco y efectuar un disparo certero."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-48",
+  "tema": 1,
+  "numero": 48,
+  "pregunta": "¿Qué pieza golpea el fulminante del cartucho?.",
+  "opciones": [
+   "El tope del cerrojo.",
+   "El percutor.",
+   "La uña de extracción."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-49",
+  "tema": 1,
+  "numero": 49,
+  "pregunta": "¿Qué avería se puede producir al disparar un arma en vacío?",
+  "opciones": [
+   "Encasquillamiento del cierre.",
+   "Bloqueo del elevador de cartucho.",
+   "Rotura de la aguja percutora."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-50",
+  "tema": 1,
+  "numero": 50,
+  "pregunta": "El mecanismo de seguridad de un arma, ¿qué misión tiene?.",
+  "opciones": [
+   "Evitar que se produzca un disparo involuntario.",
+   "Evitar que se cargue el arma.",
+   "Evitar que se descargue el arma."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-51",
+  "tema": 1,
+  "numero": 51,
+  "pregunta": "¿Puede tener seguro automático una escopeta de caza semiautomática?.",
+  "opciones": [
+   "Depende del año de fabricación.",
+   "Si.",
+   "Las escopetas semiautomáticas no tienen seguro automático."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-52",
+  "tema": 1,
+  "numero": 52,
+  "pregunta": "Si un arma tiene el seguro de mano en posición “S”, ¿puede efectuar el disparo?.",
+  "opciones": [
+   "Si.",
+   "No.",
+   "Si, si está alimentada y montada."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-53",
+  "tema": 1,
+  "numero": 53,
+  "pregunta": "¿Cómo se denomina la varilla que se utiliza para limpiar el interior del cañón de las armas?",
+  "opciones": [
+   "Escobilla",
+   "Baqueta",
+   "Plumero"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-54",
+  "tema": 1,
+  "numero": 54,
+  "pregunta": "¿Con qué producto limpiaremos las partes de madera de un arma?",
+  "opciones": [
+   "Con agua y jabón.",
+   "Con gasolina o gasóleo.",
+   "Con aceite de linaza."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-55",
+  "tema": 1,
+  "numero": 55,
+  "pregunta": "Si se hubiese mojado el arma después de practicar el ejercicio de la caza, ¿cómo procederemos en relación con el arma?",
+  "opciones": [
+   "Limpiar y engrasar el arma a la mayor brevedad para que no se oxide.",
+   "No es necesario limpiar el arma.",
+   "Basta con pasarle un trapo para secarla."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-56",
+  "tema": 1,
+  "numero": 56,
+  "pregunta": "¿Dónde guardaremos las armas de la categoría 2ª.2.?",
+  "opciones": [
+   "En el propio domicilio, y en un armero homologado.",
+   "En la funda dentro de un armario ropero.",
+   "En cualquier lugar del domicilio"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-57",
+  "tema": 1,
+  "numero": 57,
+  "pregunta": "¿Se debe dejar una escopeta en el maletero del vehículo estacionado en la vía pública, hasta que al día siguiente se vaya a ir de caza?.",
+  "opciones": [
+   "Sí, siempre que el maletero se encuentre perfectamente cerrado.",
+   "Sí, siempre que el vehículo se encuentre estacionado cerca del domicilio del titular del arma.",
+   "No, nunca."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-58",
+  "tema": 1,
+  "numero": 58,
+  "pregunta": "¿Cómo deberá transportarse un arma de fuego en un vehículo?",
+  "opciones": [
+   "Cargadas",
+   "Dispuestas para disparar si nos encontramos en época hábil de caza.",
+   "Descargadas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-59",
+  "tema": 1,
+  "numero": 59,
+  "pregunta": "¿Cómo se han de guardar las armas?",
+  "opciones": [
+   "Cargadas y dispuestas para su uso.",
+   "Los rifles separados de las escopetas.",
+   "Descargadas y sin alimentar."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-60",
+  "tema": 1,
+  "numero": 60,
+  "pregunta": "¿Qué medidas deben adoptarse al manejar un arma?",
+  "opciones": [
+   "Como si estuviera siempre cargada.",
+   "Con el seguro puesto.",
+   "Como si estuviera descargada."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-61",
+  "tema": 1,
+  "numero": 61,
+  "pregunta": "¿Qué debe comprobarse siempre que se coja un arma?",
+  "opciones": [
+   "Que tenga el seguro puesto.",
+   "Que está descargada.",
+   "Que esté limpia."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-62",
+  "tema": 1,
+  "numero": 62,
+  "pregunta": "¿Qué lugar puede ser el más adecuado en el domicilio, para efectuar la limpieza de las armas?.",
+  "opciones": [
+   "Una habitación donde se esté solo.",
+   "El lugar de reunión de la familia, pues en el caso de un accidente, siempre se obtendrá ayuda inmediata de algún familiar.",
+   "En la puerta de la calle, pues en el caso de producirse un disparo fortuito, saldría el proyectil al aire."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-63",
+  "tema": 1,
+  "numero": 63,
+  "pregunta": "¿Qué es lo que nunca debemos hacer cuando desconozcamos el funcionamiento de un arma?",
+  "opciones": [
+   "Desmontarla en evitación de que se produzca un disparo.",
+   "Manipularla.",
+   "Guardarla en su funda."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "1-64",
+  "tema": 1,
+  "numero": 64,
+  "pregunta": "¿Qué es lo que se trata de evitar con el exacto cumplimiento de las normas de seguridad en el manejo de las armas?",
+  "opciones": [
+   "Que se produzcan disparos fortuitos y por tanto causar daños irreparables.",
+   "Ser sancionado por la Autoridad municipal.",
+   "Que el arma se deteriore."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-65",
+  "tema": 1,
+  "numero": 65,
+  "pregunta": "¿Qué precauciones se han de tomar al coger un arma de fuego?",
+  "opciones": [
+   "Cogerla sin poner el dedo en el disparador (gatillo).",
+   "Que se encuentre bien engrasada.",
+   "Comprobar que no está cargada apretando el gatillo."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "1-66",
+  "tema": 1,
+  "numero": 66,
+  "pregunta": "¿Cómo se debe actuar ante la presencia o proximidad de otras personas?",
+  "opciones": [
+   "Con habilidad.",
+   "Con destreza.",
+   "Descargando el arma."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-67",
+  "tema": 1,
+  "numero": 67,
+  "pregunta": "Cuando cierre su escopeta, ¿a dónde debe dirigir la boca de fuego?",
+  "opciones": [
+   "Hacia arriba.",
+   "Hacia la horizontal",
+   "Hacia el suelo."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "1-68",
+  "tema": 1,
+  "numero": 68,
+  "pregunta": "Al realizar un disparo con un rifle de caza mayor, debemos estar seguros de:",
+  "opciones": [
+   "Visualizar la zona de impacto del proyectil",
+   "Que el proyectil seguirá una trayectoria horizontal",
+   "Que la carga del cartucho es la adecuada para alcanzar la pieza."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-1",
+  "tema": 2,
+  "numero": 1,
+  "pregunta": "La clasificación de un arma dentro de una categoría, se determina en base a:",
+  "opciones": [
+   "Su grado de peligrosidad",
+   "Sus características, destino o utilización y a veces por la licencia que la ampare.",
+   "Ambas respuestas son correctas"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-2",
+  "tema": 2,
+  "numero": 2,
+  "pregunta": "Las ballestas, incluidas en la 7ª categoría, son armas jurídicamente asimiladas a escopetas, ¿sería correcto el documentarlas con licencia “D”?:",
+  "opciones": [
+   "Sí.",
+   "Documentarlas como de la 3ª.1 categoría.",
+   "No."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-3",
+  "tema": 2,
+  "numero": 3,
+  "pregunta": "Las ballestas, son armas jurídicamente asimiladas a escopetas, ¿es de aplicación el mismo criterio a los arcos?",
+  "opciones": [
+   "No.",
+   "Solo a los perfeccionados.",
+   "Sí. Por estar incluidos en la categoría 7ª."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-4",
+  "tema": 2,
+  "numero": 4,
+  "pregunta": "¿Qué instrumentos no especificados expresamente, están prohibidos en el Reglamento de Armas?:",
+  "opciones": [
+   "Los especialmente peligrosos para la integridad física de las personas.",
+   "Los que tengan puntas de flecha.",
+   "Ambas respuestas son verdaderas."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-5",
+  "tema": 2,
+  "numero": 5,
+  "pregunta": "Según el Reglamento de Armas, un “Arma de fuego corta” es:",
+  "opciones": [
+   "Aquella cuyo cañón no exceda de 20 centímetros o cuya longitud total no exceda de 60 centímetros.",
+   "Aquella cuyo cañón no exceda de 30 centímetros o cuya longitud total no exceda de 60 centímetros.",
+   "Aquella cuyo cañón no exceda de 30 centímetros o cuya longitud total no exceda de 80 centímetros."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-6",
+  "tema": 2,
+  "numero": 6,
+  "pregunta": "Un arma de fuego larga, se define como:",
+  "opciones": [
+   "Cualquier arma de fuego que no sea corta.",
+   "El arma de más de 30 cm. de longitud total.",
+   "El arma que no excede su cañón de 30 cm."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-7",
+  "tema": 2,
+  "numero": 7,
+  "pregunta": "Una escopeta, con rayas en el cañón para facilitar el plomeo, aunque esté marcada con punzón de escopeta por un Banco de Pruebas, ¿es un arma de fuego larga rayada para caza mayor?",
+  "opciones": [
+   "Depende de la licencia de armas que la ampara.",
+   "Sí. Por estar incluida en la categoría 2ª.2.",
+   "No."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-8",
+  "tema": 2,
+  "numero": 8,
+  "pregunta": "Un arma de fuego larga, de ánima lisa, que no es escopeta, ¿podría clasificarse en la 3ª categoría?.",
+  "opciones": [
+   "Sí.",
+   "No, por ser un arma clasificada en la 1ª categoría.",
+   "Depende del proyectil."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-9",
+  "tema": 2,
+  "numero": 9,
+  "pregunta": "Un arma de fuego larga, de ánima lisa, que no es escopeta, ¿podría clasificarse en la 2ª categoría?.",
+  "opciones": [
+   "Sí.",
+   "No, por ser un arma clasificada en la 3ª categoría.",
+   "Depende del proyectil."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-10",
+  "tema": 2,
+  "numero": 10,
+  "pregunta": "Las armas reglamentadas, se clasifican en:",
+  "opciones": [
+   "Nueve categorías.",
+   "Seis categorías.",
+   "Diez categorías."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-11",
+  "tema": 2,
+  "numero": 11,
+  "pregunta": "¿En qué categoría están incluidas las pistolas semiautomáticas?",
+  "opciones": [
+   "En la 3ª.",
+   "En la 2ª,",
+   "En la 1ª."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-12",
+  "tema": 2,
+  "numero": 12,
+  "pregunta": "Un arma corta de fuego, de un solo tiro, del calibre 22, ¿en qué categoría está incluida?",
+  "opciones": [
+   "4ª",
+   "1ª",
+   "6ª"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-13",
+  "tema": 2,
+  "numero": 13,
+  "pregunta": "Un revólver, de 20 centímetros de cañón y del calibre 38, ¿a qué categoría pertenece?",
+  "opciones": [
+   "No existe ese tipo de arma.",
+   "A la 1ª categoría.",
+   "A la 2ª categoría."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-14",
+  "tema": 2,
+  "numero": 14,
+  "pregunta": "¿En qué categoría está clasificada una escopeta de caza, con cañón estriado adaptable, con recámara para cartuchos metálicos?",
+  "opciones": [
+   "En la 1ª categoría.",
+   "En la 2ª categoría.",
+   "En la 3ª categoría."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-15",
+  "tema": 2,
+  "numero": 15,
+  "pregunta": "Además de las armas de fuego largas rayadas para vigilancia y guardería, ¿qué otras armas están incluidas en la 2ª categoría?:",
+  "opciones": [
+   "Las pistolas.",
+   "Las ballestas",
+   "Los cañones estriados adaptables a escopetas de caza con recámara para cartuchos metálicos no clasificados como de guerra."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-16",
+  "tema": 2,
+  "numero": 16,
+  "pregunta": "Además de las armas de fuego largas rayadas para vigilancia y guardería, ¿qué otras armas están incluidas en la 2ª categoría?:",
+  "opciones": [
+   "Las armas de fuego largas rayadas utilizables para caza mayor.",
+   "Las pistolas.",
+   "Las ballestas."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-17",
+  "tema": 2,
+  "numero": 17,
+  "pregunta": "Los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos, no clasificados como armas de guerra, ¿en qué categoría están incluidos?",
+  "opciones": [
+   "En la 2ª categoría.",
+   "En la 3ª categoría.",
+   "En la 4ª categoría."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-18",
+  "tema": 2,
+  "numero": 18,
+  "pregunta": "¿En qué categoría están clasificadas las escopetas?",
+  "opciones": [
+   "Categoría 3ª.1",
+   "Categoría 3ª.2",
+   "Categoría 2ª.2"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-19",
+  "tema": 2,
+  "numero": 19,
+  "pregunta": "¿Cuál de las siguientes armas pertenece a la 2ª categoría?",
+  "opciones": [
+   "Las armas de fuego largas rayadas utilizadas para caza mayor.",
+   "Las armas de fuego largas para vigilancia y guardería.",
+   "Las dos anteriores son correctas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-20",
+  "tema": 2,
+  "numero": 20,
+  "pregunta": "¿Cuál de las siguientes armas pertenece a la 3ª categoría?",
+  "opciones": [
+   "Las escopetas.",
+   "Armas largas rayadas del calibre 5´6 milímetros para tiro deportivo.",
+   "Las dos anteriores son correctas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-21",
+  "tema": 2,
+  "numero": 21,
+  "pregunta": "¿Cuál de las siguientes armas pertenece a la 2ª categoría?",
+  "opciones": [
+   "Las escopetas.",
+   "Las ballestas.",
+   "Armas largas rayadas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-22",
+  "tema": 2,
+  "numero": 22,
+  "pregunta": "¿A qué categoría pertenecen las armas largas rayadas del calibre 5´6 milímetros, para tiro deportivo?",
+  "opciones": [
+   "A la 3ª categoría.",
+   "A la 4ª categoría.",
+   "A la 5ª categoría."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-23",
+  "tema": 2,
+  "numero": 23,
+  "pregunta": "¿Cuál de las siguientes armas pertenece a la 3ª categoría?",
+  "opciones": [
+   "Las escopetas.",
+   "Los revólveres.",
+   "Los arcos."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-24",
+  "tema": 2,
+  "numero": 24,
+  "pregunta": "Una carabina de aire comprimido, de repetición, que dispara proyectiles cuya energía en la boca de fuego excede de 24.2 julios, ¿en qué categoría está clasificada?",
+  "opciones": [
+   "En la 4ª.1",
+   "No está clasificada en ninguna categoría.",
+   "En la 3ª.3"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-25",
+  "tema": 2,
+  "numero": 25,
+  "pregunta": "En que categoría sería incluida un arma larga rayada, del calibre 5,6 milímetros (.22 americano), de percusión anular, semiautomática, para tiro deportivo:",
+  "opciones": [
+   "3ª categoría.",
+   "4ª categoría.",
+   "2ª categoría."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-26",
+  "tema": 2,
+  "numero": 26,
+  "pregunta": "Los revólveres de doble acción, accionados por aire u otro gas comprimido, no asimilados a escopetas, ¿en qué categoría están incluidos?",
+  "opciones": [
+   "En la 4ª.1.",
+   "En la 1ª",
+   "En la 3ª.3"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-27",
+  "tema": 2,
+  "numero": 27,
+  "pregunta": "Las carabinas de ánima lisa o rayada, de un sólo tiro, accionadas por aire u otro gas comprimido, no asimiladas a escopetas, ¿a qué categoría pertenecen?",
+  "opciones": [
+   "A la 3ª.2.",
+   "A la 4ª.2.",
+   "A la 5ª.2."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-28",
+  "tema": 2,
+  "numero": 28,
+  "pregunta": "Los revólveres de acción simple, accionados por aire u otro gas comprimido, no asimilados a escopetas, ¿en qué categoría están clasificados?",
+  "opciones": [
+   "En la 3ª.2.",
+   "En la 4ª.2.",
+   "En la 5ª.2."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-29",
+  "tema": 2,
+  "numero": 29,
+  "pregunta": "Una carabina de aire comprimido, de repetición, que dispara proyectiles cuya energía en la boca de fuego no excede de 24.2 julios ¿en qué categoría está clasificada?",
+  "opciones": [
+   "En la 4ª.1",
+   "No está clasificada en ninguna categoría.",
+   "En la 3ª.3"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-30",
+  "tema": 2,
+  "numero": 30,
+  "pregunta": "¿En qué categoría están clasificadas las armas blancas, en general?",
+  "opciones": [
+   "En la 5ª.",
+   "En la 6ª.",
+   "En la 7ª."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-31",
+  "tema": 2,
+  "numero": 31,
+  "pregunta": "Un rifle semiautomático cuyo cargador admite cinco cartuchos, ¿es arma prohibida a particulares?",
+  "opciones": [
+   "No.",
+   "Sí.",
+   "Sí, siempre que se utilice para cazar."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-32",
+  "tema": 2,
+  "numero": 32,
+  "pregunta": "¿En qué categoría se encuentran clasificadas las ballestas?",
+  "opciones": [
+   "Categoría 5ª.2",
+   "Categoría 7ª.2",
+   "Categoría 4ª.2"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-33",
+  "tema": 2,
+  "numero": 33,
+  "pregunta": "Las armas largas específicas para desempeñar las funciones de guardería, ¿en qué categoría se encuentran clasificadas?",
+  "opciones": [
+   "En la 1ª categoría.",
+   "En la categoría 2ª.1.",
+   "En la categoría 2ª.2."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-34",
+  "tema": 2,
+  "numero": 34,
+  "pregunta": "¿A qué categoría pertenecen las armas largas de fuego, del calibre 22 americano, de percusión anular, y de repetición para tiro deportivo?",
+  "opciones": [
+   "A la 1ª categoría.",
+   "A la 2ª categoría.",
+   "A la 3ª categoría."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-35",
+  "tema": 2,
+  "numero": 35,
+  "pregunta": "¿En qué categoría están clasificadas las armas largas rayadas para caza mayor?.",
+  "opciones": [
+   "Categoría 3ª.3",
+   "Categoría 5ª.2",
+   "Categoría 2ª."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-36",
+  "tema": 2,
+  "numero": 36,
+  "pregunta": "¿En qué categoría están clasificadas las armas inutilizadas?",
+  "opciones": [
+   "Categoría 3ª.3",
+   "Categoría 5ª.2",
+   "Categoría 9ª."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-37",
+  "tema": 2,
+  "numero": 37,
+  "pregunta": "¿En qué categoría están clasificadas las armas de alarma?",
+  "opciones": [
+   "Categoría 3ª.3",
+   "Categoría 5ª.2",
+   "Categoría 7ª.6"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-38",
+  "tema": 2,
+  "numero": 38,
+  "pregunta": "Un rifle que puede realizar disparos sucesivos al accionar repetidamente el disparador se denomina:",
+  "opciones": [
+   "Automático.",
+   "Semiautomático",
+   "De repetición"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-39",
+  "tema": 2,
+  "numero": 39,
+  "pregunta": "Un rifle semiautomático cuyo cargador admite doce cartuchos, ¿es arma prohibida a particulares?",
+  "opciones": [
+   "No.",
+   "Sí, pues su capacidad de carga supera los once cartuchos.",
+   "Sí, siempre que se utilice para cazar."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-40",
+  "tema": 2,
+  "numero": 40,
+  "pregunta": "Una pistola semiautomática cuyo cargador admite veinticinco cartuchos, ¿es arma prohibida a particulares?",
+  "opciones": [
+   "No.",
+   "Sí, pues su capacidad de carga supera los veintiún cartuchos.",
+   "Sí, siempre que se utilice para cazar."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-41",
+  "tema": 2,
+  "numero": 41,
+  "pregunta": "Un arma de fuego automática que haya sido transformada en semiautomática ¿es arma prohibida a particulares?",
+  "opciones": [
+   "Sí",
+   "NO",
+   "Dependerá del uso de la misma."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-42",
+  "tema": 2,
+  "numero": 42,
+  "pregunta": "¿Cuá de las siguientes afirmaciones es cierta?",
+  "opciones": [
+   "Una escopeta calibre 20 mm. pertenece a la categoría 3ª.2",
+   "Una escopeta calibre 20 mm. es un arma prohibida.",
+   "Una escopeta calibre 20 mm. es un arma de guerra."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-43",
+  "tema": 2,
+  "numero": 43,
+  "pregunta": "Sobre las armas de guerra, ¿qué está prohibido a los particulares?",
+  "opciones": [
+   "Su adquisición, tenencia y uso.",
+   "No les están prohibidas.",
+   "Las dos respuestas son falsas."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-44",
+  "tema": 2,
+  "numero": 44,
+  "pregunta": "Las armas de fuego automáticas, son siempre:",
+  "opciones": [
+   "Armas de guerra.",
+   "Armas de la 1ª categoría.",
+   "Ambas respuestas son falsas."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-45",
+  "tema": 2,
+  "numero": 45,
+  "pregunta": "¿Quién puede legalizar las armas de guerra para un particular?",
+  "opciones": [
+   "No puede legalizarse.",
+   "Ministro de Defensa.",
+   "Ministro del Interior."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-46",
+  "tema": 2,
+  "numero": 46,
+  "pregunta": "Los calibres 308 win (7'62 X 51 mm.) y 7'62 x 39 son de los denominados de guerra, ¿qué condiciones han de cumplirse para utilizarlas en caza mayor?",
+  "opciones": [
+   "No se pueden utilizar por ser calibre de guerra.",
+   "Se podrán utilizar con bala expansiva y rifle de repetición.",
+   "Se podrán utilizar con autorización especial del Ministerio de Defensa."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-47",
+  "tema": 2,
+  "numero": 47,
+  "pregunta": "De las que se citan a continuación, ¿cuáles son armas prohibidas?",
+  "opciones": [
+   "Los silenciadores adaptables a armas de fuego.",
+   "Los puñales.",
+   "Las respuestas anteriores (A y B) son armas prohibidas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-48",
+  "tema": 2,
+  "numero": 48,
+  "pregunta": "De las que se citan a continuación, ¿cuáles se consideran armas prohibidas?",
+  "opciones": [
+   ".Las armas de fuego que sean resultado de modificar sustancialmente las características de fabricación u origen de otras armas, sin la reglamentaria autorización de modelo o prototipo.",
+   "Armas con culata plegable para facilitar los movimientos del cazador en terrenos abruptos.",
+   "Las respuestas anteriores (A y B) son armas prohibidas."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-49",
+  "tema": 2,
+  "numero": 49,
+  "pregunta": "Las armas de fuego que sean resultado de modificar sustancialmente las características de fabricación u origen de otras armas, sin la reglamentaria autorización de modelo o prototipo, ¿qué clase de armas son?",
+  "opciones": [
+   "Reglamentadas.",
+   "Prohibidas a particulares.",
+   "Prohibidas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-50",
+  "tema": 2,
+  "numero": 50,
+  "pregunta": "¿Cuáles de las siguientes armas están prohibidas?",
+  "opciones": [
+   "Las armas de fuego largas con cañones recortados.",
+   "Los cuchillos de hoja superior a 11 centímetros de longitud.",
+   "Las cerbatanas."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-51",
+  "tema": 2,
+  "numero": 51,
+  "pregunta": "Las armas de fuego, reales o simuladas, combinadas con armas blancas, son:",
+  "opciones": [
+   "Armas prohibidas.",
+   "Armas reglamentadas.",
+   "Armas prohibidas a particulares."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-52",
+  "tema": 2,
+  "numero": 52,
+  "pregunta": "Un arma de fuego simulada bajo apariencia de cualquier otro objeto, es:",
+  "opciones": [
+   "Un arma prohibida.",
+   "Un arma prohibida a particulares.",
+   "Un arma reglamentada."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-53",
+  "tema": 2,
+  "numero": 53,
+  "pregunta": "De las armas blancas que se detallan, ¿cuáles están prohibidas?",
+  "opciones": [
+   "Los puñales",
+   "Los machetes del Ejército para desollar la caza.",
+   "Las dos anteriores"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-54",
+  "tema": 2,
+  "numero": 54,
+  "pregunta": "¿Se pueden utilizar miras telescópicas en las armas de la categoría 2ª.2?",
+  "opciones": [
+   "Si.",
+   "No.",
+   "Está prohibido."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-55",
+  "tema": 2,
+  "numero": 55,
+  "pregunta": "¿Se pueden utilizar miras telescópicas en las armas de la categoría 3ª.2?",
+  "opciones": [
+   "Si.",
+   "No.",
+   "Está prohibido."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-56",
+  "tema": 2,
+  "numero": 56,
+  "pregunta": "Un arma larga que contenga un dispositivo especial, en su culata, para una pistola legalizada, es:",
+  "opciones": [
+   "Un arma prohibida.",
+   "Un arma combinada.",
+   "Un arma reglamentada."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-57",
+  "tema": 2,
+  "numero": 57,
+  "pregunta": "De las armas blancas que se detallan, cuáles están prohibidas:",
+  "opciones": [
+   "Los puñales",
+   "Navajas de hoja inferior a 11 centímetros.",
+   "Espadas."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-58",
+  "tema": 2,
+  "numero": 58,
+  "pregunta": "Un cuchillo de monte, de dos filos, puntiagudo y con una hoja de 20 centímetros, sería:",
+  "opciones": [
+   "Un arma de la 4ª categoría.",
+   "Un arma blanca permitida.",
+   "Un arma prohibida."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-59",
+  "tema": 2,
+  "numero": 59,
+  "pregunta": "De las que se relacionan, ¿cuáles son armas prohibidas?",
+  "opciones": [
+   "Navajas automáticas",
+   "Navajas de menos de 11 centímetros de longitud de hoja.",
+   "Cuchillos de monte de doble filo con hoja de 13 centímetros de longitud."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-60",
+  "tema": 2,
+  "numero": 60,
+  "pregunta": "Se puede poseer un rompecabezas, como instrumento auxiliar en caza mayor:",
+  "opciones": [
+   "Sí.",
+   "Sí. Con autorización.",
+   "No, ya que se trata de arma prohibida."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-61",
+  "tema": 2,
+  "numero": 61,
+  "pregunta": "¿Cuántos silenciadores se pueden tener con un arma larga rayada para caza mayor?",
+  "opciones": [
+   "Uno para cada arma que se posea.",
+   "Uno solo, independientemente del número de armas que se posea.",
+   "Ninguno, está prohibido."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-62",
+  "tema": 2,
+  "numero": 62,
+  "pregunta": "Puede una persona con licencia de armas, tener y utilizar armas de fuego largas de cañones recortados.",
+  "opciones": [
+   "No; sólo está permitido a funcionarios especialmente habilitados.",
+   "Sí. Si dispone de autorización.",
+   "Sí. Si la utiliza solamente para cazar."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-63",
+  "tema": 2,
+  "numero": 63,
+  "pregunta": "Un arma simulada, combinada con un arma blanca, ¿es un arma prohibida?",
+  "opciones": [
+   "No.",
+   "Sí.",
+   "Depende del tipo de arma blanca de que se trate."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-64",
+  "tema": 2,
+  "numero": 64,
+  "pregunta": "Una escopeta de caza legalmente adquirida en Francia, que posea en su culata un mecanismo para alojar otras armas, ¿puede ser legalizada en nuestro país?",
+  "opciones": [
+   "Si, con autorización francesa",
+   "No, por ser un arma prohibida",
+   "Si, en todos los casos"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "2-65",
+  "tema": 2,
+  "numero": 65,
+  "pregunta": "Una escopeta de caza legalmente adquirida en Francia, que posea en su culata un mecanismo para alojar una navaja para desollar ¿puede ser legalizada en nuestro país?",
+  "opciones": [
+   "No, por ser un arma prohibida",
+   "Si, con autorización francesa",
+   "Si, en todos los casos"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "2-66",
+  "tema": 2,
+  "numero": 66,
+  "pregunta": "De los tipos de cartuchería que se citan, ¿cuál está prohibida a particulares?",
+  "opciones": [
+   "La munición metálica blindada.",
+   "La cartuchería con bala expansiva.",
+   "La cartuchería con balas perforantes, explosivas o incendiarias."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "2-67",
+  "tema": 2,
+  "numero": 67,
+  "pregunta": "De los tipos de cartuchería que se citan, ¿cuál está prohibida a particulares?",
+  "opciones": [
+   "La munición metálica blindada.",
+   "La cartuchería con bala expansiva.",
+   "Las municiones con proyectiles dum-dum"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-1",
+  "tema": 3,
+  "numero": 1,
+  "pregunta": "¿Cómo se denomina el documento que ampara el traslado, sin licencia ni guía de pertenencia, entre dos lugares, de armas de las categorías 2ª y 3ª?",
+  "opciones": [
+   "Guía de circulación.",
+   "Guía de transporte.",
+   "Albarán de circulación."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-2",
+  "tema": 3,
+  "numero": 2,
+  "pregunta": "Cuando un particular adquiera una escopeta en localidad distinta a la de su residencia, ¿quien expedirá la Guía de Circulación?.",
+  "opciones": [
+   "La Intervención de Armas de su residencia",
+   "La Intervención de Armas del lugar de la compra",
+   "Las dos anteriores pueden ser válidas."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-3",
+  "tema": 3,
+  "numero": 3,
+  "pregunta": "¿Es cierto si afirmamos que no es preceptiva la guía de circulación para amparar una escopeta que su titular transportará de una localidad a otra, provisto de guía de pertenencia y licencia correspondiente?",
+  "opciones": [
+   "No en todos los casos.",
+   "Siempre que el transporte se realice dentro de la provincia.",
+   "Si."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-4",
+  "tema": 3,
+  "numero": 4,
+  "pregunta": "¿Quién expide la Guía de circulación para transportar un arma de fuego de la 3ª categoría?",
+  "opciones": [
+   "El/La Comandante de Puesto de la Guardia Civil",
+   "La Intervención de Armas y Explosivos.",
+   "El/La Teniente Coronel Jefe de la Comandancia de la Guardia Civil"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-5",
+  "tema": 3,
+  "numero": 5,
+  "pregunta": "¿Por qué es necesario solicitar una guía de circulación cuando se envía a reparar una báscula de escopeta entre dos lugares distintos?",
+  "opciones": [
+   "Por ser un componente esencial",
+   "No es necesario",
+   "Esta prohibido"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-6",
+  "tema": 3,
+  "numero": 6,
+  "pregunta": "Cuando se envíe una escopeta sin guía de pertenencia y sin licencia, ¿qué documento amparará el traslado de una localidad a otra?",
+  "opciones": [
+   "La autorización del armero",
+   "El permiso del Ayuntamiento",
+   "La guía de circulación"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-7",
+  "tema": 3,
+  "numero": 7,
+  "pregunta": "¿Qué armas de las que se citan a continuación, que se trasladan sin guía de pertenencia y sin licencia, necesitan guía de circulación para ser trasladadas entre dos localidades distintas?",
+  "opciones": [
+   "Las de la 3ª categoría",
+   "Las de la 8ª categoría",
+   "Las dos anteriores son ciertas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-8",
+  "tema": 3,
+  "numero": 8,
+  "pregunta": "¿Cuándo necesitará guía de circulación una carabina de aire comprimido, que se traslade sin guía de pertenencia y sin licencia?",
+  "opciones": [
+   "En todos los casos",
+   "Nunca",
+   "Si se trata de una carabina cuya energía cinética del proyectil en boca exceda de 24,2 Julios"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-9",
+  "tema": 3,
+  "numero": 9,
+  "pregunta": "¿Qué armas de las que se citan a continuación, que se trasladan sin guía de pertenencia y sin licencia, no necesitan guía de circulación para ser trasladadas entre dos localidades?",
+  "opciones": [
+   "Las escopetas",
+   "Las armas de fuego largas rayadas.",
+   "Las dos anteriores son falsas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-10",
+  "tema": 3,
+  "numero": 10,
+  "pregunta": "¿Qué armas de las que se citan a continuación, que se trasladan sin guía de pertenencia y sin licencia, necesitan guía de circulación para su traslado entre dos localidades distintas?",
+  "opciones": [
+   "Las escopetas",
+   "Las armas de fuego largas rayadas.",
+   "Las dos anteriores son ciertas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-11",
+  "tema": 3,
+  "numero": 11,
+  "pregunta": "Además de la guía de circulación, ¿se necesita algún otro documento que acompañe al arma, cuando ésta se envíe a reparar a otra localidad?",
+  "opciones": [
+   "La guía de pertenencia",
+   "Autorización escrita por el titular",
+   "Ningún otro documento"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-12",
+  "tema": 3,
+  "numero": 12,
+  "pregunta": "¿Es cierto que el Reglamento de Armas contempla que las armas reglamentadas de cualquier categoría y sus componentes esenciales acabados circularán en envases debidamente acondicionados para su seguridad durante el traslado?",
+  "opciones": [
+   "Cierto.",
+   "Falso.",
+   "Depende del tipo de armas."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-13",
+  "tema": 3,
+  "numero": 13,
+  "pregunta": "¿Se pueden enviar a reparar en un mismo envase, las escopetas junto con sus municiones?",
+  "opciones": [
+   "Sí, siempre que en el mismo paquete no haya más de 25 armas cortas",
+   "Sí, siempre que en el mismo paquete no haya más de tres escopetas",
+   "No"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-14",
+  "tema": 3,
+  "numero": 14,
+  "pregunta": "¿Quién precintará los envases que contengan armas largas de cañón estriado?",
+  "opciones": [
+   "El Servicio Postal de Correos",
+   "Intervención de Armas de la Guardia Civil o Armero/a autorizado/a",
+   "La empresa consignataria"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-15",
+  "tema": 3,
+  "numero": 15,
+  "pregunta": "¿Cómo deberán circular las armas reglamentadas de cualquier categoría y sus componentes esenciales?",
+  "opciones": [
+   "En envases debidamente acondicionados para su seguridad durante el traslado.",
+   "En su funda y en una caja de cartón.",
+   "Si va desmontada, es suficiente."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-16",
+  "tema": 3,
+  "numero": 16,
+  "pregunta": "Si Vd. pretende enviar dos armas de su propiedad a reparar a Éibar, a dos fábricas diferentes, ¿puede hacerlo en un solo envase?",
+  "opciones": [
+   "Sí, puesto que van destinados a la misma localidad.",
+   "No pueden remitirse en el mismo envase, al corresponder a distintos destinatarios.",
+   "Pueden ir en uno o dos paquetes, por estar permitido."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-17",
+  "tema": 3,
+  "numero": 17,
+  "pregunta": "¿Se debe enviar un rifle y una escopeta a reparar en un mismo envase?",
+  "opciones": [
+   "Sí, si van destinados al mismo armero.",
+   "No, puesto que el mismo paquete no puede contener armas de cañón estriado junto con escopetas de caza.",
+   "Sí, puesto que el paquete es adecuado para armas largas, como son el rifle y la escopeta."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-18",
+  "tema": 3,
+  "numero": 18,
+  "pregunta": "¿Es cierto que el Reglamento de Armas preceptúa que en ningún caso podrán hacerse envíos o transportes de armas cargadas ni de armas conjuntamente con cartuchería susceptible de ser utilizada con las armas transportadas?",
+  "opciones": [
+   "No lo preceptúa.",
+   "En el transporte de algunas armas.",
+   "Sí es cierto."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-19",
+  "tema": 3,
+  "numero": 19,
+  "pregunta": "¿Se puede enviar a reparar una escopeta por Correo ?",
+  "opciones": [
+   "No.",
+   "Cuando vayan desmontadas.",
+   "Sí, siempre que no se envíe conjuntamente con munición."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-20",
+  "tema": 3,
+  "numero": 20,
+  "pregunta": "¿Cuándo se puede enviar a reparar las armas cargadas?",
+  "opciones": [
+   "Sí, si son cortas",
+   "Nunca",
+   "Con autorización del Interventor de Armas."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-21",
+  "tema": 3,
+  "numero": 21,
+  "pregunta": "¿Qué plazo establece el Reglamento de Armas al particular que compra una escopeta en localidad distinta a la de su residencia para personarse en la Intervención de Armas y solicitar la Guía de Pertenencia?",
+  "opciones": [
+   "No hay plazo establecido",
+   "Diez días.",
+   "Un día"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-22",
+  "tema": 3,
+  "numero": 22,
+  "pregunta": "¿Por qué medio de transporte tiene que ser enviada una escopeta a reparar, si no la lleva su titular personalmente ?",
+  "opciones": [
+   "Por giro postal",
+   "A través de una empresa de transportes.",
+   "Por medio de un amigo personal"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-23",
+  "tema": 3,
+  "numero": 23,
+  "pregunta": "¿Puede un particular que ha comprado un arma larga rayada, en población distinta de la residencia, transportar dicha arma consigo hasta la Intervención de Armas de su residencia para que le extiendan la Guía de pertenencia?",
+  "opciones": [
+   "Sí se puede, siempre que tenga licencia de armas",
+   "Sí, siempre que el comprador se halle en posesión de la guía de pertenencia",
+   "No."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-24",
+  "tema": 3,
+  "numero": 24,
+  "pregunta": "En ningún caso podrán hacerse los envíos de:",
+  "opciones": [
+   "Armas cargadas",
+   "Armas con cartuchería correspondiente a las mismas",
+   "La a) y la b) son ciertas"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-25",
+  "tema": 3,
+  "numero": 25,
+  "pregunta": "Al remitir un arma para reparación u otras causas, ¿Dónde debe figurar la declaración del contenido?",
+  "opciones": [
+   "En la documentación y en el mismo paquete, en caracteres de suficiente claridad.",
+   "No debe figurar en ningún sitio visible, por tratarse de armas que deben transportarse con toda reserva.",
+   "Solamente debe figurar en la documentación (guía de circulación)."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-26",
+  "tema": 3,
+  "numero": 26,
+  "pregunta": "¿Cómo debe transportarse un rifle de caza mayor, de nueva adquisición y sin guía de pertenencia, de una localidad a otra donde resida el titular?",
+  "opciones": [
+   "Lo puede llevar el titular personalmente",
+   "Por medio de empresa de transporte",
+   "Con autorización de la armería"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-27",
+  "tema": 3,
+  "numero": 27,
+  "pregunta": "Cuando un particular reciba notificación del remitente que le ha sido enviada a la Intervención de Armas de la Guardia Civil, la escopeta que compró al citado remitente, ¿qué deberá hacer?",
+  "opciones": [
+   "Presentarse en la Intervención de Armas con la licencia de caza.",
+   "Trasladarse a la Intervención de Armas para ver si le gusta y si no devolverla.",
+   "Presentarse en la Intervención de Armas provisto de licencia o documento que le autorice para adquirirla."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-28",
+  "tema": 3,
+  "numero": 28,
+  "pregunta": "Cuando un particular es destinatario de una escopeta enviada a la Intervención de Armas y Explosivos, ¿es cierto que para retirarla debe presentar en dicha Intervención la licencia o documento que le autorice su adquisición?",
+  "opciones": [
+   "Falso.",
+   "Cierto.",
+   "Solo si se trata de escopetas."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-29",
+  "tema": 3,
+  "numero": 29,
+  "pregunta": "¿Es cierto que el Reglamento de Armas dispone que las armas de las categorías 1ª y todas las de concurso, pasarán revista cada tres años y las demás armas que precisen guía, cada cinco años?",
+  "opciones": [
+   "Cierto.",
+   "Falso.",
+   "Solo en las de 2ª categoría."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-30",
+  "tema": 3,
+  "numero": 30,
+  "pregunta": "¿Cada cuántos años pasan revista las armas de la 2ª categoría?",
+  "opciones": [
+   "Dos años",
+   "Cinco años.",
+   "Todos los años"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-31",
+  "tema": 3,
+  "numero": 31,
+  "pregunta": "¿Cada cuántos años pasan revista las armas de la 3ª categoría?",
+  "opciones": [
+   "Cinco años",
+   "Nunca",
+   "Tres años"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-32",
+  "tema": 3,
+  "numero": 32,
+  "pregunta": "¿Es necesario presentar el arma para pasar revista?",
+  "opciones": [
+   "Si",
+   "No",
+   "Alguna vez"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-33",
+  "tema": 3,
+  "numero": 33,
+  "pregunta": "El hecho de no pasar dos revistas del arma, ¿es causa de anulación y retirada de la guía de pertenencia?",
+  "opciones": [
+   "No",
+   "Si",
+   "Depende del valor histórico del arma"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-34",
+  "tema": 3,
+  "numero": 34,
+  "pregunta": "¿En qué mes pasará revista el titular de una guía de pertenencia de una escopeta?",
+  "opciones": [
+   "En el mes que se abre la veda de caza",
+   "En el mes de abril",
+   "En el mes correspondiente a la renovación de la licencia."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-35",
+  "tema": 3,
+  "numero": 35,
+  "pregunta": "¿Qué necesita un familiar, con licencia de armas, de un titular de un arma para pasar la revista de las mismas?",
+  "opciones": [
+   "Demostrar la relación de parentesco con el titular del arma",
+   "Autorización escrita del titular del arma.",
+   "Autorización escrita del Delegado/a del Gobierno de la Comunidad"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-36",
+  "tema": 3,
+  "numero": 36,
+  "pregunta": "No pasar dos revistas consecutivas, dará lugar a la anulación y retirada de la Guía de Pertenencia, ¿a qué dará lugar también?",
+  "opciones": [
+   "La pérdida de la propiedad del arma",
+   "A la apertura de un expediente sancionador",
+   "No poder cazar en el transcurso de un año"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-37",
+  "tema": 3,
+  "numero": 37,
+  "pregunta": "¿Quién realizará las anotaciones correspondientes al pasar la Revista de Armas?:",
+  "opciones": [
+   "La persona afectada",
+   "El/La Interventor/a de Armas",
+   "El/La Jefe de la Comandancia de la Guardia Civil"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-38",
+  "tema": 3,
+  "numero": 38,
+  "pregunta": "¿Qué requisito es imprescindible para pasar la Revista de Armas?:",
+  "opciones": [
+   "La presentación del Arma",
+   "Tiene que ser pasada por el/la titular del Arma",
+   "Las respuestas a) y b) son ciertas"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-39",
+  "tema": 3,
+  "numero": 39,
+  "pregunta": "El hecho de no pasar la revista de armas constituye:",
+  "opciones": [
+   "Una infracción Administrativa",
+   "Un Delito",
+   "Una falta penal"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-40",
+  "tema": 3,
+  "numero": 40,
+  "pregunta": "Si tengo una escopeta de caza, ¿cada cuánto tiempo tengo que pasar revista?",
+  "opciones": [
+   "Cada año.",
+   "Cada tres años.",
+   "Cada cinco años."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-41",
+  "tema": 3,
+  "numero": 41,
+  "pregunta": "¿Cada cuánto tiempo pasarán revista las armas de concurso?",
+  "opciones": [
+   "Cada tres años.",
+   "Cada cinco años.",
+   "En cada concurso."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-42",
+  "tema": 3,
+  "numero": 42,
+  "pregunta": "¿Cada cuánto tiempo pasarán revista las ballestas?",
+  "opciones": [
+   "Las ballestas no pasan revista, por no ser armas de fuego.",
+   "Cada tres años.",
+   "Cada cinco años como las escopetas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-43",
+  "tema": 3,
+  "numero": 43,
+  "pregunta": "¿Puede un tercero, con licencia de armas, pasar revista de una escopeta?",
+  "opciones": [
+   "No, tiene que ser personalmente el titular.",
+   "Sí, si lo autorizó el/la titular por escrito.",
+   "Sí, aprovechando la revista de las suyas, sin más trámite."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-44",
+  "tema": 3,
+  "numero": 44,
+  "pregunta": "Una carabina de aire comprimido de la 4ª categoría. ¿cuándo tiene que pasar la revista?",
+  "opciones": [
+   "Cada cinco años.",
+   "Cada tres años.",
+   "No tiene que pasar revista."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-45",
+  "tema": 3,
+  "numero": 45,
+  "pregunta": "¿En qué circunstancias se puede pasar revista de armas sin presentarla en la Intervención de Armas o Puesto de la Guardia Civil?",
+  "opciones": [
+   "En caso de enfermedad",
+   "Cuando sea de nueva adquisición",
+   "En ningún caso"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-46",
+  "tema": 3,
+  "numero": 46,
+  "pregunta": "Un cañón estriado, y con recámara para cartuchos metálicos, adaptable a una escopeta de caza, pasará revista de armas a los:",
+  "opciones": [
+   "5 años",
+   "3 años",
+   "No pasa revista"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-47",
+  "tema": 3,
+  "numero": 47,
+  "pregunta": "Una carabina de repetición accionada por gas comprimido, no asimilada a escopeta, pasará revista de armas cada:",
+  "opciones": [
+   "3 años",
+   "5 años",
+   "No necesita pasar revista"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-48",
+  "tema": 3,
+  "numero": 48,
+  "pregunta": "Una carabina de aire comprimido, cuyo proyectil en boca tiene una energía superior a los 24,2 julios, ¿ha de pasar revista de armas?",
+  "opciones": [
+   "Si",
+   "No",
+   "Sólo si se usa para cazar"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-49",
+  "tema": 3,
+  "numero": 49,
+  "pregunta": "¿Es cierto que el particular que desee enajenar un arma tiene que hacer la cesión a persona que posea la licencia, tarjeta o certificado de inutilización correspondiente?",
+  "opciones": [
+   "Sí, siempre que sea necesario con arreglo a lo dispuesto en el Reglamento de Armas.",
+   "Puede enajenarse a cualquiera.",
+   "Las armas de fuego no pueden enajenarse."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-50",
+  "tema": 3,
+  "numero": 50,
+  "pregunta": "Al enajenar un particular un arma de fuego, ¿donde entregará la guía de pertenencia?",
+  "opciones": [
+   "Al adquirente.",
+   "En la Intervención de Armas.",
+   "En el Ayuntamiento."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-51",
+  "tema": 3,
+  "numero": 51,
+  "pregunta": "¿Debe comunicarse a la Intervención de Armas la enajenación de un arma?",
+  "opciones": [
+   "Siempre",
+   "Nunca",
+   "Únicamente las armas cortas"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-52",
+  "tema": 3,
+  "numero": 52,
+  "pregunta": "¿En qué caso no es necesario participar a la Intervención de Armas la enajenación de un arma?",
+  "opciones": [
+   "Se participa siempre.",
+   "Cuando se enajena a una armería.",
+   "Cuando se regala a alguien, sin mediar precio."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-53",
+  "tema": 3,
+  "numero": 53,
+  "pregunta": "¿Qué requisito es indispensable que tenga el comprador de un arma de fuego?",
+  "opciones": [
+   "Que se halle en posesión de la licencia para el arma que pretende adquirir.",
+   "Que tenga licencia de caza y seguro del cazador.",
+   "No es necesario requisito alguno."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-54",
+  "tema": 3,
+  "numero": 54,
+  "pregunta": "La enajenación de un arma entre particulares, ¿qué nuevo documento le será expedido al comprador?",
+  "opciones": [
+   "Recibo de compra-venta.",
+   "Entrega del arma al nuevo titular con su guía de pertenencia..",
+   "Expedición de nueva guía de pertenencia"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-55",
+  "tema": 3,
+  "numero": 55,
+  "pregunta": "La venta de un arma de fuego se efectuará siempre con conocimiento de:",
+  "opciones": [
+   "Comisaría de Policía",
+   "Dirección General de la Guardia Civil.",
+   "Intervención de Armas correspondiente"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-56",
+  "tema": 3,
+  "numero": 56,
+  "pregunta": "¿Es cierto que los extranjeros residentes en España podrían prestar sus armas de caza a quienes estén provistos de licencia de caza y de licencia de arma larga rayada para caza mayor o escopetas?",
+  "opciones": [
+   "Cierto.",
+   "Solo las escopetas.",
+   "Los/Las extranjeros/as residentes no pueden prestar sus armas."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-57",
+  "tema": 3,
+  "numero": 57,
+  "pregunta": "¿Qué requisitos debe cumplir una persona para que se le pueda ceder el arma?",
+  "opciones": [
+   "Ser propietario/a de un coto de caza",
+   "Poseer la correspondiente licencia de armas",
+   "Tener aficiones cinegéticas"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-58",
+  "tema": 3,
+  "numero": 58,
+  "pregunta": "¿Por cuánto tiempo se puede prestar las armas para cazar ?",
+  "opciones": [
+   "Mientras sea titular de un coto de caza",
+   "Un mes",
+   "Quince días como máximo"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-59",
+  "tema": 3,
+  "numero": 59,
+  "pregunta": "¿Cómo se debe hacer la cesión temporal de las armas ?",
+  "opciones": [
+   "Por escrito, fechado y firmado.",
+   "De palabra",
+   "Por teléfono"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-60",
+  "tema": 3,
+  "numero": 60,
+  "pregunta": "Una persona con nacionalidad español/a, ¿a quien podrá prestar su escopeta?",
+  "opciones": [
+   "A quien tenga licencia de caza.",
+   "No puede prestarla.",
+   "A quienes estén provistos de la licencia de armas correspondiente y de licencia de caza."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "3-61",
+  "tema": 3,
+  "numero": 61,
+  "pregunta": "El/La titular de un arma larga rayada para caza mayor ¿a quien podrá prestar dicha arma?",
+  "opciones": [
+   "A nadie.",
+   "A quienes estén provistos de la licencia de armas correspondiente y de licencia de caza.",
+   "A quien esté provisto de licencia de caza."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-62",
+  "tema": 3,
+  "numero": 62,
+  "pregunta": "¿Es cierto que las armas de caza podrán prestarse a quienes estén provistos de licencia de caza y de licencia de armas largas rayadas para caza mayor o escopeta correspondiente?",
+  "opciones": [
+   "Cierto.",
+   "En ningún caso.",
+   "Depende de la Comunidad Autónoma."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-63",
+  "tema": 3,
+  "numero": 63,
+  "pregunta": "¿Cómo se prestarán siempre las escopetas?",
+  "opciones": [
+   "Con sus guías de pertenencia.",
+   "Con la licencia de caza.",
+   "Con la guía de circulación."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-64",
+  "tema": 3,
+  "numero": 64,
+  "pregunta": "¿Cómo se prestarán siempre las armas de caza?",
+  "opciones": [
+   "Con sus guías de pertenencia.",
+   "No se pueden prestar.",
+   "Con sus fundas."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "3-65",
+  "tema": 3,
+  "numero": 65,
+  "pregunta": "¿Se podrán prestar las armas de caza a quien no esté provisto de licencia de caza?",
+  "opciones": [
+   "Sí, si quien la va a utilizar dispone de finca particular para el ejercicio de la caza.",
+   "No.",
+   "Si, por no ser requisito fundamental."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "3-66",
+  "tema": 3,
+  "numero": 66,
+  "pregunta": "¿Qué requisito es necesario acreditar para obtener la guía de pertenencia de un arma?",
+  "opciones": [
+   "Que cumple con las medidas de seguridad impuestas en la custodia de la misma.",
+   "Que no ha tenido ningún incidente en el uso de las armas.",
+   "Que no ha extraviado en ninguna ocasión la guía de pertenencia."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-1",
+  "tema": 4,
+  "numero": 1,
+  "pregunta": "¿Un rifle automático puede ampararse en una Licencia de Armas \"D\"?",
+  "opciones": [
+   "Sí",
+   "No por ser arma de guerra prohibida a particulares",
+   "Sí, si emplea munición de caza"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-2",
+  "tema": 4,
+  "numero": 2,
+  "pregunta": "Para la expedición de una licencia de armas, ¿qué edad mínima tendrá el peticionario?",
+  "opciones": [
+   "14 años.",
+   "16 años.",
+   "18 años."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-3",
+  "tema": 4,
+  "numero": 3,
+  "pregunta": "¿Cuantas licencias de armas “D” se podrán poseer?",
+  "opciones": [
+   "Dependerá del número de amas que se posean.",
+   "Una.",
+   "Dos."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-4",
+  "tema": 4,
+  "numero": 4,
+  "pregunta": "¿Qué documentos para la utilización de un arma larga rayada para caza mayor, portará su titular cuando ejerza la práctica de la caza?",
+  "opciones": [
+   "Licencia “D” y guía del arma que utilice.",
+   "Tarjeta de armas.",
+   "Solo la guía de pertenencia."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-5",
+  "tema": 4,
+  "numero": 5,
+  "pregunta": "¿Se puede expedir una licencia de armas a un español residente en Francia?",
+  "opciones": [
+   "Sí.",
+   "No.",
+   "Si, por ser un país de la U.E."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-6",
+  "tema": 4,
+  "numero": 6,
+  "pregunta": "¿Podría utilizar un titular de licencia de armas “E” una escopeta de su propiedad inscrita en un Libro-Registro de coleccionista, para ejercer la caza?",
+  "opciones": [
+   "No, porque está prohibido su uso.",
+   "Si porque el/la titular de la licencia y el libro-registro es la misma persona.",
+   "No porque está prohibida su circulación."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-7",
+  "tema": 4,
+  "numero": 7,
+  "pregunta": "¿Qué es necesario en el territorio español para poseer una escopeta de caza?",
+  "opciones": [
+   "Tarjeta de armas.",
+   "Un permiso de armas.",
+   "Licencia de armas tipo \"E\""
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-8",
+  "tema": 4,
+  "numero": 8,
+  "pregunta": "¿Quiénes pueden tener y usar alzas o miras telescópicas adaptables a las armas de caza mayor?",
+  "opciones": [
+   "Las puede tener y usar cualquiera, pues no se trata de un arma.",
+   "Necesitan una autorización especial de la Intervención de Armas de la Guardia Civil.",
+   "Las personas que estén en posesión de licencia de armas tipo \"D\"."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-9",
+  "tema": 4,
+  "numero": 9,
+  "pregunta": "¿Qué edad mínima debe tener una persona para poder poseer un rifle de caza mayor y qué licencia necesita?",
+  "opciones": [
+   "Debe tener como mínimo 18 años y estar en posesión de licencia de armas tipo \"D\".",
+   "Tener entre 16 y 18 años y estar en posesión de autorización especial de uso de armas para menores.",
+   "Tener como mínimo 16 años, tener licencia de armas tipo \"D\" y que la Intervención de Armas le autorice."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-10",
+  "tema": 4,
+  "numero": 10,
+  "pregunta": "En un arma combinada (escopeta y rifle de caza), ¿cómo se documentará dicha arma?.",
+  "opciones": [
+   "Dos, una para la escopeta y otra para el rifle.",
+   "Dos licencias en un modelo de licencia especial.",
+   "Se documentará con una guía de pertenencia, teniendo en cuenta el arma de mayor peligrosidad."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-11",
+  "tema": 4,
+  "numero": 11,
+  "pregunta": "El/La propietario/a de una escopeta y un arma larga rayada para caza mayor, ¿qué licencias de armas deberá tener?",
+  "opciones": [
+   "Licencia de armas “D” y “E”.",
+   "Solo licencia “D” pues ampara un arma de mayor peligrosidad.",
+   "Licencia de armas “D” o “E”, es indiferente."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-12",
+  "tema": 4,
+  "numero": 12,
+  "pregunta": "¿Qué documento se entrega al Interventor de Armas, por pérdida, destrucción, robo o sustracción de un arma de la categoría 2ª y 3ª?",
+  "opciones": [
+   "Guía de pertenencia.",
+   "Licencia de armas correspondiente.",
+   "Tarjeta federativa."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-13",
+  "tema": 4,
+  "numero": 13,
+  "pregunta": "¿Qué documento podrá solicitarse en la Intervención de Armas, ante la pérdida, destrucción, robo o sustracción de la licencia de armas?.",
+  "opciones": [
+   "Guía de pertenencia.",
+   "Guía de circulación.",
+   "Autorización temporal de uso de armas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-14",
+  "tema": 4,
+  "numero": 14,
+  "pregunta": "Cuando las licencias de armas estén próximas a caducar, ¿qué documento podrán expedir los/las Interventores/ras de Armas a los/las peticionarios/as?",
+  "opciones": [
+   "Guía de pertenencia.",
+   "Guía de circulación.",
+   "Autorización temporal de uso de armas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-15",
+  "tema": 4,
+  "numero": 15,
+  "pregunta": "¿Qué es una autorización temporal de uso de armas?",
+  "opciones": [
+   "Es una autorización que se otorga a cualquier persona mayor de edad para poder cazar quince días.",
+   "Es una autorización que se concede a las personas con licencias de armas caducadas para poder cazar.",
+   "Son autorizaciones que expiden los Interventores de Armas a las personas con licencias de armas próximas a caducar, con un período de vigencia de tres meses y solamente para el uso de las armas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-16",
+  "tema": 4,
+  "numero": 16,
+  "pregunta": "Los titulares de licencias de armas próximas a caducar, cuando éstos/as solicitan su nueva concesión, las Intervenciones de Armas y Explosivos podrán expedir a los solicitantes autorizaciones temporales de uso de dichas armas, ¿qué plazo de validez tendrán dichas autorizaciones?",
+  "opciones": [
+   "Un mes.",
+   "Dos meses.",
+   "Tres meses."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-17",
+  "tema": 4,
+  "numero": 17,
+  "pregunta": "¿Quien expide la autorización temporal de uso de armas a los titulares de licencias de armas próximas a caducar, cuando éstos solicitan su nueva concesión?",
+  "opciones": [
+   "El/La Alcalde/sa del Ayuntamiento.",
+   "El/La Interventor/a de Armas y Explosivos.",
+   "El/La Armero/a autorizado/a."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-18",
+  "tema": 4,
+  "numero": 18,
+  "pregunta": "Para la tenencia de armas de la categoría 2ª.2 -Armas de fuego largas rayadas para caza mayor, ¿con qué documento habrá de estar documentada cada arma?",
+  "opciones": [
+   "Licencia de caza.",
+   "Con guía de pertenencia.",
+   "Tarjeta deportiva."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-19",
+  "tema": 4,
+  "numero": 19,
+  "pregunta": "Para la tenencia de armas de la categoría 3ª.2 -Escopetas y demás armas de fuego largas de ánima lisa ¿con qué documento habrá de estar documentada cada arma?",
+  "opciones": [
+   "Licencia de armas “D”.",
+   "Guía de circulación.",
+   "Con guía de pertenencia."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-20",
+  "tema": 4,
+  "numero": 20,
+  "pregunta": "Para la tenencia de armas de la categoría 3ª.3 -Armas accionadas por aire u otro gas comprimido, siempre que la energía cinética del proyectil en boca exceda de 24,2 julios, ¿con qué documento habrá de estar documentada cada arma?",
+  "opciones": [
+   "Con guía de pertenencia.",
+   "Tarjeta de armas.",
+   "Guía especial."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-21",
+  "tema": 4,
+  "numero": 21,
+  "pregunta": "Para la tenencia de armas de la categoría, 7ª.2 -Ballestas- ¿con qué documento habrá de estar documentada cada arma?",
+  "opciones": [
+   "Tarjeta deportiva.",
+   "Con guía de pertenencia.",
+   "Licencia federativa."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-22",
+  "tema": 4,
+  "numero": 22,
+  "pregunta": "Para la tenencia de armas de la categoría 7ª.3 -Armas para lanzar cabos- ¿con qué documento habrá de estar documentada cada arma?",
+  "opciones": [
+   "Certificado de la Comandancia de marina.",
+   "No es necesario ningún documento.",
+   "Con guía de pertenencia."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-23",
+  "tema": 4,
+  "numero": 23,
+  "pregunta": "¿Cuántas armas irán reseñadas en una guía de pertenencia?",
+  "opciones": [
+   "Una.",
+   "Dos.",
+   "Ninguna."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-24",
+  "tema": 4,
+  "numero": 24,
+  "pregunta": "¿En qué casos acompañará la guía de pertenencia al arma?",
+  "opciones": [
+   "No es necesario.",
+   "Solo cuando se deposite el arma.",
+   "En caso de uso, depósito y transporte."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-25",
+  "tema": 4,
+  "numero": 25,
+  "pregunta": "Señale, entre las siguientes, el arma exceptuada de estar amparada con guía de pertenencia:",
+  "opciones": [
+   "Escopetas",
+   "Pistolas",
+   "Arcos"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-26",
+  "tema": 4,
+  "numero": 26,
+  "pregunta": "Señale, entre las siguientes, el arma exceptuada de estar amparada con guía de pertenencia.",
+  "opciones": [
+   "Pistola lanza bengalas.",
+   "Fúsil lanzacabos",
+   "Fúsil de inyección anestésica."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-27",
+  "tema": 4,
+  "numero": 27,
+  "pregunta": "¿Cuántas escopetas de caza se pueden legalizar con una sola guía de pertenencia?.",
+  "opciones": [
+   "Solamente se puede legalizar una escopeta.",
+   "Más de una escopeta si es del mismo titular.",
+   "Con una guía de varios cuerpos, se pueden legalizar escopetas y rifles a la vez."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-28",
+  "tema": 4,
+  "numero": 28,
+  "pregunta": "En una Guía de Pertenencia, aparte del D.N.I., los datos personales del propietario del arma, así como los de la Licencia, ¿qué otros datos deben figurar?.",
+  "opciones": [
+   "El nombre del fabricante.",
+   "La provincia donde fue fabricada el arma.",
+   "La reseña completa del arma."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-29",
+  "tema": 4,
+  "numero": 29,
+  "pregunta": "Quienes precisen armas utilizables para la caza mayor ¿qué licencia de armas deberán obtener?",
+  "opciones": [
+   "Licencia de armas “D”",
+   "Licencia de armas “E”",
+   "Licencia de armas “F”"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-30",
+  "tema": 4,
+  "numero": 30,
+  "pregunta": "Para la tenencia de un cañón estriado adaptable a una escopeta de caza, con recámara para cartuchos metálicos, siempre que no estén clasificadas como armas de guerra, ¿qué licencia será necesaria?",
+  "opciones": [
+   "Licencia de armas “E”",
+   "Licencia de armas “F”",
+   "Licencia de armas \"D\""
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-31",
+  "tema": 4,
+  "numero": 31,
+  "pregunta": "¿Qué armas ampara la licencia de armas “D”?",
+  "opciones": [
+   "Fusiles lanzacabos.",
+   "Escopetas.",
+   "Armas largas rayadas para caza mayor."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-32",
+  "tema": 4,
+  "numero": 32,
+  "pregunta": "¿Qué licencia de armas debe obtenerse para llevar y usar armas de fuego largas rayadas para tiro deportivo, de calibre 5,6 milímetros (22 americano), de percusión anular, bien sean de un disparo, bien de repetición o semiautomáticas (Categoría 3ª1)?.",
+  "opciones": [
+   "Licencia de armas “D”",
+   "Licencia de armas “C”",
+   "Licencia de armas \"E\""
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-33",
+  "tema": 4,
+  "numero": 33,
+  "pregunta": "¿Qué licencia de armas debe obtenerse para poseer, llevar y usar ballestas (Categoría 7ª2)?",
+  "opciones": [
+   "No precisan licencia.",
+   "Licencia de armas \"E\"",
+   "Tarjeta deportiva."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-34",
+  "tema": 4,
+  "numero": 34,
+  "pregunta": "La Licencia \"E\" autoriza a poseer, llevar y usar ¿qué categoría de armas?",
+  "opciones": [
+   "Armas de la categoría 3ª, 7ª 2 y 7ª 3.",
+   "Armas de la categoría 4ª y 5ª.",
+   "Armas de la categoría 3ª y 4ª."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-35",
+  "tema": 4,
+  "numero": 35,
+  "pregunta": "La licencia de armas “E” autoriza a poseer, llevar y usar armas de las categorías 3ª, 7ª 2 y 7ª 3. ¿cuántas armas se podrán poseer como máximo?",
+  "opciones": [
+   "Cinco armas largas rayadas.",
+   "Su número no excederá de 6 escopetas ó 6 armas largas rayadas para tiro deportivo, ni 12 armas en total.",
+   "Ninguna de las anteriores."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-36",
+  "tema": 4,
+  "numero": 36,
+  "pregunta": "¿Hasta cuantas escopetas puede ampararse con una licencia de armas “E”?",
+  "opciones": [
+   "Cuatro.",
+   "Cinco.",
+   "Seis"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-37",
+  "tema": 4,
+  "numero": 37,
+  "pregunta": "¿Hasta cuantas armas de fuego largas rayadas para tiro deportivo puede amparar una licencia de armas “E”?",
+  "opciones": [
+   "Cuatro.",
+   "Cinco.",
+   "Seis."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-38",
+  "tema": 4,
+  "numero": 38,
+  "pregunta": "¿Cuántas carabinas de aire comprimido se pueden legalizar con una licencia de armas tipo \"D\"?.",
+  "opciones": [
+   "Cinco, lo mismo que los rifles.",
+   "Solamente tres.",
+   "Ninguna, las carabinas de aire o gas comprimido se legalizan con tarjetas de armas que expiden los/las Alcaldes/as."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-39",
+  "tema": 4,
+  "numero": 39,
+  "pregunta": "¿El titular de armas de fuego cuando viaje con ellas por países miembros de la Unión Europea, deberá ser portador?",
+  "opciones": [
+   "De licencia de armas correspondiente al país donde viaje.",
+   "De Tarjetas de armas correspondiente al país donde viaje.",
+   "De la Tarjeta Europea de Armas"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-40",
+  "tema": 4,
+  "numero": 40,
+  "pregunta": "¿Cuál es la vigencia de la Tarjeta Europea de Armas?",
+  "opciones": [
+   "Dos años.",
+   "Tres años.",
+   "Cinco años."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-41",
+  "tema": 4,
+  "numero": 41,
+  "pregunta": "¿Qué armas figurarán en la Tarjeta Europea de Armas?",
+  "opciones": [
+   "Solo armas cortas.",
+   "Las que lleve o utilice su titular.",
+   "Armas amparadas con guía especial."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-42",
+  "tema": 4,
+  "numero": 42,
+  "pregunta": "El solicitante de licencia “E”, entre otros documentos, ¿cómo acreditará que se dedica al ejercicio de la caza?",
+  "opciones": [
+   "Mediante exhibición de la correspondiente licencia de caza.",
+   "Justificante del solicitante de pertenecer a una Federación Deportiva.",
+   "Ninguna de las anteriores."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-43",
+  "tema": 4,
+  "numero": 43,
+  "pregunta": "Con la presentación de la licencia de caza en vigor, ¿puede el solicitante de una licencia E acreditar que se dedica al ejercicio de la caza?",
+  "opciones": [
+   "No.",
+   "Sí.",
+   "Tendrá que acompañar el justificante de ser socio de un coto de caza."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-44",
+  "tema": 4,
+  "numero": 44,
+  "pregunta": "¿A quiénes les podrán ser expedida la Tarjeta Europea de Armas?",
+  "opciones": [
+   "A los/las españoles/las y extranjeros/ras residentes en España.",
+   "A los/las españoles/las residentes o no en España.",
+   "A los/las extranjeros/as residentes o no en España."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-45",
+  "tema": 4,
+  "numero": 45,
+  "pregunta": "En la renovación de la Tarjeta Europea de Armas, ¿qué se exigirá?",
+  "opciones": [
+   "Mantener la titularidad de las armas que ampare.",
+   "Licencia correspondiente.",
+   "Certificado de antecedentes penales."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-46",
+  "tema": 4,
+  "numero": 46,
+  "pregunta": "¿Qué validez tendrán las autorizaciones especiales de uso de armas para menores?",
+  "opciones": [
+   "Cinco años.",
+   "Tres años.",
+   "Hasta la mayoría de edad."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-47",
+  "tema": 4,
+  "numero": 47,
+  "pregunta": "¿Qué edad mínima tendrá un menor para utilizar un arma larga rayada para caza mayor o tiro deportivo?",
+  "opciones": [
+   "14 años.",
+   "16 años.",
+   "18 años."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-48",
+  "tema": 4,
+  "numero": 48,
+  "pregunta": "¿Qué edad mínima tendrá un menor para utilizar armas de las categorías 3ª.2 y 3ª.3?",
+  "opciones": [
+   "14 años.",
+   "16 años.",
+   "18 años."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-49",
+  "tema": 4,
+  "numero": 49,
+  "pregunta": "¿De quiénes irán siempre acompañados los menores cuando utilicen armas de las categorías 2ª.2 o 3ª?",
+  "opciones": [
+   "Personas mayores de edad.",
+   "Personas mayores de edad con licencia de armas D, E o F.",
+   "Personas mayores de edad y para cazar."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-50",
+  "tema": 4,
+  "numero": 50,
+  "pregunta": "La persona mayor de edad en posesión de licencia de armas D, E o F que acompañe a un/a menor de edad en posesión de autorización especial de uso de armas, que esté utilizando armas de las categorías 2ª2 o 3ª, ¿a qué se habrán comprometido previamente?",
+  "opciones": [
+   "A acompañarlo hasta el lugar de la cacería.",
+   "A vigilarlo en todo momento y lugar.",
+   "A acompañarlo y vigilarlo en cada cacería o acto deportivo."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-51",
+  "tema": 4,
+  "numero": 51,
+  "pregunta": "Un menor ¿puede ser titular de una escopeta?",
+  "opciones": [
+   "Sí, si tiene autorización especial de menores.",
+   "Puede ser titular de una escopeta solamente para cazar.",
+   "Un menor, no puede ser titular de una escopeta."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-52",
+  "tema": 4,
+  "numero": 52,
+  "pregunta": "Indique el plazo de validez de una licencia de armas tipo “D” expedida a una persona de 55 años.",
+  "opciones": [
+   "Cinco años",
+   "Dos años",
+   "Tres años"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-53",
+  "tema": 4,
+  "numero": 53,
+  "pregunta": "Indique el plazo de validez de una licencia de armas “E” expedida a una persona de más de 50 años de edad y menos de 60 años.",
+  "opciones": [
+   "Una.",
+   "Tres.",
+   "Cinco."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-54",
+  "tema": 4,
+  "numero": 54,
+  "pregunta": "Un joven de 17 años, ¿cuántas licencias de armas tipo \"E\" puede tener?",
+  "opciones": [
+   "Una.",
+   "Dos, si no tiene licencia de armas tipo \"D\".",
+   "Ninguna."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-55",
+  "tema": 4,
+  "numero": 55,
+  "pregunta": "¿Por quién estarán suscritas las solicitudes de autorizaciones especiales de uso de armas para menores?.",
+  "opciones": [
+   "Por el interesado.",
+   "Por el interesado y por la persona que ejerce la patria potestad o tutela.",
+   "Por el padre del interesado."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-56",
+  "tema": 4,
+  "numero": 56,
+  "pregunta": "Indique el plazo de validez de una licencia de armas tipo “E” expedida a una persona de 62 años.",
+  "opciones": [
+   "Tres años",
+   "Un año",
+   "Cinco años"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-57",
+  "tema": 4,
+  "numero": 57,
+  "pregunta": "Indique el plazo de validez de una licencia de armas tipo “D” expedida a una persona de 68 años.",
+  "opciones": [
+   "Permanente",
+   "Un año",
+   "Cinco años visada cada Tres años"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-58",
+  "tema": 4,
+  "numero": 58,
+  "pregunta": "Indique el plazo de validez de una licencia de armas tipo “E” expedida a una persona de 72 años.",
+  "opciones": [
+   "Dos años",
+   "Tres años",
+   "Cinco años visada cada tres"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-59",
+  "tema": 4,
+  "numero": 59,
+  "pregunta": "Indique el plazo de validez de una licencia de armas tipo “D” expedida a una persona de 71 años.",
+  "opciones": [
+   "Cinco años visada cada tres",
+   "Dos años",
+   "Permanente."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-60",
+  "tema": 4,
+  "numero": 60,
+  "pregunta": "¿A partir de qué edad es necesario visar la Licencia un particular?",
+  "opciones": [
+   "Setenta años",
+   "Sesenta y cinco años",
+   "Sesenta y siete años"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-61",
+  "tema": 4,
+  "numero": 61,
+  "pregunta": "¿En qué plazo debe resolverse una solicitud de licencia de armas?",
+  "opciones": [
+   "Un mes",
+   "Dos meses",
+   "Tres meses"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "4-62",
+  "tema": 4,
+  "numero": 62,
+  "pregunta": "Caso de no mantenerse los requisitos que se exigen para el otorgamiento de una licencia de armas, ¿qué procede?",
+  "opciones": [
+   "Retirada de todas las armas.",
+   "Revocar la licencia.",
+   "Ninguna de las anteriores."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-63",
+  "tema": 4,
+  "numero": 63,
+  "pregunta": "Según el Reglamento de Armas, ¿por cuánto tiempo se puede revocar una licencia de armas?.",
+  "opciones": [
+   "Por un período máximo de dos años.",
+   "Por el tiempo que le falte para caducar.",
+   "Máximo tres años."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-64",
+  "tema": 4,
+  "numero": 64,
+  "pregunta": "¿Cuándo podrá comprobar la Administración el mantenimiento de los requisitos exigibles para mantener la vigencia de una licencia de armas?",
+  "opciones": [
+   "Cuando lo solicite el titular.",
+   "En cualquier momento",
+   "En los casos de infracción"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-65",
+  "tema": 4,
+  "numero": 65,
+  "pregunta": "La vigencia de una licencia de armas estará condicionada a:",
+  "opciones": [
+   "Mantenimiento de los requisitos exigibles en el Reglamento de Armas",
+   "No haber cambiado de residencia.",
+   "No haber llegado a la edad de 65 años."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-66",
+  "tema": 4,
+  "numero": 66,
+  "pregunta": "Para obtener licencia para la tenencia y uso de armas largas rayadas para caza mayor o para escopetas y armas asimiladas se superarán unas pruebas de capacitación ¿En qué consistirán las mismas?",
+  "opciones": [
+   "Conocimiento del Reglamento de caza.",
+   "Conocimiento de las armas, su cuidado y conservación y sobre habilidad para su manejo y utilización.",
+   "Conocimiento de las licencias que existen."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-67",
+  "tema": 4,
+  "numero": 67,
+  "pregunta": "¿Quien expide la guía de pertenencia de un arma?",
+  "opciones": [
+   "El/La Delegado/a del Gobierno",
+   "El/La Interventor/a de Armas.",
+   "El/La director/a General de la Guardia Civil."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-68",
+  "tema": 4,
+  "numero": 68,
+  "pregunta": "A la solicitud de expedición de licencia de armas tipo “D” ¿qué documentos han de unirse?",
+  "opciones": [
+   "Certificado antecedentes penales e informe de aptitudes psicofísicas.",
+   "Fotocopia del DNI o en su caso tarjeta de autorización de residencia.",
+   "Todos los reseñados en la A y B."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "4-69",
+  "tema": 4,
+  "numero": 69,
+  "pregunta": "¿Qué documentos presentará el interesado al solicitar la expedición de licencia \"E\"?",
+  "opciones": [
+   "Solamente el certificado de antecedentes penales e informe de aptitud psicofísica.",
+   "Certificado de antecedentes penales en vigor, Informe de aptitud psicofísicas y acreditación de la dedicación real al ejercicio de la caza o de los deportes correspondientes.",
+   "Ninguna de las anteriores."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "4-70",
+  "tema": 4,
+  "numero": 70,
+  "pregunta": "¿Cuál de los siguientes documentos no será obligatorio para la expedición de la Licencia de Armas tipo E?",
+  "opciones": [
+   "Informe de aptitudes Psicofísicas.",
+   "Certificado de antecedentes penales.",
+   "Certificado del Alcalde."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "5-1",
+  "tema": 5,
+  "numero": 1,
+  "pregunta": "En materia de armas, los hechos pueden ser constitutivos de:",
+  "opciones": [
+   "Infracciones penales e infracciones administrativas.",
+   "Infracciones penales.",
+   "Infracciones muy graves, graves y leves."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-2",
+  "tema": 5,
+  "numero": 2,
+  "pregunta": "En materia de armas, y de las clases de infracciones administrativas que se expresan. Indicar la proposición correcta.",
+  "opciones": [
+   "Graves, menos graves y leves.",
+   "Muy Graves, graves y leves.",
+   "Graves y leves."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "5-3",
+  "tema": 5,
+  "numero": 3,
+  "pregunta": "¿Quién es competente para imponer sanciones al Reglamento de Armas?",
+  "opciones": [
+   "El/La Delegado/a del Gobierno y el/la directora/a General de la Guardia Civil.",
+   "El/La alcalde/sa.",
+   "Las dos anteriores son correctas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "5-4",
+  "tema": 5,
+  "numero": 4,
+  "pregunta": "De las que se citan ¿Qué autoridades son competentes para ordenar la instrucción de un procedimiento sancionador en materia de armas?",
+  "opciones": [
+   "Interventor/a de Armas y Explosivos.",
+   "Director/a General de la Guardia Civil, Delegado/a del Gobierno y los/las Alcaldes/sas.",
+   "Delegado/a de Hacienda."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "5-5",
+  "tema": 5,
+  "numero": 5,
+  "pregunta": "¿Cuándo prescribirán las infracciones administrativas leves?",
+  "opciones": [
+   "A los 3 meses.",
+   "Al año.",
+   "A los 2 años."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-6",
+  "tema": 5,
+  "numero": 6,
+  "pregunta": "¿Cuándo prescribirán las infracciones administrativas graves?",
+  "opciones": [
+   "A los 3 meses.",
+   "Al año.",
+   "A los 2 años."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "5-7",
+  "tema": 5,
+  "numero": 7,
+  "pregunta": "¿Cuándo prescribirán las infracciones administrativas muy graves?",
+  "opciones": [
+   "A los 3 meses.",
+   "Al año.",
+   "A los 2 años."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "5-8",
+  "tema": 5,
+  "numero": 8,
+  "pregunta": "¿Cuándo prescribirán las sanciones leves?",
+  "opciones": [
+   "Al año.",
+   "A los 2 años.",
+   "A los 4 años."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-9",
+  "tema": 5,
+  "numero": 9,
+  "pregunta": "¿Cuándo prescribirán las sanciones graves?",
+  "opciones": [
+   "Al año.",
+   "A los 2 años.",
+   "A los 4 años."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "5-10",
+  "tema": 5,
+  "numero": 10,
+  "pregunta": "¿Cuándo prescribirán las sanciones muy graves?",
+  "opciones": [
+   "Al año.",
+   "A los 2 años.",
+   "A los 4 años."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "5-11",
+  "tema": 5,
+  "numero": 11,
+  "pregunta": "¿Las sanciones impuestas en materia de armas, ¿Cuándo serán ejecutivas?",
+  "opciones": [
+   "Cuando las resoluciones adquieran firmeza en vía administrativa.",
+   "A los diez días de notificar la resolución al interesado.",
+   "A los 30 días de notificar la resolución al interesado."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-12",
+  "tema": 5,
+  "numero": 12,
+  "pregunta": "¿Se pueden imponer sanciones penales y administrativas por un mismo hecho?",
+  "opciones": [
+   "Sí.",
+   "En ningún caso.",
+   "Dependerá de la Autoridad Judicial."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "5-13",
+  "tema": 5,
+  "numero": 13,
+  "pregunta": "Si no constituye infracción penal, el almacenamiento, sin autorización, de un arma larga rayada, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Muy grave",
+   "Grave",
+   "Leve"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-14",
+  "tema": 5,
+  "numero": 14,
+  "pregunta": "Si no constituye infracción penal, el almacenamiento, sin autorización, de un arma larga de ánima lisa, ¿De qué infracción administrativa se trata?",
+  "opciones": [
+   "Muy grave",
+   "Grave",
+   "Leve"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-15",
+  "tema": 5,
+  "numero": 15,
+  "pregunta": "Si no constituye infracción penal, la insuficiencia de las medidas de seguridad obligatorias en la fase de almacenamiento, de un arma larga rayada, ¿qué infracción administrativa puede constituir?",
+  "opciones": [
+   "Muy grave",
+   "Grave",
+   "Leve"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-16",
+  "tema": 5,
+  "numero": 16,
+  "pregunta": "Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de almacenamiento, de un arma larga rayada, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Muy grave",
+   "Grave",
+   "Leve"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-17",
+  "tema": 5,
+  "numero": 17,
+  "pregunta": "La tenencia de una escopeta careciendo de guía de pertenencia es una infracción...",
+  "opciones": [
+   "Gravísima",
+   "Leve",
+   "Ninguna de las anteriores."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "5-18",
+  "tema": 5,
+  "numero": 18,
+  "pregunta": "¿Qué sanción pecuniaria puede imponer la autoridad competente por una infracción muy grave al Reglamento de Armas?",
+  "opciones": [
+   "Multa de 30050´61 a 601012´10 euros.",
+   "Multa de 300´51 a 3005´06 euros.",
+   "Multa de hasta 300´51 euros."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-19",
+  "tema": 5,
+  "numero": 19,
+  "pregunta": "Si no constituye infracción penal, la reparación sin autorización de una ballesta, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-20",
+  "tema": 5,
+  "numero": 20,
+  "pregunta": "Si no constituye infracción penal, la reparación sin autorización de un arma para lanzar cabos , ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-21",
+  "tema": 5,
+  "numero": 21,
+  "pregunta": "Si no constituye infracción penal, el almacenamiento sin autorización de una ballesta , ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-22",
+  "tema": 5,
+  "numero": 22,
+  "pregunta": "Si no constituye infracción penal, el almacenamiento sin autorización de un arma para lanzar cabos , ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-23",
+  "tema": 5,
+  "numero": 23,
+  "pregunta": "Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de almacenamiento, de una arma cuya tenencia requiera licencia “E”, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-24",
+  "tema": 5,
+  "numero": 24,
+  "pregunta": "Si no constituye infracción penal, la insuficiencia de las medidas de seguridad obligatorias en la fase de almacenamiento, de armas cuya tenencia requiera licencia “E”, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-25",
+  "tema": 5,
+  "numero": 25,
+  "pregunta": "Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de circulación, de un arma cuya tenencia requiera licencia “E”, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-26",
+  "tema": 5,
+  "numero": 26,
+  "pregunta": "Si no constituye infracción penal, la insuficiencia de las medidas de seguridad obligatorias en la fase de circulación de un arma cuya tenencia requiera licencia “E, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-27",
+  "tema": 5,
+  "numero": 27,
+  "pregunta": "Si no constituye infracción penal, la insuficiencia de las medidas de seguridad obligatorias en la fase de almacenamiento por particulares en domicilio, de un arma larga rayada, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-28",
+  "tema": 5,
+  "numero": 28,
+  "pregunta": "Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de almacenamiento por particulares en domicilio, de un arma larga rayada, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-29",
+  "tema": 5,
+  "numero": 29,
+  "pregunta": "Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de almacenamiento por particulares en el lugar de uso, de un arma larga rayada, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-30",
+  "tema": 5,
+  "numero": 30,
+  "pregunta": "Si no constituye infracción penal, la insuficiencia de las medidas de seguridad obligatorias en la fase de almacenamiento por particulares en domicilio, de un arma larga de ánima lisa, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-31",
+  "tema": 5,
+  "numero": 31,
+  "pregunta": "Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de almacenamiento por particulares en domicilio, de un arma larga de ánima lisa, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-32",
+  "tema": 5,
+  "numero": 32,
+  "pregunta": "Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de almacenamiento por particulares en el lugar de uso, de un arma larga de ánima lisa, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-33",
+  "tema": 5,
+  "numero": 33,
+  "pregunta": "Si no constituye infracción penal, el impedimento para que las Autoridades competentes, realicen cuantos controles sean necesarios relativos a la tenencia de un arma, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-34",
+  "tema": 5,
+  "numero": 34,
+  "pregunta": "Si no constituye infracción penal, el impedimento para que las Autoridades competentes, realicen cuantos controles sean necesarios relativos a la utilización de un arma, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-35",
+  "tema": 5,
+  "numero": 35,
+  "pregunta": "Si no constituye infracción penal, el impedimento para que las Autoridades competentes, realicen cuantos controles sean necesarios relativos al almacenamiento de un arma, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-36",
+  "tema": 5,
+  "numero": 36,
+  "pregunta": "Si no constituye infracción penal, la adquisición de armas de la 2ª.2 y 3ª2 por particulares, sin tener las autorizaciones o licencias pertinentes, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-37",
+  "tema": 5,
+  "numero": 37,
+  "pregunta": "Si no constituye infracción penal, la tenencia de armas de la 2ª.2 y 3ª2 por particulares, sin tener las autorizaciones o licencias pertinentes, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-38",
+  "tema": 5,
+  "numero": 38,
+  "pregunta": "Si no constituye infracción penal, la cesión de armas de la 2ª.2 y 3ª2 por particulares, sin tener las autorizaciones o licencias pertinentes, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-39",
+  "tema": 5,
+  "numero": 39,
+  "pregunta": "Si no constituye infracción penal, la enajenación de armas de la 2ª.2 y 3ª2 por particulares, sin tener las autorizaciones o licencias pertinentes, ¿De qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-40",
+  "tema": 5,
+  "numero": 40,
+  "pregunta": "Si no constituye infracción penal, la alegación de datos falsos para obtener las licencias pertinentes, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-41",
+  "tema": 5,
+  "numero": 41,
+  "pregunta": "Si no constituye infracción penal, el uso de cualquier arma de fuego reglamentaria, con omisión de las medidas o precauciones obligatorias para garantizar la seguridad de las personas o cosas, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-42",
+  "tema": 5,
+  "numero": 42,
+  "pregunta": "Si no constituye infracción penal, el uso de cualquier arma de fuego reglamentaria, con insuficiencia de las medidas o precauciones obligatorias para garantizar la seguridad de las personas o cosas, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-43",
+  "tema": 5,
+  "numero": 43,
+  "pregunta": "Si no constituye infracción penal, portar armas de cualquier clase en establecimientos públicos, salvo que estuvieren habilitados, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-44",
+  "tema": 5,
+  "numero": 44,
+  "pregunta": "Si no constituye infracción penal, portar armas de cualquier clase en lugares de reunión salvo que estuvieren habilitados, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-45",
+  "tema": 5,
+  "numero": 45,
+  "pregunta": "Si no constituye infracción penal, portar armas de cualquier clase en lugares de concentración, salvo que estuvieren habilitados, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-46",
+  "tema": 5,
+  "numero": 46,
+  "pregunta": "Si no constituye infracción penal, portar armas de cualquier clase en lugar de recreo, salvo que estuviere habilitado, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-47",
+  "tema": 5,
+  "numero": 47,
+  "pregunta": "Si no constituye infracción penal, portar armas de cualquier clase en lugar de esparcimiento, salvo que estuviere habilitado, ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Grave",
+   "Leve",
+   "Muy grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-48",
+  "tema": 5,
+  "numero": 48,
+  "pregunta": "¿Qué tipo de infracción constituye la tenencia de un arma larga rayada de la categoría 2ª.2 en el domicilio careciendo de armero o caja fuerte para su custodia?.",
+  "opciones": [
+   "Infracción Leve",
+   "Infracción Muy Grave",
+   "Infracción Grave"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "5-49",
+  "tema": 5,
+  "numero": 49,
+  "pregunta": "La tenencia de una escopeta con la Licencia caducada hace tan sólo 20 días constituye una infracción...",
+  "opciones": [
+   "Grave.",
+   "Leve porque es poco tiempo desde que ha caducado.",
+   "No es ninguna infracción porque no me he dado cuenta y ya acudiré a la Intervención para renovarla."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-50",
+  "tema": 5,
+  "numero": 50,
+  "pregunta": "La alegación de un domicilio en el que no resido para la documentar una escopeta, es una infracción...",
+  "opciones": [
+   "Leve.",
+   "No es ninguna infracción.",
+   "Grave."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "5-51",
+  "tema": 5,
+  "numero": 51,
+  "pregunta": "La negativa a presentar un rifle y sus documentos a un/una Policía Nacional cuando nos lo requiere, es una infracción...",
+  "opciones": [
+   "Muy Grave.",
+   "No es ninguna infracción puesto que sólo las debo presentar en la Intervención de Armas de la Guardia Civil o a alguno/a de sus agentes.",
+   "Grave."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "5-52",
+  "tema": 5,
+  "numero": 52,
+  "pregunta": "¿Qué sanción pecuniaria puede imponer la autoridad competente por una infracción grave al Reglamento de Armas?",
+  "opciones": [
+   "Multa de 30050´61 a 601012´10 _.",
+   "Multa de 300´51 a 30050´61 _.",
+   "Multa de hasta 300´51 _."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "5-53",
+  "tema": 5,
+  "numero": 53,
+  "pregunta": "Si no constituye infracción penal, la adquisición de ballestas por particulares, sin tener las autorizaciones o licencias pertinentes ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Muy grave.",
+   "Grave.",
+   "Leve."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "5-54",
+  "tema": 5,
+  "numero": 54,
+  "pregunta": "Si no constituye infracción penal, la tenencia de ballestas por particulares, sin tener las autorizaciones o licencias pertinentes ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Leve.",
+   "Grave.",
+   "Muy grave."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-55",
+  "tema": 5,
+  "numero": 55,
+  "pregunta": "Si no constituye infracción penal, la cesión de ballestas por particulares, sin tener las autorizaciones o licencias pertinentes ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Leve.",
+   "Grave.",
+   "Muy grave."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-56",
+  "tema": 5,
+  "numero": 56,
+  "pregunta": "Si no constituye infracción penal, la enajenación de ballestas por particulares, sin tener las autorizaciones o licencias pertinentes ¿de qué infracción administrativa se trata?",
+  "opciones": [
+   "Muy grave",
+   "Leve.",
+   "Grave."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "5-57",
+  "tema": 5,
+  "numero": 57,
+  "pregunta": "Si no constituye infracción penal, el incumplimiento de dar cuenta a la Guardia Civil de la destrucción de la documentación de un arma, ¿De qué infracción administrativa se trata?",
+  "opciones": [
+   "Leve",
+   "Muy grave",
+   "Grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-58",
+  "tema": 5,
+  "numero": 58,
+  "pregunta": "Si no constituye infracción penal, el incumplimiento de dar cuenta a la Guardia Civil de la pérdida de la documentación de un arma, ¿De qué infracción administrativa se trata?",
+  "opciones": [
+   "Leve",
+   "Muy grave",
+   "Grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-59",
+  "tema": 5,
+  "numero": 59,
+  "pregunta": "Si no constituye infracción penal, el incumplimiento de dar cuenta a la Guardia Civil de la sustracción de la documentación de un arma, ¿De qué infracción administrativa se trata?",
+  "opciones": [
+   "Leve",
+   "Muy grave",
+   "Grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-60",
+  "tema": 5,
+  "numero": 60,
+  "pregunta": "Si no constituye infracción penal, el incumplimiento de realizar las declaraciones obligatorias, ¿De qué infracción administrativa se trata?",
+  "opciones": [
+   "Leve",
+   "Muy grave",
+   "Grave"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-61",
+  "tema": 5,
+  "numero": 61,
+  "pregunta": "La omisión de la revistas constituye una infracción...",
+  "opciones": [
+   "Grave.",
+   "Leve.",
+   "Muy Grave"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "5-62",
+  "tema": 5,
+  "numero": 62,
+  "pregunta": "¿Qué sanción pecuniaria puede imponer la autoridad competente por una infracción leve al Reglamento de Armas?",
+  "opciones": [
+   "Multa de 3005´07 a 6010´12 euros.",
+   "Multa de 300´51 a 3005´06 euros.",
+   "Multa de hasta 300´51 euros."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "5-63",
+  "tema": 5,
+  "numero": 63,
+  "pregunta": "¿Qué implica la retirada de las armas?",
+  "opciones": [
+   "La desposesión de las mismas y la prohibición de la adquisición y tenencia de otras.",
+   "El depósito del arma para subastarla.",
+   "No hacer uso del arma durante un tiempo."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-64",
+  "tema": 5,
+  "numero": 64,
+  "pregunta": "Señale la opción correcta de las siguientes propuestas:",
+  "opciones": [
+   "Es lícito llevar o usar armas en una manifestación de personas por motivos de seguridad.",
+   "Puedo adquirir una escopeta de caza para poder defenderme en una casa de campo.",
+   "Se considera ilícito el hecho de llevar o usar armas los concurrentes a establecimientos públicos o lugares de reunión."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "5-65",
+  "tema": 5,
+  "numero": 65,
+  "pregunta": "Tengo una escopeta de caza y la dedico solamente para la caza del conejo, por lo que decido recortar en mi casa la longitud de los cañones en diez centímetros para que se abra mejor el tiro, ¿puedo hacerlo?",
+  "opciones": [
+   "No",
+   "Sí, con autorización del/la Delegado/a del Gobierno.",
+   "Sí puedo porque diez centímetros de cañón es muy poco y no afecta al arma."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "5-66",
+  "tema": 5,
+  "numero": 66,
+  "pregunta": "Si me sorprende la Autoridad con un cargador para arma corta de 25 cartuchos, sin la autorización pertinente. ¿Qué conlleva a parte de la incoación del correspondiente expediente sancionador?",
+  "opciones": [
+   "Retirada de todas las licencias de armas que posea.",
+   "Incautación de los cargadores.",
+   "Ambas son correctas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-1",
+  "tema": 6,
+  "numero": 1,
+  "pregunta": "¿Es cierto que el Reglamento de Armas contempla que la reparación de armas de fuego se hará solamente por industrias que las hubiesen fabricado o por armeros autorizados por la Intervención de Armas de la Guardia Civil, con establecimientos abiertos e inscritos en un registro de la citada Intervención?",
+  "opciones": [
+   "Cierto.",
+   "Falso.",
+   "Es indiferente."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-2",
+  "tema": 6,
+  "numero": 2,
+  "pregunta": "¿Qué documento será aportado al armero, cuando se le entregue un arma de fuego para reparación?",
+  "opciones": [
+   "La Licencia o Autorización de armas.",
+   "La Guía de Pertenencia o la Guía de Circulación en su caso.",
+   "La Guía de Pertenencia y la Licencia de Armas."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-3",
+  "tema": 6,
+  "numero": 3,
+  "pregunta": "¿Qué destino se le dará a la Guía de pertenencia de un arma de fuego que ha sido reparada?",
+  "opciones": [
+   "Se devolverá al/la propietario/a del arma",
+   "Se hará una nueva guía haciendo constar que ha sido reparada",
+   "Se destruirá"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-4",
+  "tema": 6,
+  "numero": 4,
+  "pregunta": "¿Puede llevar un arma de fuego personalmente el/la titular de la misma para su reparación?",
+  "opciones": [
+   "No",
+   "Algunas veces",
+   "Sí"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-5",
+  "tema": 6,
+  "numero": 5,
+  "pregunta": "Cuando el arma a reparar proceda de una localidad distinta a la de ubicación del establecimiento del armero y no la lleva personalmente su propietario. ¿Qué documento deberá sustituir a la Guía de Pertenencia?:",
+  "opciones": [
+   "Tan solo una nota con las deficiencias que tiene el arma, si se manda por una agencia de transportes.",
+   "Una guía de circulación expedida por la Intervención de Armas de origen o demarcación del/la propietario/a del arma.",
+   "Si la lleva personalmente el/la propietario/a, necesita igualmente guía de circulación."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-6",
+  "tema": 6,
+  "numero": 6,
+  "pregunta": "¿ Qué requisito será imprescindible para poder reparar armas de fuego?:",
+  "opciones": [
+   "Ser un técnico en la reparación de armas y realizarlo de forma habitual.",
+   "Tener la condición de armero y establecimiento abierto e inscrito en un registro que llevará la Intervención de Armas de su residencia.",
+   "Ser titular de una armería debidamente autorizada por la Autoridad Gubernativa."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-7",
+  "tema": 6,
+  "numero": 7,
+  "pregunta": "¿Es imprescindible obtener la condición de armero para dedicarse a la reparación de armas de fuego?",
+  "opciones": [
+   "Algunas veces",
+   "Sí",
+   "Cuando se trate de armas blancas sí es necesario"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-8",
+  "tema": 6,
+  "numero": 8,
+  "pregunta": "¿Las industrias que fabrican armas de fuego están autorizadas a reparar las mismas?",
+  "opciones": [
+   "No, si la avería es muy grave",
+   "Sí",
+   "Depende del tipo de arma."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-9",
+  "tema": 6,
+  "numero": 9,
+  "pregunta": "¿Se admitirá un arma de fuego para su reparación si no lleva la Guía de pertenencia?",
+  "opciones": [
+   "Sí, cuando esté en muy mal estado",
+   "No, en ningún caso.",
+   "Sí, siempre que dicho documento se haya sustituido por una guía de circulación."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-10",
+  "tema": 6,
+  "numero": 10,
+  "pregunta": "¿Puede el titular de un arma de fuego llevarla personalmente a un establecimiento autorizado para su reparación?",
+  "opciones": [
+   "No",
+   "Sí, si va acompañada de la Guía de Pertenencia.",
+   "Sí, si va acompañada de la Guía de Pertenencia y Licencia correspondiente."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-11",
+  "tema": 6,
+  "numero": 11,
+  "pregunta": "La reparación de armas se hará solamente:",
+  "opciones": [
+   "Por las industrias que las hubiesen fabricado.",
+   "Por armeros/as, que autorizados/as por Intervención de Armas cuenten con establecimiento abierto al público y estén inscritos en el correspondiente registro.",
+   "Las dos respuestas anteriores (A y B) son válidas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-12",
+  "tema": 6,
+  "numero": 12,
+  "pregunta": "No se admitirá un arma a reparar si no va acompañada de:",
+  "opciones": [
+   "Guía de Pertenencia.",
+   "Guía de Circulación.",
+   "La A) y la B) son correctas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-13",
+  "tema": 6,
+  "numero": 13,
+  "pregunta": "¿Donde quedará la Guía de Pertenencia del arma que se esté reparando?:",
+  "opciones": [
+   "Será devuelta al propietario del arma una vez se tomen los datos del arma por el armero.",
+   "Quedará en poder del/la armero/a mientras dure la reparación del arma.",
+   "No es necesario, en este caso, que el arma vaya acompañada por la Guía de Pertenencia."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-14",
+  "tema": 6,
+  "numero": 14,
+  "pregunta": "¿Cuándo deberá ser entregada a su titular la guía de pertenencia de un arma llevada a reparar a una armería?",
+  "opciones": [
+   "Una vez presentada el arma en la armería.",
+   "Una vez que el/la Armero/a ha tomado nota de la misma.",
+   "En el momento de retirar el arma de la armería."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-15",
+  "tema": 6,
+  "numero": 15,
+  "pregunta": "Además del arma, ¿qué entregará al armero/a el/la titular que le deje su arma para reparar?:",
+  "opciones": [
+   "La Guía de Pertenencia.",
+   "La licencia de armas.",
+   "No es preciso que le entregue nada."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-16",
+  "tema": 6,
+  "numero": 16,
+  "pregunta": "Sin conocimiento de la Intervención de Armas y Explosivos de la Guardia Civil ¿en qué casos está permitida la reparación que suponga modificación de las características, estructura o calibre de un arma de caza?",
+  "opciones": [
+   "En cualquier caso.",
+   "En ningún caso.",
+   "Es indiferente."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-17",
+  "tema": 6,
+  "numero": 17,
+  "pregunta": "¿Puede llevarse a cabo una reparación que suponga modificación del calibre de un arma?:",
+  "opciones": [
+   "Sí, si es de caza y esté aprobado por un banco oficial de pruebas y notificado a la Intervención de Armas.",
+   "Sí, siempre que las variaciones hayan sido realizadas por los propios fabricantes del arma y hayan entregado esta documentación técnica en la Intervención de Armas de la demarcación del establecimiento.",
+   "Son correctas las dos respuestas anteriores."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-18",
+  "tema": 6,
+  "numero": 18,
+  "pregunta": "¿En qué casos se permitirá que la reparación del arma suponga la modificación sustancial de sus características?",
+  "opciones": [
+   "Con conocimiento del Ministerio de Cultura",
+   "Con conocimiento de la Intervención de Armas y aprobación en su caso del Ministerio de Defensa o del Banco Oficial de Pruebas.",
+   "Con conocimiento de la Intervención de Armas y Ministerio de Hacienda."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-19",
+  "tema": 6,
+  "numero": 19,
+  "pregunta": "¿Para modificar el calibre de un arma es preciso la aprobación en su caso del Ministerio de Defensa?",
+  "opciones": [
+   "Sí, siempre que se trate de armas de la 1ª y 2ª categoría.",
+   "Sí, siempre que se trate de armas de guerra.",
+   "Las dos respuestas son correctas."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-20",
+  "tema": 6,
+  "numero": 20,
+  "pregunta": "¿Puede cambiarse la estructura de un arma?.",
+  "opciones": [
+   "Sí, siempre que lo haga un armero autorizado y por un motivo razonado.",
+   "Sí, previo conocimiento de la Intervención de Armas de la Guardia Civil y aprobación en su caso del Ministerio de Defensa o de un Banco Oficial de Pruebas según el arma de que se trate.",
+   "En ningún caso."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-21",
+  "tema": 6,
+  "numero": 21,
+  "pregunta": "¿Puede repararse un arma de caza, de tal forma que suponga una modificación sustancial de la misma?",
+  "opciones": [
+   "Sí, con conocimiento y aprobación de los organismos competentes.",
+   "Nunca.",
+   "Solo en caso de que la reparación fuera efectuada por un herrero."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-22",
+  "tema": 6,
+  "numero": 22,
+  "pregunta": "Los/Las fabricantes y comerciantes autorizados/as y sus representantes, ¿a quiénes podrán dejar a prueba las armas de fuego?",
+  "opciones": [
+   "A personas mayores de edad.",
+   "A personas que posean la correspondiente licencia.",
+   "A personas interesadas en la compra de las armas."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-23",
+  "tema": 6,
+  "numero": 23,
+  "pregunta": "¿Quiénes podrán dejar a prueba las armas de fuego?",
+  "opciones": [
+   "Los/Las fabricantes y comerciantes autorizados/as",
+   "Los/Las representantes de los fabricantes y comerciantes autorizados.",
+   "Las dos anteriores son correctas."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-24",
+  "tema": 6,
+  "numero": 24,
+  "pregunta": "Los/Las comerciantes autorizados/as, ¿dejarán a probar un arma de fuego una persona sin Licencia de Armas?",
+  "opciones": [
+   "Sí",
+   "No.",
+   "Sí, con autorización del/de la Armero/a"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-25",
+  "tema": 6,
+  "numero": 25,
+  "pregunta": "¿Qué plazo de validez tendrá el documento expedido por un comerciante autorizado para probar un arma de fuego en la misma localidad de residencia del interesado en comprarla?",
+  "opciones": [
+   "24 horas",
+   "5 días",
+   "7 días"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-26",
+  "tema": 6,
+  "numero": 26,
+  "pregunta": "En el documento que expida un fabricante a favor de la persona que este interesada en adquirir un arma de fuego, ¿podrá omitir el lugar donde se va a efectuar la prueba con dicha arma?",
+  "opciones": [
+   "Siempre",
+   "No",
+   "No tiene importancia"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-27",
+  "tema": 6,
+  "numero": 27,
+  "pregunta": "¿Cualquier titular de la licencia de armas correspondiente y en vigor, podrá probar las armas de fuego que desea adquirir?",
+  "opciones": [
+   "Sí",
+   "Nunca",
+   "Con autorización del/de la Subdelegado/a del Gobierno"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-28",
+  "tema": 6,
+  "numero": 28,
+  "pregunta": "La persona interesada en comprar un arma, ¿puede probarla antes de adquirirla en galería autorizada?",
+  "opciones": [
+   "No, en ningún caso.",
+   "Sí, pero debe probarla tan solo el viajante.",
+   "Sí."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-29",
+  "tema": 6,
+  "numero": 29,
+  "pregunta": "Una persona que posee licencia de armas correspondiente, ¿puede probar un arma de caza?",
+  "opciones": [
+   "Si, en caso de que se la deje un comerciante autorizado.",
+   "Solo en caso de que sea titular de una licencia de caza.",
+   "Las dos anteriores son correctas."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-30",
+  "tema": 6,
+  "numero": 30,
+  "pregunta": "¿Qué será indispensable, para que una persona interesada en adquirir un arma pueda probarla?:",
+  "opciones": [
+   "Que le acompañe el comercial o fabricante.",
+   "Que tenga una autorización del vendedor.",
+   "Estar en posesión de la correspondiente licencia."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-31",
+  "tema": 6,
+  "numero": 31,
+  "pregunta": "¿Qué datos deberá contener el documento, de carácter personal e intransferible, que emite el/la fabricante, comerciante o sus representantes a la persona que vaya a realizar la prueba de un arma de fuego interesada en adquirirla?:",
+  "opciones": [
+   "Denominación expresa del lugar en donde se deben realizar las pruebas.",
+   "Reseña del arma, la licencia y el lugar de las pruebas, plazos de validez y estar visado por la Intervención de Armas.",
+   "Que se reseñe un plazo de tres días para realizar la prueba."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-32",
+  "tema": 6,
+  "numero": 32,
+  "pregunta": "¿Qué carácter tiene el documento que el/la fabricante o comerciante expide a favor de la persona interesada en adquirir un arma de fuego que quiere probar?",
+  "opciones": [
+   "Genérico, para cualquier posible adquirente.",
+   "Transferible a un tercer posible adquirente, siempre que posea licencia de armas.",
+   "Personal e intransferible."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-33",
+  "tema": 6,
+  "numero": 33,
+  "pregunta": "Un fabricante autorizado ha dejado en prueba un arma a un particular que desea adquirirla y que posee la licencia correspondiente, ¿qué le debe expedir el fabricante?",
+  "opciones": [
+   "La guía de pertenencia.",
+   "La factura del arma.",
+   "Un documento de carácter personal e intransferible visado por la Intervención de Armas y Explosivos."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-34",
+  "tema": 6,
+  "numero": 34,
+  "pregunta": "¿Por quién será visado el documento de autorización para la prueba de un arma de fuego expedido a favor de un/una particular por un/una fabricante autorizado?",
+  "opciones": [
+   "Intervención de Armas.",
+   "Comerciante.",
+   "No es necesario este requisito."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-35",
+  "tema": 6,
+  "numero": 35,
+  "pregunta": "El documento de autorización para la prueba de un arma de fuego, a favor de la persona interesada en adquirirla, ¿en qué modelo de documento se formalizará?",
+  "opciones": [
+   "En triplicado ejemplar.",
+   "Por escrito.",
+   "Conforme a un modelo oficial."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-36",
+  "tema": 6,
+  "numero": 36,
+  "pregunta": "¿Donde se podrán probar las armas de fuego, además de en los campos de las Federaciones deportivas o en los polígonos, campos o galerías de tiro?",
+  "opciones": [
+   "En los terrenos privados.",
+   "En los terrenos que cuenten con autorización de la autoridad local.",
+   "En los terrenos cinegéticos controlados."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-37",
+  "tema": 6,
+  "numero": 37,
+  "pregunta": "¿Se podrán probar las armas de fuego en Galerías de Tiro?",
+  "opciones": [
+   "No",
+   "No, si no se tiene autorización del/de la Alcalde/sa",
+   "Sí"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-38",
+  "tema": 6,
+  "numero": 38,
+  "pregunta": "¿Se podrá probar un arma de fuego en la vía pública?",
+  "opciones": [
+   "Solo en caso de que no haya personas en la misma.",
+   "Si es de noche y en descampado.",
+   "Nunca"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-39",
+  "tema": 6,
+  "numero": 39,
+  "pregunta": "Con motivo del fallecimiento de una persona que posea armas de fuego, los/las herederos/ras o albaceas, ¿Cuándo deberán depositar las armas en la Intervención de Armas?",
+  "opciones": [
+   "Al día siguiente del fallecimiento.",
+   "Tan pronto como tengan conocimiento de la obligación de hacerlo y en cualquier caso dentro de los 6 meses siguientes al fallecimiento.",
+   "Será determinado por el/la Interventor/a de Armas y Explosivos de la residencia del fallecido/a."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-40",
+  "tema": 6,
+  "numero": 40,
+  "pregunta": "¿Es cierto que el Reglamento de Armas dispone que al cesar en la habilitación para la tenencia legal de las armas, el/la interesado/a, deberá depositarlas inmediatamente?",
+  "opciones": [
+   "Cierto.",
+   "Falso.",
+   "Solo en caso de armas de caza."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-41",
+  "tema": 6,
+  "numero": 41,
+  "pregunta": "Al cesar en la habilitación para la tenencia legal de las armas ¿En qué momento el/la interesado/a deberá depositar las armas con las correspondientes guías de pertenencia?",
+  "opciones": [
+   "Dentro del plazo de 10 días desde que cesó en dicha habilitación.",
+   "Inmediatamente.",
+   "Quedará exento del depósito si comunica tal vicisitud a la Intervención de Armas y adopta las suficientes medidas de seguridad para evitar su pérdida o sustracción."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-42",
+  "tema": 6,
+  "numero": 42,
+  "pregunta": "No pasar dos revistas consecutivas de un arma será motivo de retirada de la guía de pertenencia ¿qué debe hacerse con el arma?",
+  "opciones": [
+   "Guardarla con las suficientes medidas de seguridad.",
+   "Depositarla.",
+   "Llevar la guía de pertenencia a la Intervención de Armas."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-43",
+  "tema": 6,
+  "numero": 43,
+  "pregunta": "¿Qué tiempo permanecerán las armas que se depositen en las Intervenciones de Armas a disposición de los/las herederos/as, como consecuencia del fallecimiento de sus titulares?",
+  "opciones": [
+   "6 meses.",
+   "1 año.",
+   "2 años."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-44",
+  "tema": 6,
+  "numero": 44,
+  "pregunta": "¿Qué documento acompañará a las armas que se depositen en las Intervenciones de Armas, como consecuencia del fallecimiento de sus titulares?",
+  "opciones": [
+   "La Licencia de armas del/de la fallecido/a y el certificado de defunción.",
+   "La guía de pertenencia.",
+   "La guía de pertenencia, acompañada de certificado de defunción."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-45",
+  "tema": 6,
+  "numero": 45,
+  "pregunta": "En caso de caducidad de la licencia de armas, ¿qué tiempo tendrá para depositarlas?",
+  "opciones": [
+   "3 meses",
+   "1 año",
+   "Inmediatamente"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-46",
+  "tema": 6,
+  "numero": 46,
+  "pregunta": "¿Qué documentos acompañarán a las armas de fuego que vayan a ser depositadas?",
+  "opciones": [
+   "Las Guías de Pertenencia",
+   "La Licencia de Armas",
+   "Las Tarjetas de Armas"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-47",
+  "tema": 6,
+  "numero": 47,
+  "pregunta": "¿Qué deberá depositar el/la titular de armas de fuego que extraviase la licencia de armas?",
+  "opciones": [
+   "Las Armas y las Guías de Pertenencia",
+   "Las Guías",
+   "No depositará ningún arma"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-48",
+  "tema": 6,
+  "numero": 48,
+  "pregunta": "¿Qué deberá depositar el/la titular de armas de fuego que extraviase las Guías de Pertenencia?",
+  "opciones": [
+   "La Licencia de Armas",
+   "Las Armas que amparan dichas Guías",
+   "Licencia de caza"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-49",
+  "tema": 6,
+  "numero": 49,
+  "pregunta": "¿Es cierto que el/la titular de un arma de fuego no puede depositarla en la Intervención de Armas y Explosivos para ser subastada?",
+  "opciones": [
+   "Cierto.",
+   "Falso.",
+   "Depende de si el arma es de caza o no."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-50",
+  "tema": 6,
+  "numero": 50,
+  "pregunta": "¿Puede el/la titular de un arma de fuego depositarla en la Intervención de Armas y Explosivos para ser subastada?",
+  "opciones": [
+   "No",
+   "A veces",
+   "Sí"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-51",
+  "tema": 6,
+  "numero": 51,
+  "pregunta": "¿Puede el/la titular de un arma de fuego depositarla en la Intervención de Armas y Explosivos para su reducción a chatarra?",
+  "opciones": [
+   "No; el destino reglamentario de reducción a chatarra es solo en caso de armas depositadas que carezcan de punzones necesarios o sean prohibidas.",
+   "A veces",
+   "Sí"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-52",
+  "tema": 6,
+  "numero": 52,
+  "pregunta": "¿Cuándo procede el depósito de las armas y la retirada y anulación de la guía de pertenencia?",
+  "opciones": [
+   "Al no pasar la revista, en una ocasión.",
+   "Al no pasar dos revistas consecutivas.",
+   "En ningún caso procede el depósito de las armas."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-53",
+  "tema": 6,
+  "numero": 53,
+  "pregunta": "En caso de fallecimiento del/de la titular de un arma, ¿qué deberán hacer los familiares con las armas del fallecido?",
+  "opciones": [
+   "Pueden hacer uso de las mismas sin ningún requisito previo.",
+   "Depositarlas en la Intervención de Armas",
+   "Pasarán a propiedad del hijo mayor de la familia"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-54",
+  "tema": 6,
+  "numero": 54,
+  "pregunta": "¿Qué plazo tienen los herederos/as de un arma, depositada en la Intervención de Armas y Explosivos por fallecimiento del/de la titular, para enajenarla?",
+  "opciones": [
+   "Una semana",
+   "Un año",
+   "No hay plazo establecido"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-55",
+  "tema": 6,
+  "numero": 55,
+  "pregunta": "En caso de anulación de la guía de pertenencia de un arma ¿qué debe hacerse con el arma?",
+  "opciones": [
+   "Depositarla inmediatamente en la Intervención de Armas.",
+   "Esperar a que me devuelvan la guía.",
+   "Nada"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-56",
+  "tema": 6,
+  "numero": 56,
+  "pregunta": "Señale el plazo de que disponen los/las herederos/as del/de la titular de una escopeta para depositarla en la Intervención de Armas y Explosivos en caso de fallecimiento del/de la titular:",
+  "opciones": [
+   "Tan pronto como tenga conocimiento de la obligación de hacerlo.",
+   "Dentro de los seis meses siguientes al fallecimiento.",
+   "Correctas A) y B)"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-57",
+  "tema": 6,
+  "numero": 57,
+  "pregunta": "Señale el plazo de que disponen los/las herederos/as del/de la titular de una escopeta para depositarla en la Intervención de Armas y Explosivos en caso de fallecimiento del/de la titular:",
+  "opciones": [
+   "Dentro de los seis meses siguientes al fallecimiento.",
+   "Al año del fallecimiento.",
+   "Las dos anteriores son correctas."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-58",
+  "tema": 6,
+  "numero": 58,
+  "pregunta": "Una escopeta depositada por infracción a la Ley de Caza, ¿podrá ser recuperada por su dueño/a?",
+  "opciones": [
+   "Sí",
+   "No",
+   "Algunas veces"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-59",
+  "tema": 6,
+  "numero": 59,
+  "pregunta": "¿Qué destino se le dará a las armas depositadas por infracción a la Ley de Caza, cuando los/las titulares de las mismas no deseen recuperarlas?",
+  "opciones": [
+   "Venderlas",
+   "Depositadas hasta que la Autoridad Judicial disponga de ellas.",
+   "Destruirlas"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-60",
+  "tema": 6,
+  "numero": 60,
+  "pregunta": "¿Qué destino recibirán las armas que se depositen en las Intervenciones de Armas a disposición de los/las herederos/as, como consecuencia del fallecimiento de sus titulares y haya transcurrido el plazo reglamentario, sin que las armas hayan sido enajenadas o recuperadas?",
+  "opciones": [
+   "Se reducirán a chatarra, si no se ha pedido expresamente que se subasten.",
+   "Se destruirán.",
+   "Se enajenarán a los armeros/as que lo soliciten."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-61",
+  "tema": 6,
+  "numero": 61,
+  "pregunta": "¿Qué fin se le dará a un arma depositada en la Intervención de Armas y que transcurridos los plazos reglamentarios no ha sido transferida?",
+  "opciones": [
+   "Se entregará al museo de armas del Ejército",
+   "Se destruirán.",
+   "Se alquilará a persona en posesión de licencia de armas"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "6-62",
+  "tema": 6,
+  "numero": 62,
+  "pregunta": "En las importaciones, las armas llegadas a un aeropuerto que no fuesen retiradas por sus destinatarios/as después de despachadas por las aduanas, ¿cuánto tiempo estarán depositadas como máximo, a disposición del interesado/a?",
+  "opciones": [
+   "Durante un año.",
+   "Durante seis meses.",
+   "Durante cinco meses."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "6-63",
+  "tema": 6,
+  "numero": 63,
+  "pregunta": "En las importaciones, las armas llegadas a un aeropuerto que no fuesen retiradas por sus destinatarios/as después de despachadas por las aduanas, ¿qué fin le será dado a dichas armas?",
+  "opciones": [
+   "Se venderán.",
+   "Serán devueltas al país de origen.",
+   "Serán depositadas en la Intervención de Armas y Explosivos."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "6-64",
+  "tema": 6,
+  "numero": 64,
+  "pregunta": "¿Qué destino se dará a un arma que tiene un valor acreditado como patrimonio histórico en el caso de que haya transcurrido un año depositada?",
+  "opciones": [
+   "Se enajenarán en pública subasta",
+   "Se le devolverá a su legítimo/a dueño/a",
+   "Lo que dictamine la Autoridad Judicial."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "7-1",
+  "tema": 7,
+  "numero": 1,
+  "pregunta": "¿En la Categoría 6ª.2 del artículo 3, del Reglamento de Armas, se encuentran las armas de fuego cuyo modelo o año de fabricación sean anteriores al 1 de enero de 1899, y las reproducciones de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas?",
+  "opciones": [
+   "Cierto.",
+   "Falso.",
+   "Es indiferente."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "7-2",
+  "tema": 7,
+  "numero": 2,
+  "pregunta": "Según se dispone en el artículo 107.c), del Reglamento de Armas, para su uso, las armas largas y cortas de avancarga y las demás de la categoría 6.2 precisarán la posesión de un certificado de un banco oficial de pruebas para cada arma y …",
+  "opciones": [
+   "La correspondiente Licencia de armas.",
+   "La Licencia especial de armas.",
+   "La obtención de una autorización especial."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "7-3",
+  "tema": 7,
+  "numero": 3,
+  "pregunta": "¿Qué se entiende por arma antigua?",
+  "opciones": [
+   "Arma de fuego que en su ornamentación presenta una peculiaridad distinta a las demás de su clase, en razón de los materiales nobles empleados o de diseño, que le confiere un especial valor.",
+   "Arma de fuego portátil que utiliza munición de calibre flobert.",
+   "Arma de fuego cuyo modelo o cuyo año de fabricación es anterior al 1 de enero de 1890."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "7-4",
+  "tema": 7,
+  "numero": 4,
+  "pregunta": "Si no se va a hacer uso de una reproducción de un arma de fuego, únicamente se quiere poseer como coleccionista ¿Cómo se documentará?",
+  "opciones": [
+   "Mediante una guía especial de coleccionista.",
+   "Mediante la inscripción en un libro-registro de coleccionista.",
+   "Con un certificado del Banco Oficial de Pruebas."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "7-5",
+  "tema": 7,
+  "numero": 5,
+  "pregunta": "¿La antigüedad de las armas de fuego cuyo modelo o año de fabricación sean anteriores al 1 de enero de 1890, y las reproducciones de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas, será fijada por la Dirección General de la Guardia Civil?",
+  "opciones": [
+   "Cierto.",
+   "Falso.",
+   "Es indiferente."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "7-6",
+  "tema": 7,
+  "numero": 6,
+  "pregunta": "¿Cómo se efectuará la custodia de las reproducciones de las armas de fuego cortas en los domicilios particulares?",
+  "opciones": [
+   "Guardadas completas en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase III, de la norma UNE EN 1143-1.",
+   "Guardadas completas en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase I, de la norma UNE EN 1143-1.",
+   "Guardadas completas, o sus cierres o piezas fundamentales, en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase I, de la norma UNE EN 1143-1."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "7-7",
+  "tema": 7,
+  "numero": 7,
+  "pregunta": "Las armas de fuego antiguas, sus reproducciones y asimiladas, susceptibles de hacer fuego, ¿en qué lugares se podrán utilizar?",
+  "opciones": [
+   "Excepcionalmente, se podrán utilizar en campos, galerías o polígonos de tiro controlados para prácticas, previa obtención de una autorización especial.",
+   "Únicamente en polígonos de tiro de concurso.",
+   "En todo caso, se podrán utilizar en la práctica de la caza mayor."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "7-8",
+  "tema": 7,
+  "numero": 8,
+  "pregunta": "¿Qué se entiende por reproducción de un arma de fuego?",
+  "opciones": [
+   "Un arma que es copia de otra, reuniendo características de aptitudes.",
+   "Un arma que es copia de otra original, reuniendo todas sus características, aptitudes y posibilidades de uso.",
+   "Un arma que es copia de otra original, y no reúne sus características, aptitudes y posibilidades de uso."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "7-9",
+  "tema": 7,
+  "numero": 9,
+  "pregunta": "¿Qué es una réplica de un arma de fuego?",
+  "opciones": [
+   "Objeto que por su apariencia física o características externas puede inducir a confusión sobre su auténtica naturaleza.",
+   "Es un arma que es similar a otra original, y que no reúne las mismas aptitudes de un arma original.",
+   "Es un arma igual a otra original, con todas sus características, pero que no tiene las mismas aptitudes y posibilidades de uso."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "7-10",
+  "tema": 7,
+  "numero": 10,
+  "pregunta": "¿Qué tipo de munición deberán utilizar las reproducciones de armas de fuego antiguas?",
+  "opciones": [
+   "Munición metálica utilizada para las armas de fabricación actual y del mismo calibre.",
+   "Munición con pólvora negra, y del calibre de las mismas.",
+   "Munición con pólvora sin humo."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "7-11",
+  "tema": 7,
+  "numero": 11,
+  "pregunta": "¿Se podrá adquirir munición para el uso de las reproducciones de armas de fuego cortas antiguas?",
+  "opciones": [
+   "Sólo podrán adquirirse 100 cartuchos anuales por arma corta.",
+   "Podrán adquirirse 150 cartuchos anuales por arma corta.",
+   "Sólo podrán adquirirse 200 cartuchos anuales por arma corta."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "7-12",
+  "tema": 7,
+  "numero": 12,
+  "pregunta": "¿Se podrá tener en depósito munición para el uso de las reproducciones de armas de fuego largas antiguas?",
+  "opciones": [
+   "Podrá tener en depósito 250 cartuchos.",
+   "Podrá tener en depósito hasta 1000 cartuchos.",
+   "En ningún caso podrá tener en depósito un número superior a 200 cartuchos."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "7-13",
+  "tema": 7,
+  "numero": 13,
+  "pregunta": "El cartucho de pólvora ya se empleaba a mediados del siglo XVI, no obstante, respecto al cartucho de pólvora de percusión central, ¿Cuándo comenzó su uso?",
+  "opciones": [
+   "1550 a 1840.",
+   "1868 en adelante.",
+   "1845 a 1925."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "7-14",
+  "tema": 7,
+  "numero": 14,
+  "pregunta": "¿Cuál fue el primer ejército del mundo dotado con revólveres?",
+  "opciones": [
+   "El Ejército Español.",
+   "El Ejército Norteamericano.",
+   "El Ejercito Francés."
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "7-15",
+  "tema": 7,
+  "numero": 15,
+  "pregunta": "¿Cuál fue la primera arma de repetición con cartucho metálico declarada reglamentaria en el Ejército Español?",
+  "opciones": [
+   "El revólver sistema Lafaucheaux.",
+   "El revólver Colt.",
+   "El revólver Remington"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "7-16",
+  "tema": 7,
+  "numero": 16,
+  "pregunta": "En relación a las armas retiradas por infracción a la Ley de Caza, si la Autoridad competente acordara la devolución de las mismas....",
+  "opciones": [
+   "Las armas estarán depositadas en la Intervención a disposición de los particulares por un plazo máximo de un mes.",
+   "A partir de un mes de la notificación por parte de la Autoridad competente, si no fuesen retiradas por su propietario serán destruidas",
+   "Ambas son correctas"
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "7-17",
+  "tema": 7,
+  "numero": 17,
+  "pregunta": "¿Qué entendemos por munición de bala explosiva?",
+  "opciones": [
+   "Munición de uso civil con balas que contienen una carga que explota por impacto",
+   "Munición de uso militar con balas que contienen una carga que explota por impacto",
+   "Ninguna es correcta"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "7-18",
+  "tema": 7,
+  "numero": 18,
+  "pregunta": "¿Cuál de las siguientes afirmaciones es cierta?",
+  "opciones": [
+   "La munición es un cartucho incluyendo la vaina.",
+   "La vaina no está incluida en la parte de un cartucho",
+   "Se considera munición a los cartuchos a partir de 9 mm"
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "7-19",
+  "tema": 7,
+  "numero": 19,
+  "pregunta": "Consideramos que un arma ha sido inutilizada, cuando..",
+  "opciones": [
+   "Al menos un componente esencial hay sido inutilizado.",
+   "Al menos dos componentes esenciales hayan sido inutilizados.",
+   "Cuando todos sus componentes esenciales hayan sido inutilizados."
+  ],
+  "correcta": 2
+ },
+ {
+  "id": "7-20",
+  "tema": 7,
+  "numero": 20,
+  "pregunta": "¿Puede un arma de un solo tiro llevar adaptado un cargador?",
+  "opciones": [
+   "No, nunca",
+   "Si, si solo se hace uso de tiro a tiro",
+   "Dependerá del momento."
+  ],
+  "correcta": 0
+ },
+ {
+  "id": "7-21",
+  "tema": 7,
+  "numero": 21,
+  "pregunta": "¿Podemos considerar como coleccionista a una persona que solo reúne componentes esenciales de las armas?",
+  "opciones": [
+   "No, al menos debe de coleccionar un arma completa.",
+   "Sí, es correcto",
+   "Solo en el caso de que tenga especial vocación"
+  ],
+  "correcta": 1
+ },
+ {
+  "id": "7-22",
+  "tema": 7,
+  "numero": 22,
+  "pregunta": "El hecho de transformar un arma de guerra en otra civil, lo denominaremos...",
+  "opciones": [
+   "Actividad lucrativa",
+   "No está permitido.",
+   "Desmilitarización."
+  ],
+  "correcta": 2
+ }
+]
