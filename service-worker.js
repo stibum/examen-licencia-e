@@ -1,4 +1,4 @@
-const CACHE = 'examen-e-app-v8-practicar-examen';
+const CACHE = 'examen-e-app-v11-tercera-auditoria';
 const APP_FILES = [
   './', './index.html', './styles.css', './app.js', './preguntas.json',
   './temario.json', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'
@@ -10,7 +10,7 @@ self.addEventListener('install', event => {
 
 self.addEventListener('activate', event => {
   event.waitUntil(Promise.all([
-    caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key)))),
+    caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('examen-e-app-') && key !== CACHE).map(key => caches.delete(key)))),
     self.clients.claim()
   ]));
 });

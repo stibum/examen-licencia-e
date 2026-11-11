@@ -1,7 +1,7 @@
 {
-  "version": "2026-11-11-temario-completo",
+  "version": "2026-11-11-tercera-auditoria-v4",
   "titulo": "Temario de estudio · Licencia de armas E",
-  "descripcion": "Los siete temas explicados a partir de las 423 preguntas de los PDF aportados, con tests por apartado. Las notas separan respuestas del banco y advertencias normativas.",
+  "descripcion": "Temario para el examen basado en los 423 ítems de los PDF aportados. Revisión adicional de precisión normativa en 2026. Respuestas del banco y normas vigentes se diferencian cuando procede; no constituye certificación de exactitud jurídica.",
   "fuentes": [
     {
       "nombre": "Cuestionarios de la Guardia Civil",
@@ -14,6 +14,14 @@
     {
       "nombre": "Medidas de seguridad de armeros (BOE, 2025)",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-387"
+    },
+    {
+      "nombre": "Ley Orgánica 4/2015, de protección de la seguridad ciudadana (BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442"
+    },
+    {
+      "nombre": "Custodia de reproducciones de armas antiguas (BOE, 2015)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3779"
     }
   ],
   "temas": [
@@ -126,7 +134,7 @@
             "**Punto de mira.** El cuestionario lo identifica con el ajuste lateral del impacto."
           ],
           "clave": "En las respuestas del banco: alza = altura; punto de mira = desplazamiento lateral.",
-          "nota": "Esta correspondencia se reproduce tal como aparece en las respuestas del cuestionario; no debe tomarse como regla técnica universal, porque los sistemas de miras y sus ajustes pueden variar según el arma."
+          "nota": "La correspondencia «alza → altura» y «punto de mira → lateral» reproduce la respuesta resaltada en las preguntas 35 y 36. Es una respuesta del test, **no** una descripción universal de todos los sistemas de puntería ni una instrucción de ajuste."
         },
         {
           "id": "t1-5",
@@ -367,13 +375,13 @@
           "intro": "La distinción entre automático y semiautomático es esencial: una permite ráfagas; la otra exige accionar el disparador para cada tiro.",
           "puntos": [
             "**Semiautomática.** El mecanismo recarga el arma tras el disparo, pero cada nuevo tiro requiere otra acción del disparador. Un rifle semiautomático de cargador de cinco cartuchos no es prohibido por ese solo dato.",
-            "**Cargadores de gran capacidad.** En las preguntas, los límites relevantes son más de diez cartuchos para armas largas y más de veinte para armas cortas. Se plantean un rifle con cargador de 12 y una pistola con 25.",
+            "**Capacidad y cargadores.** Distingue entre la capacidad total de un arma semiautomática de percusión central (incluido el cartucho en recámara: más de 11 para largas o más de 21 para cortas, artículo 5.1.a-b) y los cargadores aptos para esas armas (más de 10 para largas o más de 20 para cortas, artículo 5.1.e). Las preguntas plantean un rifle con cargador de 12 cartuchos y una pistola con 25.",
             "**Automáticas y transformaciones.** Las armas automáticas se tratan como armas de guerra en el banco; convertir una automática en semiautomática no la convierte libremente en arma permitida para particulares.",
-            "**Munición y calibres.** No basta con el nombre del calibre para deducir el régimen aplicable: la pregunta sobre .308 Winchester y 7,62×39 contempla su uso en caza mayor bajo condiciones concretas.",
+            "**Munición y calibres.** La pregunta 46 cita .308 Winchester y 7,62×39 y **marca como respuesta del test** el uso en caza mayor con bala expansiva y rifle de repetición. Esa opción no sustituye por sí sola la comprobación de la clasificación del arma, la munición y las condiciones legales concretas de uso.",
             "**Armas de guerra.** Su adquisición, tenencia y uso por particulares están prohibidos en los casos del test; no pueden «legalizarse» mediante una licencia ordinaria."
           ],
           "clave": "Semiautomática = un disparo por pulsación; la capacidad del cargador importa; las armas de guerra no quedan amparadas por licencias civiles.",
-          "nota": "Los límites de cargadores dependen de la configuración y del artículo 5 del Reglamento. No extrapoles las respuestas del test a cualquier arma o actividad."
+          "nota": "Artículo 5 del Reglamento: las restricciones se refieren a clases y configuraciones concretas, especialmente armas semiautomáticas de percusión central y cargadores destinados a esas armas. No extrapolar a cualquier arma o uso."
         },
         {
           "id": "t2-7",
@@ -421,10 +429,10 @@
             "**Armas blancas.** El cuestionario destaca como prohibidos los puñales y las navajas automáticas; distingue esos casos de un cuchillo de monte ordinario descrito en una de las preguntas.",
             "**Rompecabezas.** El instrumento denominado «rompecabezas» se considera prohibido en el supuesto preguntado, aunque se pretenda usar en caza mayor.",
             "**Silenciadores.** El banco no permite al particular disponer de silenciadores para rifles de caza mayor.",
-            "**Munición.** El test identifica como prohibida para particulares la de proyectiles perforantes, explosivos o incendiarios y la denominada dum-dum."
+            "**Munición.** El test marca como prohibidas las municiones con balas perforantes, explosivas o incendiarias; también pregunta por las «dum-dum». El artículo 5.1.l del Reglamento contempla las primeras y el 5.1.m especifica la prohibición de municiones con proyectiles «dum-dum» o de punta hueca **para pistolas y revólveres**. No se debe extender esa última prohibición sin matices a toda munición expansiva de cualquier arma."
           ],
           "clave": "Puñales, navajas automáticas y ciertas municiones: repasar como supuestos expresos de prohibición.",
-          "nota": "No todas las armas blancas, accesorios o municiones tienen idéntico régimen. Para obligaciones reales, consultar los artículos 4, 5 y 6 del Reglamento actualizado."
+          "nota": "**Referencia verificada:** Reglamento de Armas, art. 5.1.l y m. El banco agrupa municiones prohibidas; la ley distingue expresamente el tipo de arma en el supuesto dum-dum. Artículo 4 para armas blancas y artículo 5.1.k para silenciadores."
         },
         {
           "id": "t2-9",
@@ -552,7 +560,7 @@
             "**Cañón adaptable estriado.** El cuestionario lo somete al plazo de cinco años."
           ],
           "clave": "Revista: presentación del arma y anotación por la Intervención; el test utiliza cinco años para las armas citadas.",
-          "nota": "El enunciado de la pregunta 29 está marcado como falso en el banco: no memorices sin más su afirmación sobre revisiones cada tres años."
+          "nota": "**Reglamento vigente, artículo 90.1:** las armas que precisan guía de pertenencia pasan revista cada cinco años, al solicitar la renovación de la licencia correspondiente. El artículo 90 regula también quién y dónde la pasa; el banco pregunta por supuestos concretos. La pregunta 29 está marcada como falsa porque mezcla erróneamente una frecuencia de tres años con la regla general."
         },
         {
           "id": "t3-5",
@@ -648,11 +656,11 @@
           "intro": "La licencia que hace falta depende de la categoría del arma. La D y la E no son intercambiables, aunque una misma persona pueda necesitar ambas.",
           "puntos": [
             "**D.** Para rifles largos rayados utilizables en caza mayor. No cubre rifles automáticos prohibidos para particulares.",
-            "**E.** Para escopetas de caza y otras armas de las categorías autorizadas; el test exige ser mayor de 18 años.",
+            "**E.** Para escopetas de caza y otras armas de las categorías autorizadas; para una licencia ordinaria hay que haber cumplido **18 años** (mayoría de edad).",
             "**Una licencia D por persona.** El banco establece que solo se puede tener una licencia D.",
             "**Portar documentación.** Quien usa un rifle de caza mayor lleva licencia D y guía de pertenencia del arma. El uso de una escopeta inscrita como arma de colección no queda autorizado por tener también licencia E.",
             "**Arma combinada.** El test prevé documentarla con una guía de pertenencia atendiendo al componente de mayor peligrosidad; para escopeta y rifle ordinarios se precisan D y E.",
-            "**Residencia y ópticas.** El banco admite la posibilidad de licencia para un español residente en Francia y trata las miras telescópicas de caza mayor en relación con la licencia D."
+            "**Residencia y ópticas.** La pregunta sobre un español residente en Francia marca «sí» como posibilidad de expedición, **no como concesión automática**: existen requisitos de solicitud y, cuando procede, comunicación a la autoridad de otro Estado miembro (artículo 96.1). Para las miras adaptables a armas de caza mayor, la normativa contempla requisitos relacionados con la licencia D (artículo 100.6)."
           ],
           "clave": "D = rifles de caza mayor; E = escopetas y armas asimiladas; ambas pueden ser necesarias para armas distintas.",
           "nota": null
@@ -746,11 +754,11 @@
           "puntos": [
             "**Portarla.** El cuestionario pide la tarjeta europea cuando se viaja con armas por países miembros de la UE.",
             "**Armas incluidas.** Las que lleva o utiliza su titular; no se limita a armas cortas.",
-            "**Validez.** El banco indica cinco años.",
+            "**Validez.** El banco responde cinco años. El artículo 113 del Reglamento vigente indica que la Tarjeta Europea es válida por un período **máximo de cinco años**, prorrogable mientras se mantenga la titularidad de las armas que ampare.",
             "**Destinatarios.** Españoles y extranjeros residentes en España que cumplan los requisitos.",
             "**Renovación.** Se exige mantener la titularidad de las armas cubiertas por la tarjeta."
           ],
-          "clave": "Tarjeta Europea: identifica las armas del titular para desplazamientos; cinco años según el banco.",
+          "clave": "Tarjeta Europea: documenta armas del titular para desplazamientos; vigencia máxima de cinco años conforme al Reglamento.",
           "nota": "La tarjeta no sustituye las posibles condiciones de entrada, caza o tiro del país de destino."
         },
         {
@@ -812,11 +820,11 @@
           "intro": "El banco de preguntas diferencia entre la vigencia de la licencia y las comprobaciones periódicas adicionales relacionadas con la edad.",
           "puntos": [
             "**Duración ordinaria.** Para los supuestos descritos, las licencias D y E tienen validez de cinco años.",
-            "**A partir de los 67 años.** El cuestionario exige visado cada tres años, manteniéndose la validez máxima de cinco años.",
+            "**Edad y visado.** La pregunta 60 del banco responde «sesenta y siete años». El artículo 104.1 del Reglamento vigente emplea literalmente la expresión «mayores de sesenta y siete años» y dispone el visado a los tres años desde la expedición.",
             "**Ejemplos.** Pregunta por personas de 55, 62, 68, 71 y 72 años. La clave es identificar si la edad activa o no el visado adicional."
           ],
-          "clave": "Cinco años de licencia; a partir de 67 años, visado cada tres años en los ejemplos del banco.",
-          "nota": null
+          "clave": "Licencia D/E: cinco años según el banco; su pregunta 60 señala 67 años, mientras que el artículo 104 vigente habla literalmente de licencias expedidas a mayores de 67 años.",
+          "nota": "**Respuesta del PDF:** «sesenta y siete años» en la pregunta 60. **Redacción legal:** el artículo 104.1 se refiere a las licencias «expedidas a mayores de sesenta y siete años», que necesitan visado a los tres años. La respuesta de opción múltiple y la formulación de la ley no son idénticas: evita convertir «67» en una afirmación de inclusión exacta a esa edad sin precisar el texto legal."
         },
         {
           "id": "t4-9",
@@ -833,10 +841,10 @@
             "**Resolución.** El test recoge un plazo de tres meses para resolver la solicitud.",
             "**Mantenimiento.** La vigencia está condicionada a conservar los requisitos; la administración puede revisarlos en cualquier momento.",
             "**Pérdida de requisitos.** Puede dar lugar a revocación de la licencia.",
-            "**Plazo que pregunta el banco.** Entre las opciones sobre revocación aparece un máximo de dos años, asociado a la respuesta indicada por el cuestionario."
+            "**Revocación y respuesta antigua.** La pregunta 63 del banco da como respuesta «por un período máximo de dos años». **No debe aprenderse como una limitación general de la revocación actual**: el artículo 97.5 vigente dispone la revocación o extinción por pérdida de los requisitos, sin fijar en ese apartado dicho máximo general de dos años."
           ],
           "clave": "Conservar la licencia exige mantener los requisitos; pueden comprobarse en cualquier momento.",
-          "nota": "Para trámites y recursos reales, los plazos y efectos deben contrastarse en la resolución y normativa aplicables."
+          "nota": "La respuesta de la pregunta 63 se mantiene por fidelidad al PDF, pero el artículo 97.5 del Reglamento de Armas vigente no prevé un máximo general de dos años para la revocación por pérdida de requisitos. Para expedientes reales, consultar el acto y la norma aplicable."
         },
         {
           "id": "t4-10",
@@ -879,7 +887,7 @@
             "**No duplicar castigos por lo mismo.** El test responde negativamente a imponer simultáneamente sanción penal y administrativa por el mismo hecho; el principio jurídico exige atender a la identidad de sujeto, hecho y fundamento."
           ],
           "clave": "Penal ≠ administrativo. Administrativas: muy graves, graves y leves. Competencia y procedimiento importan.",
-          "nota": null
+          "nota": "Las preguntas sancionadoras conservan terminología y cuantías heredadas de normativa anterior. La Ley Orgánica 4/2015 debe consultarse en paralelo al Reglamento de Armas para el régimen actual; las clasificaciones y ejemplos del banco no sustituyen esa comprobación."
         },
         {
           "id": "t5-2",
@@ -899,7 +907,7 @@
             "**Método para memorizar.** Seis plazos: tres para infracciones (3 meses, 1 año, 2 años) y tres para sanciones (1, 2 y 4 años)."
           ],
           "clave": "Infracciones: 3 meses / 1 año / 2 años. Sanciones: 1 / 2 / 4 años (leve / grave / muy grave).",
-          "nota": "Los plazos se presentan como respuestas del cuestionario; para un expediente real hay que revisar el régimen sancionador y su actualización."
+          "nota": "**Diferencia entre el PDF y la ley:** el banco da 3 meses / 1 año / 2 años para las infracciones y 1 / 2 / 4 años para las sanciones. La Ley Orgánica 4/2015 establece **para las infracciones tipificadas en esa ley** 6 meses / 1 año / 2 años (art. 38) y para sus sanciones 1 / 2 / 3 años (art. 40). El Reglamento de Armas conserva además redacciones históricas. No apliques automáticamente una de estas series a un expediente concreto sin identificar la norma y el tipo de infracción."
         },
         {
           "id": "t5-3",
@@ -918,7 +926,7 @@
             "**Multa del banco.** Para la muy grave aparece la franja de 30.050,61 a 601.012,10 euros."
           ],
           "clave": "En el banco: almacenamiento no autorizado y graves incumplimientos asociados → muy grave; memorizar la franja de multa.",
-          "nota": "Estas cifras son las que figuran en los PDF, pero no deben utilizarse como tabla actual de multas sin comprobar el marco legal vigente. La calificación cambia según circunstancias."
+          "nota": "**Cautela normativa:** la franja del banco (30.050,61 a 601.012,10 €) reproduce importes históricos que aún pueden leerse en el artículo 155 del texto consolidado del Reglamento. El artículo 39.1 de la Ley Orgánica 4/2015 fija 30.001 a 600.000 € para **las infracciones muy graves de esa ley**. No se debe presentar ninguna de esas dos franjas como respuesta universal para todo hecho: hay que identificar el tipo aplicable, su fundamento y la jerarquía normativa."
         },
         {
           "id": "t5-4",
@@ -1003,7 +1011,7 @@
             "**Cargadores no autorizados.** El ejemplo del cargador de arma corta de 25 cartuchos contempla expediente y otras consecuencias administrativas según sus opciones."
           ],
           "clave": "La licencia no autoriza portar armas en cualquier lugar ni modificar sus características libremente.",
-          "nota": "Las cantidades históricas de multa del banco requieren verificación antes de usarlas como importe sancionador actual."
+          "nota": "**Cautela normativa:** el PDF emplea el tramo de 300,51 a 30.050,61 €, reflejado en el artículo 156 del Reglamento de Armas. El artículo 39.1 de la LO 4/2015 prevé 601 a 30.000 € para **las infracciones graves tipificadas en dicha ley**. Son textos de diferente rango y ámbito; para casos reales no hay que elegir la cifra sin comprobar la tipificación y la normativa aplicable."
         },
         {
           "id": "t5-7",
@@ -1028,7 +1036,7 @@
             "**Multa del banco.** Hasta 300,51 euros por infracción leve."
           ],
           "clave": "Leves del test: determinados supuestos de ballestas, omisiones de comunicación, declaraciones y revistas.",
-          "nota": "La calificación y la cuantía precisas dependen de la normativa vigente y de los hechos del expediente."
+          "nota": "**Cautela normativa:** el banco conserva «hasta 300,51 €», importe heredado del Reglamento de Armas. El artículo 39.1 de la LO 4/2015 establece 100 a 600 € para **sus** infracciones leves. Esta es una comparación de textos, no una autorización para aplicar indiscriminadamente uno u otro importe a un hecho concreto."
         },
         {
           "id": "t5-8",
@@ -1157,7 +1165,7 @@
             "**Carácter.** Personal e intransferible: no permite ceder el derecho de prueba a otra persona.",
             "**Contenido.** Debe recoger el arma, la licencia del interesado, el lugar de la prueba y el plazo autorizado.",
             "**Visado.** El cuestionario exige el visado de la Intervención de Armas y el uso del modelo oficial.",
-            "**Plazo planteado.** Para una prueba en la misma localidad de residencia del comprador, el banco señala cinco días.",
+            "**Plazo de prueba.** El artículo 27.2 del Reglamento establece cinco días si la prueba se hace en la misma localidad y diez días en otra. El cuestionario pregunta específicamente por una prueba en la localidad de residencia y responde cinco días.",
             "**Lugar.** No puede omitirse en el documento de prueba."
           ],
           "clave": "Documento de prueba = personal + arma + licencia + lugar + plazo + visado de Intervención.",
@@ -1225,10 +1233,10 @@
             "**Depósito inicial.** El banco indica que los herederos o albaceas las depositen tan pronto como conozcan esa obligación y, en cualquier caso, dentro de seis meses desde el fallecimiento.",
             "**Documentación.** Se entregan con sus guías de pertenencia.",
             "**Disponibilidad posterior.** El test contempla un plazo de un año a disposición de los herederos para tramitar su transferencia o recuperación legal.",
-            "**Transcurso del plazo.** El cuestionario prevé destrucción de las armas no regularizadas, con excepciones especiales para piezas de valor histórico."
+            "**Transcurso del plazo.** El test señala la destrucción como destino en sus preguntas; el artículo 93.3 del Reglamento vigente dice que, transcurrido un año sin regularizar, la Dirección General de la Guardia Civil **podrá** destruir el arma, con excepción de las piezas de valor histórico acreditado."
           ],
-          "clave": "Fallecimiento: comunicar y depositar las armas; el banco distingue seis meses para depósito y un año para disponer de ellas.",
-          "nota": "El destino final de armas depositadas y los plazos concretos deben comprobarse con la Intervención y los artículos actuales correspondientes."
+          "clave": "Fallecimiento: depósito tan pronto como se conozca la obligación y, como máximo, a los seis meses del fallecimiento; el plazo posterior de un año **se cuenta desde el depósito** (artículo 93).",
+          "nota": "El artículo 93 del Reglamento vigente confirma el depósito dentro de seis meses del fallecimiento y el año de disponibilidad desde el depósito. Después, el Reglamento indica que la Dirección General de la Guardia Civil **podrá** destruir las armas no regularizadas, con excepciones para patrimonio histórico; no habla de destrucción automática e inevitable."
         },
         {
           "id": "t6-9",
@@ -1277,11 +1285,11 @@
             "**Categoría 6.ª 2.** Comprende determinadas armas anteriores a esa fecha y reproducciones o réplicas, salvo los supuestos excluidos por municiones prohibidas o de guerra.",
             "**No confundir fechas.** El enunciado que propone el año 1899 es falso según el test: la referencia es 1890.",
             "**Reproducción.** Copia que conserva características, aptitudes y posibilidades de uso de la original.",
-            "**Réplica (definición del banco).** Objeto que por su apariencia exterior puede confundirse con un arma auténtica.",
+            "**Imitación o réplica.** Tanto el banco como el artículo 2.27 vigente describen un objeto cuya apariencia o características externas pueden inducir a confusión sobre su auténtica naturaleza, aunque no pueda transformarse en arma.",
             "**Quién fija la antigüedad.** La pregunta 5 es falsa porque atribuye esa competencia a la Dirección General de la Guardia Civil; la norma citada la asigna al Ministerio de Defensa."
           ],
           "clave": "Fecha: antes de 1890; reproducción reproduce aptitudes; la respuesta del test sobre réplica se centra en apariencia.",
-          "nota": "La terminología legal moderna distingue varias figuras y condiciones; comprobar siempre la clasificación reglamentaria concreta."
+          "nota": "El artículo 2.27 utiliza la denominación completa «imitación o réplica de un arma». La categoría 6.ª2 también menciona reproducciones y réplicas de armas antiguas bajo requisitos específicos: conviene no confundir el término de definición general con la clasificación y la autorización en un caso concreto."
         },
         {
           "id": "t7-2",
@@ -1295,14 +1303,14 @@
           ],
           "intro": "Poseer una pieza para colección no es lo mismo que estar autorizado para dispararla.",
           "puntos": [
-            "**Libro-registro.** Para una reproducción que se conserva como colección sin usarla, el banco contempla inscribirla en un libro-registro de coleccionista.",
+            "**Libro-registro.** El artículo 107.b permite documentar armas de colección en un libro-registro diligenciado por la Intervención de Armas, pero **prohíbe usar las inscritas en ese registro**. La autorización de posesión para colección no equivale a una autorización de disparo.",
             "**Uso efectivo.** Las armas antiguas o de avancarga susceptibles de disparo requieren, en el supuesto del test, una autorización especial y certificado de banco oficial de pruebas.",
-            "**Lugar de uso.** Se limita excepcionalmente a campos, galerías o polígonos de tiro controlados para prácticas, bajo autorización.",
-            "**Custodia de reproducciones cortas.** El banco remite a una caja fuerte o armero con grado de seguridad I en el supuesto que describe.",
+            "**Lugar de uso.** La pregunta 7 del Tema VII menciona campos, galerías o polígonos de tiro controlados para prácticas con autorización especial. **La norma vigente (art. 107.c) contempla además terrenos cinegéticos controlados** para prácticas y competiciones, con sus requisitos, y un supuesto excepcional distinto para festejos tradicionales autorizados.",
+            "**Custodia de reproducciones cortas.** Para las réplicas o reproducciones de armas de fuego antiguas cortas guiadas al amparo de autorización especial de uso, el banco y la Resolución de 27 de marzo de 2015 exigen guardarlas completas en caja fuerte o armero con grado de resistencia **III** (UNE EN 1143-1). Para las largas de esa resolución se exige grado I, y no deben confundirse ambos supuestos.",
             "**Coleccionar componentes.** También puede considerarse coleccionista quien reúne componentes esenciales, dentro de la regulación aplicable."
           ],
-          "clave": "Coleccionar no equivale a usar: libro-registro para tenencia y autorización especial cuando corresponda disparar.",
-          "nota": "La normativa específica sobre reproducciones y réplicas, seguridad y autorización de uso está desarrollada en disposiciones posteriores; se recomienda confirmar requisitos actuales."
+          "clave": "Coleccionar no equivale a usar: libro-registro para tenencia y autorización especial para disparar cuando corresponda. En reproducciones cortas sujetas a esa autorización: armero grado III.",
+          "nota": "Verificación: pregunta 6 del Tema VII (respuesta A) y Resolución de 27 de marzo de 2015, BOE-A-2015-3779, apartado primero. Grado III para reproducciones cortas de uso autorizado; grado I para largas. Las armas de colección sin uso se rigen además por otras medidas específicas. Además de los lugares mencionados expresamente en la pregunta 7, el artículo 107.c incluye terrenos cinegéticos controlados bajo las condiciones que establece; la opción del test no debe leerse como una lista cerrada de los lugares permitidos."
         },
         {
           "id": "t7-3",
@@ -1372,7 +1380,7 @@
             "**Distinción.** Este supuesto no es el mismo que el depósito de armas tras fallecimiento, caducidad o transmisión."
           ],
           "clave": "No confundir: el caso de devolución tras infracción de caza tiene un plazo propio en el banco.",
-          "nota": "El tratamiento legal de las armas depositadas puede variar con las circunstancias y resoluciones administrativas concretas."
+          "nota": "**Respuesta del banco (pregunta 16):** ambas opciones, que mencionan un plazo de un mes y destrucción. El plazo y el destino descritos se refieren a ese supuesto del cuestionario, **no son una regla general para todas las armas depositadas**. Para expedientes reales de intervención, devolución o comiso hay que aplicar la resolución y las normas específicas del caso."
         }
       ]
     }
