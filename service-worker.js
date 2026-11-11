@@ -1,7 +1,7 @@
-const CACHE = 'examen-e-app-v2';
+const CACHE = 'examen-e-app-v6';
 const APP_FILES = [
   './', './index.html', './styles.css', './app.js', './preguntas.json',
-  './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'
+  './temario.json', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'
 ];
 
 self.addEventListener('install', event => {

@@ -5,6 +5,8 @@
   const EXAM_SECONDS = 20 * 60;
   const PASS_MARK = 16;
   const STORAGE_SESSION = 'examen-e-simulador-sesion-v1';
+  const STORAGE_UNUSED = 'examen-e-preguntas-pendientes-v1';
+  const STORAGE_REVIEW = 'examen-e-repaso-errores-v1';
   const TOPIC_NAMES = {
     1: 'Funcionamiento y seguridad',
     2: 'Categorías y tipos de armas',
@@ -19,12 +21,16 @@
   let bankById = new Map();
   let session = null;
   let reviewFilter = 'errors';
+  let studyGuide = null;
   let timerInterval = null;
   const app = document.getElementById('app');
 
   const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const letter = index => ['A', 'B', 'C'][index] || '?';
   const plural = (number, one, many) => `${number} ${number === 1 ? one : many}`;
+  const formatStudyText = (value) => escapeHtml(value).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  const studyTopic = () => studyGuide?.temas?.find(t => t.numero === 1);
+  const findStudySection = id => studyTopic()?.secciones?.find(section => section.id === id);
 
   function readStorage(key, defaultValue) {
     try { return JSON.parse(localStorage.getItem(key)) ?? defaultValue; }
@@ -35,6 +41,45 @@
   }
   function saveSession() { if (session) writeStorage(STORAGE_SESSION, session); }
 
+  // Solo se guardan los errores pendientes y su racha de aciertos.
+  // Nunca se envían datos personales ni respuestas a un servidor.
+  function getReviewProgress() {
+    const saved = readStorage(STORAGE_REVIEW, {});
+    if (!saved || typeof saved !== 'object' || Array.isArray(saved)) return { items: {}, lastProcessedSessionId: null };
+    const items = saved.items && typeof saved.items === 'object' && !Array.isArray(saved.items) ? saved.items : {};
+    return { items, lastProcessedSessionId: saved.lastProcessedSessionId ?? null };
+  }
+
+  function errorIds() {
+    return Object.keys(getReviewProgress().items).filter(id => bankById.has(id));
+  }
+
+  // Cuenta solo un acierto por pregunta y por sesión, al finalizarla.
+  // Un fallo o una pregunta en blanco reinicia el progreso de esa pregunta.
+  // Tras dos sesiones distintas acertando consecutivamente, sale del repaso.
+  function recordFinishedSession() {
+    if (!session || !session.finished || !Array.isArray(session.ids)) return;
+    const sessionId = session.id || `legacy-${session.startedAt}-${session.finishedAt}-${session.ids.join(',')}`;
+    const progress = getReviewProgress();
+    if (progress.lastProcessedSessionId === sessionId) return;
+    session.ids.forEach((id, i) => {
+      const question = bankById.get(id);
+      if (!question) return;
+      const correct = session.answers[i] === question.correcta;
+      if (!correct) {
+        progress.items[id] = { streak: 0, lastCorrectSession: null };
+      } else if (Object.prototype.hasOwnProperty.call(progress.items, id)) {
+        const entry = progress.items[id];
+        if (entry.lastCorrectSession === sessionId) return;
+        const streak = Math.max(0, Number(entry.streak) || 0) + 1;
+        if (streak >= 2) delete progress.items[id];
+        else progress.items[id] = { streak, lastCorrectSession: sessionId };
+      }
+    });
+    progress.lastProcessedSessionId = sessionId;
+    writeStorage(STORAGE_REVIEW, progress);
+  }
+
   function shuffle(items) {
     const output = [...items];
     for (let i = output.length - 1; i > 0; i--) {
@@ -44,18 +89,55 @@
     return output;
   }
 
+  // En cada modalidad se agotan las preguntas pendientes antes de empezar otra vuelta.
+  // El orden permanece en este dispositivo aunque el usuario cierre la aplicación.
+  function chooseUnseenQuestions(candidates, mode, topic, count) {
+    const key = mode === 'exam' ? 'exam' : mode === 'review' ? 'review-errors' : mode === 'study' ? `study-${topic}` : `practice-${topic}`;
+    const allIds = candidates.map(question => question.id);
+    const validIds = new Set(allIds);
+    const saved = readStorage(STORAGE_UNUSED, {});
+    const history = saved && typeof saved === 'object' && !Array.isArray(saved) ? saved : {};
+    const unique = new Set();
+    let pending = (Array.isArray(history[key]) ? history[key] : []).filter(id => {
+      if (!validIds.has(id) || unique.has(id)) return false;
+      unique.add(id);
+      return true;
+    });
+    const chosen = [];
+    while (chosen.length < count) {
+      if (pending.length === 0) {
+        // En el límite entre dos vueltas nunca se repite una pregunta
+        // dentro del mismo examen, aunque falten menos de 20.
+        const newRound = shuffle(allIds);
+        pending = [
+          ...newRound.filter(id => !chosen.includes(id)),
+          ...newRound.filter(id => chosen.includes(id))
+        ];
+      }
+      chosen.push(pending.shift());
+    }
+    history[key] = pending;
+    writeStorage(STORAGE_UNUSED, history);
+    return chosen;
+  }
+
   function cleanTimer() {
     if (timerInterval) clearInterval(timerInterval);
     timerInterval = null;
   }
 
   function startSession(mode, topic = null) {
-    const candidates = topic ? bank.filter(question => question.tema === topic) : bank;
-    if (candidates.length < EXAM_LENGTH) return;
+    const section = mode === 'study' ? findStudySection(topic) : null;
+    const candidates = mode === 'study' ? (section?.preguntas || []).map(num => bankById.get(`1-${num}`)).filter(Boolean)
+      : mode === 'review' ? errorIds().map(id => bankById.get(id))
+      : topic ? bank.filter(question => question.tema === topic) : bank;
+    const count = mode === 'review' || mode === 'study' ? Math.min(EXAM_LENGTH, candidates.length) : EXAM_LENGTH;
+    if (count === 0 || candidates.length < count) return renderHome();
     if (session && !session.finished && !window.confirm('¿Empezar de nuevo? Se perderán las respuestas del examen en curso.')) return;
     cleanTimer();
-    const ids = shuffle(candidates).slice(0, EXAM_LENGTH).map(q => q.id);
+    const ids = chooseUnseenQuestions(candidates, mode, topic, count);
     session = {
+      id: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
       mode, topic, ids, answers: ids.map(() => null), current: 0,
       startedAt: Date.now(), deadline: mode === 'exam' ? Date.now() + EXAM_SECONDS * 1000 : null,
       finished: false, finishedAt: null, reason: null
@@ -70,7 +152,7 @@
     const questions = getCurrentQuestions();
     const right = questions.reduce((acc, q, i) => acc + Number(session.answers[i] === q.correcta), 0);
     const unanswered = session.answers.filter(answer => answer === null).length;
-    return { right, wrong: EXAM_LENGTH - right - unanswered, unanswered, passed: right >= PASS_MARK };
+    return { right, wrong: questions.length - right - unanswered, unanswered, passed: right >= PASS_MARK };
   }
 
   function finishSession(reason = 'manual') {
@@ -79,24 +161,26 @@
     session.reason = reason;
     session.finishedAt = Date.now();
     saveSession();
+    recordFinishedSession();
     cleanTimer();
-    reviewFilter = 'errors';
+    reviewFilter = session.mode === 'review' ? 'all' : 'errors';
     renderResults();
     window.scrollTo({ top: 0, behavior: 'instant' });
   }
 
   function renderHome() {
     cleanTimer();
+    const hasErrors = errorIds().length > 0;
     app.innerHTML = `
       <section class="home">
-        <div class="hero">
-          <h1>Examen de Licencia de armas E</h1>
-          <p class="lead">Simulacros y práctica por temas con preguntas tipo test. La corrección se muestra al finalizar.</p>
-        </div>
         <div class="info-grid" aria-label="Características del examen">
           <div class="info"><div class="value">20</div><div class="label">preguntas</div></div>
           <div class="info"><div class="value">20 minutos</div><div class="label">de duración</div></div>
           <div class="info"><div class="value">16 aciertos</div><div class="label">para aprobar</div></div>
+        </div>
+        <div class="study-panel">
+          <div><h2>Estudiar temario</h2><p class="small-muted">Lee explicaciones por apartados y practica las preguntas relacionadas. Tema I disponible; los demás se incorporarán progresivamente.</p></div>
+          <button class="btn btn-primary" data-action="study-index" ${studyTopic() ? '' : 'disabled'}>Abrir temario</button>
         </div>
         <div class="launch-panel">
           <div><h2>Simulacro de examen</h2><p class="small-muted">20 preguntas aleatorias de los 7 temas. Tiempo limitado a 20 minutos.</p></div>
@@ -114,8 +198,58 @@
             <button class="btn btn-outline" data-action="start-practice">Practicar</button>
           </div>
         </div>
-        <p class="bank-note">${bank.length} preguntas disponibles en 7 temas.</p>
+        <div class="review-panel">
+          <div><h2>Repasar errores</h2><p class="small-muted">${hasErrors ? 'Practica las preguntas falladas o dejadas en blanco. Saldrán de este repaso al acertarlas en dos sesiones distintas.' : 'Las preguntas falladas o dejadas en blanco aparecerán aquí para repasarlas.'}</p></div>
+          <button class="btn btn-outline" data-action="start-review" ${hasErrors ? '' : 'disabled'}>Repasar errores</button>
+        </div>
+        <p class="bank-note">${bank.length} preguntas disponibles en 7 temas. El progreso se guarda solo en este dispositivo.</p>
       </section>`;
+  }
+
+  function renderStudyIndex() {
+    cleanTimer();
+    const topic = studyTopic();
+    app.innerHTML = `<section class="study" aria-label="Temario de estudio">
+      <div class="study-top"><button class="btn btn-subtle" data-action="home">← Volver al inicio</button><span>Temario de estudio</span></div>
+      <h2 class="study-heading">Estudiar temario</h2>
+      <p class="study-lead">Explicaciones elaboradas a partir de las preguntas de la Guardia Civil. Cada apartado enlaza con sus preguntas para practicarlo.</p>
+      <div class="study-topic-list">
+        ${Object.entries(TOPIC_NAMES).map(([number,name]) => Number(number) === 1 && topic ?
+          `<button class="study-topic-card available" data-action="study-topic"><span><b>Tema ${number} · ${escapeHtml(name)}</b><small>${topic.secciones.length} apartados · ${topic.preguntas_totales} preguntas</small></span><span class="study-chevron">Leer →</span></button>` :
+          `<div class="study-topic-card unavailable"><span><b>Tema ${number} · ${escapeHtml(name)}</b><small>En preparación</small></span></div>`).join('')}
+      </div>
+      <p class="study-disclaimer">Material independiente. Las notas identifican expresamente los puntos en que el cuestionario y la redacción legal actual pueden diferir.</p>
+    </section>`;
+    window.scrollTo({top:0,behavior:'instant'});
+  }
+
+  function renderStudyTopic(jumpTo = '') {
+    cleanTimer();
+    const topic = studyTopic();
+    if (!topic) return renderStudyIndex();
+    app.innerHTML = `<section class="study" aria-label="Tema I">
+      <div class="study-top"><button class="btn btn-subtle" data-action="study-index">← Todos los temas</button><span>Tema I · ${topic.preguntas_totales} preguntas</span></div>
+      <h2 class="study-heading">${escapeHtml(topic.titulo)}</h2>
+      <p class="study-lead">Nueve apartados que explican las 68 preguntas de este tema. Después de cada apartado puedes practicar exactamente sus preguntas.</p>
+      <nav class="study-outline" aria-label="Apartados del Tema I">
+        <b>Contenido</b>
+        ${topic.secciones.map((section,i)=>`<a href="#${escapeHtml(section.id)}">${i+1}. ${escapeHtml(section.titulo)}</a>`).join('')}
+      </nav>
+      ${topic.secciones.map((section,i) => `<article id="${escapeHtml(section.id)}" class="study-chapter">
+        <div class="study-chapter-label">Apartado ${i+1} de ${topic.secciones.length}</div>
+        <h3>${escapeHtml(section.titulo)}</h3>
+        <p class="study-intro">${formatStudyText(section.intro)}</p>
+        <ul class="study-points">${section.puntos.map(item=>`<li>${formatStudyText(item)}</li>`).join('')}</ul>
+        <div class="study-memory"><strong>Para recordar</strong><p>${formatStudyText(section.clave)}</p></div>
+        ${section.nota ? `<div class="study-note"><strong>Nota sobre el cuestionario o la normativa</strong><p>${formatStudyText(section.nota)}</p></div>` : ''}
+        <div class="study-chapter-actions"><span>Preguntas ${section.preguntas.join(', ')} del Tema I</span>
+          <button class="btn btn-outline" data-action="start-study" data-section="${escapeHtml(section.id)}">Practicar ${section.preguntas.length} preguntas</button></div>
+      </article>`).join('')}
+      <div class="study-sources"><h3>Fuentes</h3>${studyGuide.fuentes.map(source => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.nombre)} ↗</a>`).join('')}<p>El temario no sustituye las instrucciones oficiales ni la formación práctica.</p></div>
+      <button class="btn btn-subtle" data-action="study-index">← Todos los temas</button>
+    </section>`;
+    if (jumpTo) document.getElementById(jumpTo)?.scrollIntoView({block:'start',behavior:'instant'});
+    else window.scrollTo({top:0,behavior:'instant'});
   }
 
   function timerText() {
@@ -147,35 +281,48 @@
     const idx = session.current;
     const question = questions[idx];
     const selected = session.answers[idx];
+    // En ejercicios de aprendizaje se corrige al responder y se bloquea la elección.
+    // En simulacros no se muestra la solución hasta terminar.
+    const immediateFeedback = session.mode !== 'exam';
+    const hasReplied = selected !== null;
     const answered = session.answers.filter(a => a !== null).length;
-    const lastQuestion = idx === EXAM_LENGTH - 1;
-    const label = session.mode === 'exam' ? 'Simulacro de examen' : `Práctica · Tema ${session.topic}`;
+    const total = questions.length;
+    const lastQuestion = idx === total - 1;
+    const label = session.mode === 'exam' ? 'Simulacro de examen'
+      : session.mode === 'review' ? 'Repaso de errores'
+      : session.mode === 'study' ? `Estudio · ${findStudySection(session.topic)?.titulo || 'Tema I'}`
+      : `Práctica · Tema ${session.topic}`;
     app.innerHTML = `
       <section class="exam">
         <div class="exam-toolbar">
-          <div><div class="exam-title">${escapeHtml(label)}</div><div class="exam-subtitle">${answered} de ${EXAM_LENGTH} respondidas</div></div>
+          <div><div class="exam-title">${escapeHtml(label)}</div><div class="exam-subtitle">${answered} de ${total} respondidas</div></div>
           ${session.deadline ? `<div class="timer" role="timer" aria-label="Tiempo restante"><span class="circle" aria-hidden="true"></span><span id="time-left">${timerText()}</span></div>` : '<div class="timer">Sin límite de tiempo</div>'}
         </div>
-        <div class="progress-strip" role="progressbar" aria-valuemin="0" aria-valuemax="20" aria-valuenow="${answered}" aria-label="Preguntas respondidas"><div style="width:${answered / EXAM_LENGTH * 100}%"></div></div>
+        <div class="progress-strip" role="progressbar" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${answered}" aria-label="Preguntas respondidas"><div style="width:${answered / total * 100}%"></div></div>
         <article class="question-card">
-          <div class="q-overline"><span class="q-badge">Pregunta ${idx + 1} de ${EXAM_LENGTH}</span><span>Tema ${question.tema} · ${escapeHtml(TOPIC_NAMES[question.tema])}</span></div>
+          <div class="q-overline"><span class="q-badge">Pregunta ${idx + 1} de ${total}</span><span>Tema ${question.tema} · ${escapeHtml(TOPIC_NAMES[question.tema])}</span></div>
           <h2 class="q-title">${escapeHtml(question.pregunta)}</h2>
           <div class="options" role="group" aria-label="Selecciona una respuesta">
-            ${question.opciones.map((text, i) => `
-              <button class="option ${selected === i ? 'selected' : ''}" type="button" data-action="choose" data-choice="${i}" aria-pressed="${selected === i}">
+            ${question.opciones.map((text, i) => {
+              const state = immediateFeedback && hasReplied
+                ? i === question.correcta ? 'is-correct' : i === selected ? 'is-wrong' : ''
+                : selected === i ? 'selected' : '';
+              return `<button class="option ${state}" type="button" data-action="choose" data-choice="${i}" aria-pressed="${selected === i}" ${immediateFeedback && hasReplied ? 'disabled' : ''}>
                 <span class="option-key" aria-hidden="true">${letter(i)}</span>
                 <span class="option-text">${escapeHtml(text)}</span>
-              </button>`).join('')}
+              </button>`;
+            }).join('')}
           </div>
+          ${immediateFeedback && hasReplied ? `<p class="answer-feedback ${selected === question.correcta ? 'is-correct' : 'is-wrong'}" role="status">${selected === question.correcta ? 'Correcta.' : `Incorrecta. La respuesta correcta es la ${letter(question.correcta)}.`}</p>` : ''}
         </article>
         <nav class="bottom-nav" aria-label="Navegación por preguntas">
           <button class="btn btn-outline" data-action="previous" ${idx === 0 ? 'disabled' : ''}>← Anterior</button>
           <div class="nav-center" aria-label="Ir a pregunta">
             ${questions.map((_, i) => `<button class="dot ${i === idx ? 'current' : ''} ${session.answers[i] !== null ? 'answered' : ''}" data-action="goto" data-index="${i}" aria-label="Pregunta ${i + 1}${session.answers[i] === null ? ' sin responder' : ' respondida'}" ${i === idx ? 'aria-current="step"' : ''}></button>`).join('')}
           </div>
-          <button class="btn ${lastQuestion ? 'btn-primary' : 'btn-outline'}" data-action="${lastQuestion ? 'finish' : 'next'}">${lastQuestion ? 'Terminar examen' : 'Siguiente →'}</button>
+          <button class="btn ${lastQuestion ? 'btn-primary' : 'btn-outline'}" data-action="${lastQuestion ? 'finish' : 'next'}">${lastQuestion ? session.mode === 'review' ? 'Terminar repaso' : session.mode === 'exam' ? 'Terminar examen' : 'Terminar práctica' : 'Siguiente →'}</button>
         </nav>
-        <p class="nav-bottom-text">${session.mode === 'exam' ? 'Puedes cambiar tus respuestas antes de terminar.' : 'Las soluciones aparecerán al finalizar la práctica.'} ${!lastQuestion ? '<button class="inline-finish" data-action="finish">Finalizar ahora</button>' : ''}</p>
+        <p class="nav-bottom-text">${session.mode === 'exam' ? 'Puedes cambiar tus respuestas antes de terminar. Las soluciones aparecerán al final.' : 'Al elegir una opción verás la corrección inmediatamente. Después no podrás cambiarla.'} ${!lastQuestion ? '<button class="inline-finish" data-action="finish">Finalizar ahora</button>' : ''}</p>
       </section>`;
     if (session.deadline) {
       updateTimer();
@@ -189,23 +336,29 @@
     const score = scoreSession();
     const questions = getCurrentQuestions();
     const examPassed = score.passed;
-    const title = examPassed ? 'Aprobado' : 'No aprobado';
-    const subtitle = session.reason === 'time' ? 'Tiempo agotado. Se han corregido las respuestas registradas.' : examPassed ? 'Has alcanzado el mínimo de 16 aciertos.' : 'No has alcanzado el mínimo de 16 aciertos.';
+    const isReview = session.mode === 'review';
+    const isStudy = session.mode === 'study';
+    const title = isReview ? 'Repaso terminado' : isStudy ? 'Práctica terminada' : examPassed ? 'Aprobado' : 'No aprobado';
+    const subtitle = isReview ? 'Las preguntas que falles seguirán pendientes. Las acertadas salen del repaso después de dos sesiones distintas con acierto.'
+      : isStudy ? 'Has terminado las preguntas de este apartado. Revisa las respuestas y vuelve al temario cuando quieras.'
+      : session.reason === 'time' ? 'Tiempo agotado. Se han corregido las respuestas registradas.'
+      : examPassed ? 'Has alcanzado el mínimo de 16 aciertos.' : 'No has alcanzado el mínimo de 16 aciertos.';
     const mistakes = questions.map((q, idx) => ({ q, idx })).filter(({q,idx}) => session.answers[idx] !== q.correcta);
     const shown = reviewFilter === 'errors' ? mistakes : questions.map((q, idx) => ({q,idx}));
     app.innerHTML = `
       <section class="results">
         <div class="result-hero">
           <div>
-            <p class="result-label">${session.mode === 'exam' ? 'Resultado del simulacro' : 'Resultado de la práctica'}</p>
-            <h1>${title}</h1>
+            <p class="result-label">${isReview ? 'Resultado del repaso' : isStudy ? 'Práctica del temario' : session.mode === 'exam' ? 'Resultado del simulacro' : 'Resultado de la práctica'}</p>
+            <h2>${title}</h2>
             <p class="small-muted">${subtitle}</p>
             <div class="result-counts" style="margin-top:20px"><span><b>${score.right}</b> correctas</span><span><b>${score.wrong}</b> incorrectas</span><span><b>${score.unanswered}</b> en blanco</span></div>
           </div>
-          <div class="result-score ${examPassed ? '' : 'fail'}" aria-label="${score.right} aciertos de 20"><strong>${score.right}</strong><small>de 20</small></div>
+          <div class="result-score ${!isReview && !isStudy && !examPassed ? 'fail' : ''}" aria-label="${score.right} aciertos de ${questions.length}"><strong>${score.right}</strong><small>de ${questions.length}</small></div>
         </div>
         <div class="result-actions">
-          <button class="btn btn-primary" data-action="start-exam">Otro simulacro</button>
+          ${isStudy ? '<button class="btn btn-primary" data-action="study-topic">Volver al apartado</button>' : '<button class="btn btn-primary" data-action="start-exam">Otro simulacro</button>'}
+          ${errorIds().length ? '<button class="btn btn-outline" data-action="start-review">Repasar errores</button>' : ''}
           <button class="btn btn-outline" data-action="home">Volver al inicio</button>
         </div>
         <div class="review-header"><h2>Revisión de respuestas</h2><button class="btn btn-subtle" data-action="toggle-review">${reviewFilter === 'errors' ? 'Ver todas' : 'Solo errores'}</button></div>
@@ -240,9 +393,14 @@
     switch (button.dataset.action) {
       case 'start-exam': startSession('exam'); break;
       case 'start-practice': startSession('practice', Number(document.getElementById('topic').value)); break;
+      case 'start-review': startSession('review'); break;
+      case 'study-index': renderStudyIndex(); break;
+      case 'study-topic': renderStudyTopic(session?.mode === 'study' ? session.topic : ''); break;
+      case 'start-study': startSession('study', button.dataset.section); break;
       case 'resume': renderQuestion(); break;
       case 'choose': {
         if (!session || session.finished) break;
+        if (session.mode !== 'exam' && session.answers[session.current] !== null) break;
         session.answers[session.current] = Number(button.dataset.choice);
         saveSession();
         renderQuestion();
@@ -254,7 +412,7 @@
         if (!session || session.finished) break;
         if (button.dataset.action === 'goto') session.current = Number(button.dataset.index);
         else session.current += button.dataset.action === 'next' ? 1 : -1;
-        session.current = Math.max(0, Math.min(EXAM_LENGTH-1, session.current));
+        session.current = Math.max(0, Math.min(session.ids.length-1, session.current));
         saveSession();
         renderQuestion();
         break;
@@ -281,10 +439,17 @@
         throw new Error('El banco de preguntas no tiene el formato esperado.');
       }
       bankById = new Map(bank.map(q => [q.id, q]));
+      try {
+        const guideResponse = await fetch('./temario.json');
+        if (guideResponse.ok) {
+          const guide = await guideResponse.json();
+          if (Array.isArray(guide?.temas) && guide.temas.some(t => t.numero === 1 && Array.isArray(t.secciones))) studyGuide = guide;
+        }
+      } catch (error) { console.info('Temario no disponible', error); }
       const saved = readStorage(STORAGE_SESSION, null);
-      if (saved && Array.isArray(saved.ids) && saved.ids.length === EXAM_LENGTH && saved.ids.every(id => bankById.has(id)) && Array.isArray(saved.answers) && saved.answers.length === EXAM_LENGTH) {
+      if (saved && Array.isArray(saved.ids) && saved.ids.length >= 1 && saved.ids.length <= EXAM_LENGTH && saved.ids.every(id => bankById.has(id)) && Array.isArray(saved.answers) && saved.answers.length === saved.ids.length) {
         session = saved;
-        if (session.finished) renderResults();
+        if (session.finished) { recordFinishedSession(); renderResults(); }
         else if (session.deadline && session.deadline <= Date.now()) finishSession('time');
         else renderQuestion();
       } else renderHome();
