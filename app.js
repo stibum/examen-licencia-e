@@ -23,6 +23,7 @@
   let reviewFilter = 'errors';
   let studyGuide = null;
   let timerInterval = null;
+  let progressResetNotice = false;
   const app = document.getElementById('app');
 
   const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -46,6 +47,27 @@
     try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* almacenamiento opcional */ }
   }
   function saveSession() { if (session) writeStorage(STORAGE_SESSION, session); }
+
+  // Solo se borran las claves de esta aplicación, nunca todo el almacenamiento del navegador.
+  function resetProgress() {
+    const message = '¿Borrar todo el progreso guardado en este dispositivo?\n\n' +
+      'Se eliminarán el examen en curso, las respuestas guardadas, los errores pendientes ' +
+      'y el historial de preguntas vistas.\n\n' +
+      'Las 423 preguntas y el temario seguirán disponibles. Esta acción no se puede deshacer.';
+    if (!window.confirm(message)) return;
+    try {
+      [STORAGE_SESSION, STORAGE_UNUSED, STORAGE_REVIEW].forEach(key => localStorage.removeItem(key));
+    } catch (error) {
+      console.warn('No se pudo borrar el progreso guardado', error);
+      window.alert('No se ha podido borrar el progreso de este dispositivo. Inténtalo de nuevo.');
+      return;
+    }
+    cleanTimer();
+    session = null;
+    reviewFilter = 'errors';
+    progressResetNotice = true;
+    renderHome();
+  }
 
   // Solo se guardan los errores pendientes y su racha de aciertos.
   // Nunca se envían datos personales ni respuestas a un servidor.
@@ -142,6 +164,7 @@
     if (session && !session.finished && !window.confirm('¿Empezar de nuevo? Se perderán las respuestas del examen en curso.')) return;
     cleanTimer();
     const ids = chooseUnseenQuestions(candidates, mode, topic, count);
+    progressResetNotice = false;
     session = {
       id: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
       mode, topic, ids, answers: ids.map(() => null), current: 0,
@@ -212,7 +235,11 @@
           <div><h2>Repasar errores</h2><p class="small-muted">${hasErrors ? 'Practica las preguntas falladas o dejadas en blanco. Saldrán de este repaso al acertarlas en dos sesiones distintas.' : 'Las preguntas falladas o dejadas en blanco aparecerán aquí para repasarlas.'}</p></div>
           <button class="btn btn-outline" data-action="start-review" ${hasErrors ? '' : 'disabled'}>Repasar errores</button>
         </div>
-        <p class="bank-note">${bank.length} preguntas disponibles en 7 temas. El progreso se guarda solo en este dispositivo.</p>
+        ${progressResetNotice ? '<p class="progress-cleared" role="status">Progreso borrado. Puedes empezar de nuevo cuando quieras.</p>' : ''}
+        <div class="progress-controls">
+          <p class="bank-note">${bank.length} preguntas disponibles en 7 temas. El progreso se guarda solo en este dispositivo.</p>
+          <button class="btn btn-reset" type="button" data-action="reset-progress">Borrar progreso</button>
+        </div>
       </section>`;
   }
 
@@ -221,7 +248,7 @@
     app.innerHTML = `<section class="study" aria-label="Temario de estudio">
       <div class="study-top"><button class="btn btn-subtle" data-action="home">← Volver al inicio</button><span>Temario de estudio</span></div>
       <h2 class="study-heading">Estudiar temario</h2>
-      <p class="study-lead">Explicaciones elaboradas a partir de las preguntas de la Guardia Civil. Cada apartado permite practicar las preguntas relacionadas y conocer las respuestas al momento.</p>
+      <p class="study-lead">Siete temas explicados con palabras sencillas. Puedes leer cada apartado y practicar sus preguntas con corrección inmediata.</p>
       <div class="study-topic-list">
         ${Object.entries(TOPIC_NAMES).map(([number, name]) => {
           const topic = studyTopic(number);
@@ -229,7 +256,7 @@
             : `<div class="study-topic-card unavailable"><span><b>Tema ${number} · ${escapeHtml(name)}</b><small>No disponible</small></span></div>`;
         }).join('')}
       </div>
-      <p class="study-disclaimer">Material independiente basado en los PDF aportados. Las notas distinguen las respuestas del cuestionario y las posibles diferencias con la normativa vigente.</p>
+      <p class="study-disclaimer">Material de estudio basado en los cuestionarios facilitados. Las notas indican cuándo alguna regla o cifra puede estar desactualizada.</p>
     </section>`;
     window.scrollTo({top:0,behavior:'instant'});
   }
@@ -249,9 +276,9 @@
         <div class="study-chapter-label">Apartado ${i + 1} de ${topic.secciones.length}</div>
         <h3>${escapeHtml(section.titulo)}</h3>
         <p class="study-intro">${formatStudyText(section.intro)}</p>
-        <ul class="study-points">${section.puntos.map(item=>`<li>${formatStudyText(item)}</li>`).join('')}</ul>
+        <div class="study-points">${section.puntos.map(item=>`<p>${formatStudyText(item)}</p>`).join('')}</div>
         <div class="study-memory"><strong>Para recordar</strong><p>${formatStudyText(section.clave)}</p></div>
-        ${section.nota ? `<div class="study-note"><strong>Nota sobre el cuestionario o la normativa</strong><p>${formatStudyText(section.nota)}</p></div>` : ''}
+        ${section.nota ? `<div class="study-note"><strong>Aclaración</strong><p>${formatStudyText(section.nota)}</p></div>` : ''}
         <div class="study-chapter-actions"><span>Preguntas ${section.preguntas.join(', ')} del Tema ${roman}</span>
           <button class="btn btn-outline" data-action="start-study" data-section="${escapeHtml(section.id)}">Practicar ${section.preguntas.length} preguntas</button></div>
       </article>`).join('')}
@@ -456,6 +483,7 @@
       }
       case 'toggle-review': reviewFilter = reviewFilter === 'errors' ? 'all' : 'errors'; renderResults(); break;
       case 'home': renderHome(); break;
+      case 'reset-progress': resetProgress(); break;
       default: break;
     }
   });
