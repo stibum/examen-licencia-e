@@ -111,6 +111,7 @@ select { border:1px solid #cdd9d0; padding:11px 12px; border-radius:12px; min-he
 .result-counts { display:flex; gap:13px; flex-wrap:wrap; font-size:14px; color:var(--ink-soft); }
 .result-counts b { color:var(--ink); }
 .result-actions { display:flex; gap:10px; flex-wrap:wrap; margin:20px 0 28px; }
+.result-actions-bottom { margin:26px 0 6px; padding-top:8px; }
 .review-header { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:14px; }
 .review-header h2 { font-size:21px; margin:0; font-weight:740; }
 .review-card { border:1px solid var(--border); border-radius:15px; background:#fff; padding:20px 22px; margin-bottom:11px; }

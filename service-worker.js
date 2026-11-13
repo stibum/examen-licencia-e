@@ -1,4 +1,4 @@
-const CACHE = 'examen-e-app-v19-borrar-progreso';
+const CACHE = 'examen-e-app-v20-simulacro-proporcional';
 const APP_FILES = [
   './', './index.html', './styles.css', './app.js', './preguntas.json',
   './temario.json', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'

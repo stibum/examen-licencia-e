@@ -4,6 +4,8 @@
   const EXAM_LENGTH = 20;
   const EXAM_SECONDS = 20 * 60;
   const PASS_MARK = 16;
+  // Reparto orientativo, no oficial: 20 preguntas distribuidas entre los 7 temas.
+  const SIMULACRO_POR_TEMA = Object.freeze({ 1: 4, 2: 3, 3: 3, 4: 3, 5: 3, 6: 3, 7: 1 });
   const STORAGE_SESSION = 'examen-e-simulador-sesion-v1';
   const STORAGE_UNUSED = 'examen-e-preguntas-pendientes-v1';
   const STORAGE_REVIEW = 'examen-e-repaso-errores-v1';
@@ -47,6 +49,22 @@
     try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* almacenamiento opcional */ }
   }
   function saveSession() { if (session) writeStorage(STORAGE_SESSION, session); }
+
+  // Al salir de una revisión terminada se cierra solo esa sesión.
+  // El historial de prácticas y los errores pendientes se mantienen intactos.
+  function closeFinishedSession() {
+    if (!session?.finished) return;
+    recordFinishedSession();
+    try { localStorage.removeItem(STORAGE_SESSION); }
+    catch (error) { console.warn('No se pudo retirar la sesión finalizada', error); }
+    session = null;
+  }
+
+  function goHome() {
+    closeFinishedSession();
+    renderHome();
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }
 
   // Solo se borran las claves de esta aplicación, nunca todo el almacenamiento del navegador.
   function resetProgress() {
@@ -117,10 +135,25 @@
     return output;
   }
 
-  // En cada modalidad se agotan las preguntas pendientes antes de empezar otra vuelta.
+  // Solo el simulacro utiliza un sorteo independiente, sin historial entre intentos.
+  // Se escogen preguntas distintas dentro del mismo examen y luego se mezclan.
+  function chooseSimulacroQuestions() {
+    const chosen = [];
+    for (const [topic, amount] of Object.entries(SIMULACRO_POR_TEMA)) {
+      const candidates = bank.filter(question => question.tema === Number(topic));
+      if (candidates.length < amount) throw new Error(`Faltan preguntas para el Tema ${topic}`);
+      chosen.push(...shuffle(candidates).slice(0, amount).map(question => question.id));
+    }
+    if (chosen.length !== EXAM_LENGTH || new Set(chosen).size !== EXAM_LENGTH) {
+      throw new Error('El reparto del simulacro no contiene 20 preguntas distintas');
+    }
+    return shuffle(chosen);
+  }
+
+  // En las modalidades de práctica se agotan las preguntas pendientes antes de repetirlas.
   // El orden permanece en este dispositivo aunque el usuario cierre la aplicación.
   function chooseUnseenQuestions(candidates, mode, topic, count) {
-    const key = mode === 'exam' ? 'exam' : mode === 'exam-practice' ? 'exam-practice' : mode === 'review' ? 'review-errors' : mode === 'study' ? `study-${topic}` : `practice-${topic}`;
+    const key = mode === 'exam-practice' ? 'exam-practice' : mode === 'review' ? 'review-errors' : mode === 'study' ? `study-${topic}` : `practice-${topic}`;
     const allIds = candidates.map(question => question.id);
     const validIds = new Set(allIds);
     const saved = readStorage(STORAGE_UNUSED, {});
@@ -163,7 +196,7 @@
     if (count === 0 || candidates.length < count) return renderHome();
     if (session && !session.finished && !window.confirm('¿Empezar de nuevo? Se perderán las respuestas del examen en curso.')) return;
     cleanTimer();
-    const ids = chooseUnseenQuestions(candidates, mode, topic, count);
+    const ids = mode === 'exam' ? chooseSimulacroQuestions() : chooseUnseenQuestions(candidates, mode, topic, count);
     progressResetNotice = false;
     session = {
       id: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
@@ -212,7 +245,7 @@
           <button class="btn btn-primary" data-action="study-index" ${studyGuide?.temas?.length ? '' : 'disabled'}>Abrir temario</button>
         </div>
         <div class="launch-panel">
-          <div><h2>Simulacro de examen</h2><p class="small-muted">20 preguntas aleatorias de los 7 temas. Tiempo limitado a 20 minutos.</p></div>
+          <div><h2>Simulacro de examen</h2><p class="small-muted">20 preguntas de los siete temas: 4 del Tema I, 3 de cada Tema II–VI y 1 del Tema VII. Se sortean de nuevo en cada simulacro. Tienes 20 minutos. Reparto orientativo, no oficial.</p></div>
           <div class="actions">
             ${session && !session.finished ? '<button class="btn btn-outline" data-action="resume">Continuar anterior</button>' : ''}
             <button class="btn btn-primary" data-action="start-exam">Empezar simulacro</button>
@@ -388,6 +421,14 @@
       : examPassed ? 'Has alcanzado el mínimo de 16 aciertos.' : 'No has alcanzado el mínimo de 16 aciertos.';
     const mistakes = questions.map((q, idx) => ({ q, idx })).filter(({q,idx}) => session.answers[idx] !== q.correcta);
     const shown = reviewFilter === 'errors' ? mistakes : questions.map((q, idx) => ({q,idx}));
+    const resultActions = `
+      ${isStudy ? '<button class="btn btn-primary" data-action="study-topic">Volver al apartado</button>'
+        : isPracticeExam ? '<button class="btn btn-primary" data-action="start-exam-practice">Otra práctica de examen</button>'
+        : isTopicPractice ? '<button class="btn btn-primary" data-action="repeat-topic">Practicar este tema</button>'
+        : isReview ? ''
+        : '<button class="btn btn-primary" data-action="start-exam">Otro simulacro</button>'}
+      ${errorIds().length ? '<button class="btn btn-outline" data-action="start-review">Repasar errores</button>' : ''}
+      <button class="btn btn-outline" data-action="home">Volver al inicio</button>`;
     app.innerHTML = `
       <section class="results">
         <div class="result-hero">
@@ -399,15 +440,7 @@
           </div>
           <div class="result-score ${!isLearning && !examPassed ? 'fail' : ''}" aria-label="${score.right} aciertos de ${questions.length}"><strong>${score.right}</strong><small>de ${questions.length}</small></div>
         </div>
-        <div class="result-actions">
-          ${isStudy ? '<button class="btn btn-primary" data-action="study-topic">Volver al apartado</button>'
-            : isPracticeExam ? '<button class="btn btn-primary" data-action="start-exam-practice">Otra práctica de examen</button>'
-            : isTopicPractice ? '<button class="btn btn-primary" data-action="repeat-topic">Practicar este tema</button>'
-            : isReview ? ''
-            : '<button class="btn btn-primary" data-action="start-exam">Otro simulacro</button>'}
-          ${errorIds().length ? '<button class="btn btn-outline" data-action="start-review">Repasar errores</button>' : ''}
-          <button class="btn btn-outline" data-action="home">Volver al inicio</button>
-        </div>
+        <div class="result-actions" aria-label="Acciones al inicio de la revisión">${resultActions}</div>
         <div class="review-header"><h2>Revisión de respuestas</h2><button class="btn btn-subtle" data-action="toggle-review">${reviewFilter === 'errors' ? 'Ver todas' : 'Solo errores'}</button></div>
         ${shown.length ? shown.map(({q,idx}) => {
             const chosen = session.answers[idx];
@@ -430,6 +463,7 @@
               </div>
             </article>`;
           }).join('') : '<div class="empty-state">¡Muy bien! No has tenido ningún error ni has dejado preguntas sin contestar.</div>'}
+        <div class="result-actions result-actions-bottom" aria-label="Acciones al final de la revisión">${resultActions}</div>
       </section>`;
   }
 
@@ -448,6 +482,7 @@
         if (button.dataset.topic) renderStudyTopic(Number(button.dataset.topic));
         else if (session?.mode === 'study') {
           const section = findStudySection(session.topic);
+          closeFinishedSession();
           if (section) renderStudyTopic(section.tema, section.id);
           else renderStudyIndex();
         } else renderStudyIndex();
@@ -482,7 +517,7 @@
         break;
       }
       case 'toggle-review': reviewFilter = reviewFilter === 'errors' ? 'all' : 'errors'; renderResults(); break;
-      case 'home': renderHome(); break;
+      case 'home': goHome(); break;
       case 'reset-progress': resetProgress(); break;
       default: break;
     }
