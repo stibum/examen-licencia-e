@@ -230,47 +230,57 @@
     window.scrollTo({ top: 0, behavior: 'instant' });
   }
 
+  // Iconos de la maqueta aprobada: trazos SVG sencillos y sin recursos externos.
+  function uiIcon(name) {
+    return `<svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#i-${name}"></use></svg>`;
+  }
+
   function renderHome() {
     cleanTimer();
     const hasErrors = errorIds().length > 0;
     app.innerHTML = `
       <section class="home">
-        <div class="info-grid" aria-label="Características del examen">
-          <div class="info"><div class="value">20</div><div class="label">preguntas</div></div>
-          <div class="info"><div class="value">20 minutos</div><div class="label">de duración</div></div>
-          <div class="info"><div class="value">16 aciertos</div><div class="label">para aprobar</div></div>
-        </div>
-        <div class="study-panel">
-          <div><h2>Estudiar temario</h2><p class="small-muted">Lee las explicaciones de los siete temas y practica las preguntas relacionadas con cada apartado.</p></div>
-          <button class="btn btn-primary" data-action="study-index" ${studyGuide?.temas?.length ? '' : 'disabled'}>Abrir temario</button>
-        </div>
-        <div class="launch-panel">
-          <div><h2>Simulacro de examen</h2><p class="small-muted">20 preguntas de los siete temas: 4 del Tema I, 3 de cada Tema II–VI y 1 del Tema VII. Se sortean de nuevo en cada simulacro. Tienes 20 minutos. Reparto orientativo, no oficial.</p></div>
-          <div class="actions">
+        <article class="main-card">
+          <div class="card-kicker">${uiIcon('target')} MODO EXAMEN</div>
+          <h2>Simulacro de examen</h2>
+          <p class="card-description">20 preguntas · 20 minutos · 16 aciertos para aprobar. Corrección al finalizar.</p>
+          <div class="hero-actions">
             ${session && !session.finished ? '<button class="btn btn-outline" data-action="resume">Continuar anterior</button>' : ''}
-            <button class="btn btn-primary" data-action="start-exam">Empezar simulacro</button>
+            <button class="btn btn-primary" data-action="start-exam">Empezar simulacro ${uiIcon('arrow')}</button>
           </div>
+        </article>
+
+        <div class="features">
+          <article class="feature">
+            <div class="feature-top"><span class="feature-icon">${uiIcon('book')}</span><h3>Estudiar temario</h3></div>
+            <p>Consulta los siete temas y practica sus preguntas.</p>
+            <button class="btn btn-outline" data-action="study-index" ${studyGuide?.temas?.length ? '' : 'disabled'}>Abrir temario ${uiIcon('arrow')}</button>
+          </article>
+          <article class="feature">
+            <div class="feature-top"><span class="feature-icon">${uiIcon('clipboard')}</span><h3>Practicar examen</h3></div>
+            <p>20 preguntas sin tiempo, con corrección inmediata.</p>
+            <button class="btn btn-outline" data-action="start-exam-practice">Empezar práctica ${uiIcon('arrow')}</button>
+          </article>
+          <article class="feature">
+            <div class="feature-top"><span class="feature-icon">${uiIcon('layer')}</span><h3>Practicar por tema</h3></div>
+            <p>Practica las preguntas del tema que elijas.</p>
+            <div class="practice-controls feature-select">
+              <select id="topic" aria-label="Seleccionar tema">
+                ${Object.entries(TOPIC_NAMES).map(([number, name]) => `<option value="${number}">Tema ${number} · ${escapeHtml(name)}</option>`).join('')}
+              </select>
+              <button class="btn btn-outline" data-action="start-practice">Practicar</button>
+            </div>
+          </article>
+          <article class="feature">
+            <div class="feature-top"><span class="feature-icon">${uiIcon('review')}</span><h3>Repasar errores</h3></div>
+            <p>${hasErrors ? 'Practica las preguntas que has fallado.' : 'Aquí aparecerán las preguntas que hayas fallado.'}</p>
+            <button class="btn btn-outline" data-action="start-review" ${hasErrors ? '' : 'disabled'}>Repasar errores ${uiIcon('arrow')}</button>
+          </article>
         </div>
-        <div class="training-panel">
-          <div><h2>Practicar examen</h2><p class="small-muted">20 preguntas de todos los temas, sin límite de tiempo. Verás si aciertas o fallas al responder.</p></div>
-          <button class="btn btn-outline" data-action="start-exam-practice">Empezar práctica</button>
-        </div>
-        <div class="practice-panel">
-          <div><h2>Practicar por tema</h2><p class="small-muted">20 preguntas del tema que elijas, sin límite de tiempo y con corrección inmediata.</p></div>
-          <div class="practice-controls">
-            <select id="topic" aria-label="Seleccionar tema">
-              ${Object.entries(TOPIC_NAMES).map(([number, name]) => `<option value="${number}">Tema ${number} · ${escapeHtml(name)}</option>`).join('')}
-            </select>
-            <button class="btn btn-outline" data-action="start-practice">Practicar</button>
-          </div>
-        </div>
-        <div class="review-panel">
-          <div><h2>Repasar errores</h2><p class="small-muted">${hasErrors ? 'Practica las preguntas falladas o dejadas en blanco. Saldrán de este repaso al acertarlas en dos sesiones distintas.' : 'Las preguntas falladas o dejadas en blanco aparecerán aquí para repasarlas.'}</p></div>
-          <button class="btn btn-outline" data-action="start-review" ${hasErrors ? '' : 'disabled'}>Repasar errores</button>
-        </div>
+
         ${progressResetNotice ? '<p class="progress-cleared" role="status">Progreso borrado. Puedes empezar de nuevo cuando quieras.</p>' : ''}
-        <div class="progress-controls">
-          <p class="bank-note">${bank.length} preguntas disponibles en 7 temas. El progreso se guarda solo en este dispositivo.</p>
+        <div class="progress-controls foot-tools">
+          <p class="bank-note">Tu progreso se guarda en este dispositivo.</p>
           <button class="btn btn-reset" type="button" data-action="reset-progress">Borrar progreso</button>
         </div>
       </section>`;
@@ -279,9 +289,8 @@
   function renderStudyIndex() {
     cleanTimer();
     app.innerHTML = `<section class="study" aria-label="Temario de estudio">
-      <div class="study-top"><button class="btn btn-subtle" data-action="home">← Volver al inicio</button><span>Temario de estudio</span></div>
-      <h2 class="study-heading">Estudiar temario</h2>
-      <p class="study-lead">Siete temas explicados con palabras sencillas. Puedes leer cada apartado y practicar sus preguntas con corrección inmediata.</p>
+      <div class="study-top"><button class="btn btn-subtle" data-action="home">← Volver al inicio</button></div>
+      <div class="study-banner"><span class="feature-icon">${uiIcon('book')}</span><h2 class="study-heading">Estudiar temario</h2></div>
       <div class="study-topic-list">
         ${Object.entries(TOPIC_NAMES).map(([number, name]) => {
           const topic = studyTopic(number);
@@ -302,8 +311,8 @@
     const labels = topic.secciones.map((section, i) => `<a href="#${escapeHtml(section.id)}">${i + 1}. ${escapeHtml(section.titulo)}</a>`).join('');
     app.innerHTML = `<section class="study" aria-label="Tema ${roman}">
       <div class="study-top"><button class="btn btn-subtle" data-action="study-index">← Todos los temas</button><span>Tema ${roman} · ${topic.preguntas_totales} preguntas</span></div>
-      <h2 class="study-heading">${escapeHtml(topic.titulo)}</h2>
-      <p class="study-lead">${topic.secciones.length} apartados para estudiar las ${topic.preguntas_totales} preguntas de este tema. Después de cada apartado puedes practicar sus preguntas con corrección inmediata.</p>
+      <div class="study-banner"><span class="feature-icon">${uiIcon('book')}</span><h2 class="study-heading">${escapeHtml(topic.titulo)}</h2></div>
+      <p class="study-lead">${topic.secciones.length} apartados · ${topic.preguntas_totales} preguntas. Practica al terminar cada apartado.</p>
       <nav class="study-outline" aria-label="Apartados del Tema ${roman}"><b>Contenido</b>${labels}</nav>
       ${topic.secciones.map((section,i) => `<article id="${escapeHtml(section.id)}" class="study-chapter">
         <div class="study-chapter-label">Apartado ${i + 1} de ${topic.secciones.length}</div>
@@ -438,7 +447,7 @@
             <p class="small-muted">${subtitle}</p>
             <div class="result-counts" style="margin-top:20px"><span><b>${score.right}</b> correctas</span><span><b>${score.wrong}</b> incorrectas</span><span><b>${score.unanswered}</b> en blanco</span></div>
           </div>
-          <div class="result-score ${!isLearning && !examPassed ? 'fail' : ''}" aria-label="${score.right} aciertos de ${questions.length}"><strong>${score.right}</strong><small>de ${questions.length}</small></div>
+          <div class="result-score ${!isLearning && !examPassed ? 'fail' : ''}" style="--score-percent:${score.right / questions.length * 100}%" aria-label="${score.right} aciertos de ${questions.length}"><div class="result-score-inner"><strong>${score.right}</strong><small>de ${questions.length}</small></div></div>
         </div>
         <div class="result-actions" aria-label="Acciones al inicio de la revisión">${resultActions}</div>
         <div class="review-header"><h2>Revisión de respuestas</h2><button class="btn btn-subtle" data-action="toggle-review">${reviewFilter === 'errors' ? 'Ver todas' : 'Solo errores'}</button></div>
