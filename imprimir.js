@@ -49,28 +49,13 @@
 
   function render(guide, topics) {
     const full = topicNumber === null;
-    const title = full ? guide.titulo || 'Manual de estudio · Licencia de armas E'
-      : `Tema ${topics[0].numero} · ${topics[0].titulo}`;
-    const date = new Intl.DateTimeFormat('es-ES', {day: 'numeric', month: 'long', year: 'numeric'}).format(new Date());
-    const toc = full ? `<nav class="toc" aria-label="Índice de temas">
-      <h2>Índice del temario</h2>
-      <ol>${topics.map(topic => `<li><a href="#tema-${topic.numero}"><span>Tema ${topic.numero}. ${safe(topic.titulo)}</span></a></li>`).join('')}</ol>
-    </nav>` : '';
-    target.innerHTML = `<div class="cover">
-      <p class="cover-eyebrow">Material de preparación · Licencia de armas E</p>
-      <h1>${safe(title)}</h1>
-      <p class="cover-intro">${full ? `${topics.length} temas · Edición para lectura e impresión` : 'Edición para lectura e impresión'}</p>
-      <p class="cover-date">Preparado para impresión el ${safe(date)}</p>
-      <div class="cover-warning">
-        <strong>Importante</strong>
-        <p>Este es un material independiente de preparación. No es un documento oficial de la Guardia Civil. Las respuestas de los cuestionarios pueden reflejar redacciones antiguas; consulta las aclaraciones del manual y la normativa vigente para distinguirlas.</p>
-      </div>
-    </div>
-    ${toc}
-    ${topics.map(topicHtml).join('')}
+    const title = full ? 'Temario completo' : `Tema ${topics[0].numero} · ${topics[0].titulo}`;
+    // Versión directa para imprimir: comienza por el Tema 1 o el tema seleccionado.
+    // No genera portada ni índice para no gastar páginas innecesarias.
+    target.innerHTML = `${topics.map(topicHtml).join('')}
     <section class="sources"><h2>Fuentes y referencias</h2>
       <ol>${(guide.fuentes || []).map(sourceHtml).join('')}</ol>
-      <p class="final-note">El temario no sustituye las instrucciones oficiales ni la formación práctica. Las normas pueden cambiar después de la edición de este manual.</p>
+      <p class="final-note">Material independiente de preparación, no oficial de la Guardia Civil. Algunas respuestas históricas de los cuestionarios pueden no reflejar exactamente la normativa vigente: consulta las aclaraciones del manual y las fuentes oficiales. El temario no sustituye las instrucciones oficiales ni la formación práctica.</p>
     </section>`;
     document.title = full ? 'Temario completo · Licencia de armas E' : `${title} · Licencia de armas E`;
     selectionLabel.textContent = full ? 'Temario completo · 7 temas' : `Tema ${topics[0].numero}`;

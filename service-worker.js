@@ -1,4 +1,4 @@
-const CACHE = 'examen-e-app-v22-impresion';
+const CACHE = 'examen-e-app-v23-impresion-sin-portada';
 const APP_FILES = [
   './', './index.html', './styles.css', './app.js', './preguntas.json',
   './temario.json', './imprimir.html', './imprimir.js', './imprimir.css', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'

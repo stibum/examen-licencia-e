@@ -14,19 +14,8 @@ a { color: #23563f; }
 button:focus-visible, a:focus-visible { outline: 3px solid #96bf84; outline-offset: 3px; }
 .print-document { width: min(100% - 32px, 850px); margin: 26px auto 60px; padding: 52px 65px; background: #fff; box-shadow: 0 12px 36px #152a2220; line-height: 1.6; }
 .print-document p { margin: 0 0 11px; }
-.cover { min-height: 520px; padding: 90px 0 25px; border-bottom: 1px solid #bfc8be; }
-.cover-eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: 12px; color: #506857; font-weight: 750; }
-.cover h1 { margin: 25px 0 20px; font-size: 38px; line-height: 1.17; letter-spacing: -.03em; }
-.cover-intro { font-size: 18px; color: #4e5e54; }
-.cover-date { margin-top: 14px !important; font-size: 13px; color: #68766d; }
-.cover-warning { border-left: 3px solid #879f86; padding: 12px 0 12px 16px; margin-top: 95px; background: #fafcf9; font-size: 12px; }
-.cover-warning p { margin: 5px 0 0; }
-.toc { margin: 40px 0 68px; }
-.toc h2, .sources h2 { margin: 0 0 18px; font-size: 24px; }
-.toc ol { margin: 0; padding: 0; list-style: none; }
-.toc li { margin: 0; border-bottom: 1px solid #d7ded7; }
-.toc a { display: block; padding: 12px 0; text-decoration: none; }
-.topic { margin-top: 44px; }
+.topic { margin-top: 0; }
+.topic + .topic { margin-top: 44px; }
 .topic-heading { padding-bottom: 15px; border-bottom: 2px solid #315745; margin-bottom: 22px; }
 .topic-kicker { font-weight: 750; letter-spacing: .08em; text-transform: uppercase; font-size: 12px; color: #355b44; }
 .topic-heading h2 { margin: 6px 0 12px; font-size: 29px; line-height: 1.25; }
@@ -53,9 +42,6 @@ button:focus-visible, a:focus-visible { outline: 3px solid #96bf84; outline-offs
   .print-toolbar p { min-width: 75px; text-align: right; }
   #print-button { width: 100%; }
   .print-document { width: calc(100% - 16px); padding: 28px 24px; margin-top: 12px; }
-  .cover { min-height: 440px; padding-top: 40px; }
-  .cover h1 { font-size: 29px; }
-  .cover-warning { margin-top: 60px; }
   .topic-heading h2 { font-size: 25px; }
 }
 @page { size: A4; margin: 17mm 16mm 18mm; }
@@ -64,13 +50,8 @@ button:focus-visible, a:focus-visible { outline: 3px solid #96bf84; outline-offs
   body { margin: 0; }
   .print-toolbar { display: none !important; }
   .print-document { width: 100%; max-width: none; margin: 0; padding: 0; box-shadow: none; font-size: 10.5pt; line-height: 1.45; }
-  .cover { min-height: 0; height: 240mm; padding-top: 45mm; border: 0; break-after: page; }
-  .cover h1 { font-size: 28pt; }
-  .cover-warning { margin-top: 28mm; break-inside: avoid; }
-  .toc { margin: 0; break-after: page; }
-  .toc h2 { font-size: 19pt; }
-  .toc li { break-inside: avoid; }
-  .topic { margin: 0; break-before: page; }
+  .topic { margin: 0; }
+  .topic + .topic { break-before: page; }
   .topic-heading { break-after: avoid; }
   .topic-heading h2 { font-size: 21pt; }
   .chapter { margin: 6mm 0; }
