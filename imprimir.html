@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f5ef">
+  <meta name="robots" content="noindex">
+  <title>Temario imprimible · Licencia de armas E</title>
+  <link rel="icon" type="image/svg+xml" href="./icon.svg">
+  <link rel="stylesheet" href="./imprimir.css">
+  <script src="./imprimir.js" defer></script>
+</head>
+<body>
+  <div class="print-toolbar" role="region" aria-label="Herramientas de impresión">
+    <div class="print-toolbar-inner">
+      <a href="./index.html" class="back-link">← Volver a la aplicación</a>
+      <p id="print-selection" aria-live="polite">Preparando temario…</p>
+      <button type="button" id="print-button" disabled>Imprimir / Guardar PDF</button>
+    </div>
+  </div>
+  <main id="print-document" class="print-document" aria-live="polite">
+    <p class="loading">Preparando el documento para imprimir…</p>
+  </main>
+</body>
+</html>

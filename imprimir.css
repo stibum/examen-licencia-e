@@ -1,0 +1,85 @@
+:root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; color: #202a25; background: #e9eee9; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, a { font: inherit; }
+a { color: #23563f; }
+.print-toolbar { position: sticky; top: 0; z-index: 3; background: #183e31; color: #fff; box-shadow: 0 3px 14px #0002; }
+.print-toolbar-inner { max-width: 960px; margin: 0 auto; padding: 12px 18px; display: flex; align-items: center; gap: 18px; }
+.print-toolbar p { margin: 0; flex: 1; font-size: 14px; font-weight: 700; }
+.back-link { color: #eaf5eb; text-decoration: none; font-size: 13px; }
+.back-link:hover { text-decoration: underline; }
+#print-button { border: 0; background: #fff; color: #183e31; border-radius: 8px; padding: 11px 17px; font-weight: 700; cursor: pointer; }
+#print-button:hover { background: #edf7e9; }
+#print-button:disabled { cursor: not-allowed; opacity: .5; }
+button:focus-visible, a:focus-visible { outline: 3px solid #96bf84; outline-offset: 3px; }
+.print-document { width: min(100% - 32px, 850px); margin: 26px auto 60px; padding: 52px 65px; background: #fff; box-shadow: 0 12px 36px #152a2220; line-height: 1.6; }
+.print-document p { margin: 0 0 11px; }
+.cover { min-height: 520px; padding: 90px 0 25px; border-bottom: 1px solid #bfc8be; }
+.cover-eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: 12px; color: #506857; font-weight: 750; }
+.cover h1 { margin: 25px 0 20px; font-size: 38px; line-height: 1.17; letter-spacing: -.03em; }
+.cover-intro { font-size: 18px; color: #4e5e54; }
+.cover-date { margin-top: 14px !important; font-size: 13px; color: #68766d; }
+.cover-warning { border-left: 3px solid #879f86; padding: 12px 0 12px 16px; margin-top: 95px; background: #fafcf9; font-size: 12px; }
+.cover-warning p { margin: 5px 0 0; }
+.toc { margin: 40px 0 68px; }
+.toc h2, .sources h2 { margin: 0 0 18px; font-size: 24px; }
+.toc ol { margin: 0; padding: 0; list-style: none; }
+.toc li { margin: 0; border-bottom: 1px solid #d7ded7; }
+.toc a { display: block; padding: 12px 0; text-decoration: none; }
+.topic { margin-top: 44px; }
+.topic-heading { padding-bottom: 15px; border-bottom: 2px solid #315745; margin-bottom: 22px; }
+.topic-kicker { font-weight: 750; letter-spacing: .08em; text-transform: uppercase; font-size: 12px; color: #355b44; }
+.topic-heading h2 { margin: 6px 0 12px; font-size: 29px; line-height: 1.25; }
+.topic-heading p:last-child { color: #68766d; font-size: 13px; }
+.chapter { margin: 28px 0 38px; }
+.chapter-label { text-transform: uppercase; color: #45654f; font-size: 11px; letter-spacing: .04em; font-weight: bold; }
+.chapter h3 { margin: 5px 0 12px; font-size: 20px; line-height: 1.35; }
+.chapter-intro { color: #4b5c51; font-style: italic; }
+.chapter-points p { margin: 11px 0; }
+.remember, .note { border-left: 3px solid #8cab8e; background: #f2f6f1; margin: 16px 0; padding: 11px 15px; }
+.note { border-color: #b2a079; background: #f9f7f1; }
+.remember strong, .note strong { display: block; font-size: 13px; }
+.remember p, .note p { margin: 5px 0 0; }
+.question-ref { border-top: 1px solid #dce3dc; padding-top: 9px; color: #627167; font-size: 12px; }
+.sources { margin-top: 50px; padding-top: 20px; border-top: 2px solid #315745; }
+.sources ol { padding-left: 22px; }
+.sources li { margin: 13px 0; }
+.sources li span { display: block; font-weight: 700; }
+.sources li a { display: block; font-size: 11px; overflow-wrap: anywhere; }
+.final-note { margin-top: 20px !important; font-size: 12px; color: #5d6a61; }
+.error { min-height: 300px; }
+@media (max-width: 700px) {
+  .print-toolbar-inner { gap: 9px; flex-wrap: wrap; }
+  .print-toolbar p { min-width: 75px; text-align: right; }
+  #print-button { width: 100%; }
+  .print-document { width: calc(100% - 16px); padding: 28px 24px; margin-top: 12px; }
+  .cover { min-height: 440px; padding-top: 40px; }
+  .cover h1 { font-size: 29px; }
+  .cover-warning { margin-top: 60px; }
+  .topic-heading h2 { font-size: 25px; }
+}
+@page { size: A4; margin: 17mm 16mm 18mm; }
+@media print {
+  :root { color: #111; background: #fff; print-color-adjust: economy; -webkit-print-color-adjust: economy; }
+  body { margin: 0; }
+  .print-toolbar { display: none !important; }
+  .print-document { width: 100%; max-width: none; margin: 0; padding: 0; box-shadow: none; font-size: 10.5pt; line-height: 1.45; }
+  .cover { min-height: 0; height: 240mm; padding-top: 45mm; border: 0; break-after: page; }
+  .cover h1 { font-size: 28pt; }
+  .cover-warning { margin-top: 28mm; break-inside: avoid; }
+  .toc { margin: 0; break-after: page; }
+  .toc h2 { font-size: 19pt; }
+  .toc li { break-inside: avoid; }
+  .topic { margin: 0; break-before: page; }
+  .topic-heading { break-after: avoid; }
+  .topic-heading h2 { font-size: 21pt; }
+  .chapter { margin: 6mm 0; }
+  .chapter-label, .chapter h3 { break-after: avoid; }
+  .chapter h3 { font-size: 13.5pt; }
+  .chapter-intro, .chapter-points p, .remember p, .note p { orphans: 2; widows: 2; }
+  .remember, .note { background: #fff; border-color: #666; break-inside: avoid; }
+  .question-ref { color: #444; }
+  .sources { break-before: page; }
+  .sources li { break-inside: avoid; }
+  a { color: #111; text-decoration: none; }
+}

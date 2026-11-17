@@ -1,7 +1,7 @@
-const CACHE = 'examen-e-app-v21-diseno-preview-v3';
+const CACHE = 'examen-e-app-v22-impresion';
 const APP_FILES = [
   './', './index.html', './styles.css', './app.js', './preguntas.json',
-  './temario.json', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'
+  './temario.json', './imprimir.html', './imprimir.js', './imprimir.css', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'
 ];
 
 self.addEventListener('install', event => {

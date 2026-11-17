@@ -354,3 +354,8 @@ body { background:var(--back); }
   .bottom-nav .btn { min-width:0; padding-inline:10px; }
 }
 @media (prefers-reduced-motion:reduce) { .btn:hover:not(:disabled) { transform:none; } }
+
+/* Exportación para papel: botón disponible en índice y en cada tema. */
+.study-print-actions { display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin:16px 0 4px; }
+.study-print-actions .btn { text-decoration:none; text-align:center; line-height:1.4; }
+@media (max-width: 440px) { .study-print-actions .btn { width:100%; } }

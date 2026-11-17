@@ -291,6 +291,7 @@
     app.innerHTML = `<section class="study" aria-label="Temario de estudio">
       <div class="study-top"><button class="btn btn-subtle" data-action="home">← Volver al inicio</button></div>
       <div class="study-banner"><span class="feature-icon">${uiIcon('book')}</span><h2 class="study-heading">Estudiar temario</h2></div>
+      <div class="study-print-actions"><a class="btn btn-outline" href="./imprimir.html" target="_blank" rel="noopener noreferrer">${uiIcon('printer')} Imprimir temario completo / Guardar PDF</a></div>
       <div class="study-topic-list">
         ${Object.entries(TOPIC_NAMES).map(([number, name]) => {
           const topic = studyTopic(number);
@@ -313,6 +314,7 @@
       <div class="study-top"><button class="btn btn-subtle" data-action="study-index">← Todos los temas</button><span>Tema ${roman} · ${topic.preguntas_totales} preguntas</span></div>
       <div class="study-banner"><span class="feature-icon">${uiIcon('book')}</span><h2 class="study-heading">${escapeHtml(topic.titulo)}</h2></div>
       <p class="study-lead">${topic.secciones.length} apartados · ${topic.preguntas_totales} preguntas. Practica al terminar cada apartado.</p>
+      <div class="study-print-actions"><a class="btn btn-outline" href="./imprimir.html?tema=${topic.numero}" target="_blank" rel="noopener noreferrer">${uiIcon('printer')} Imprimir este tema / Guardar PDF</a></div>
       <nav class="study-outline" aria-label="Apartados del Tema ${roman}"><b>Contenido</b>${labels}</nav>
       ${topic.secciones.map((section,i) => `<article id="${escapeHtml(section.id)}" class="study-chapter">
         <div class="study-chapter-label">Apartado ${i + 1} de ${topic.secciones.length}</div>
